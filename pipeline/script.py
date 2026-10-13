@@ -1,11 +1,16 @@
 """Writing with Claude Code in headless mode (`claude -p`), using your Claude plan.
+If the plan's usage limit is reached (or Claude is unavailable) and GEMINI_API_KEY is set,
+the same prompts go to Google's Gemini API (free tier) so the channel never stops.
 
 outline -> chapters -> cold open -> science/TTS review pass -> Shorts scripts
 """
 import json
+import os
 import re
 import subprocess
 import time
+
+import requests
 
 from .common import ROOT, LANG_NAMES, extract_json
 
@@ -14,18 +19,59 @@ INSTRUCTION = ("Follow the instructions in the input exactly. Reply with only th
                "without any preamble or commentary.")
 
 
-def ask_claude(prompt, timeout=1500, retries=3):
+LIMIT_HINTS = ("limit", "quota", "usage", "rate", "credit", "exceeded", "unauthorized", "401", "403")
+_claude_out = False            # once Claude hits its limit in a run, skip straight to the fallback
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+
+
+def ask_gemini(prompt, timeout=600, retries=4):
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        raise RuntimeError("no GEMINI_API_KEY for fallback")
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+    body = {"systemInstruction": {"parts": [{"text": INSTRUCTION}]},
+            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0.8, "maxOutputTokens": 16384}}
     last = ""
     for attempt in range(retries):
         try:
-            r = subprocess.run(["claude", "-p", INSTRUCTION], input=prompt, capture_output=True,
-                               text=True, timeout=timeout)
-            if r.returncode == 0 and r.stdout.strip():
-                return r.stdout.strip()
-            last = (r.stderr or r.stdout)[-1500:]
-        except subprocess.TimeoutExpired:
-            last = "timeout"
-        time.sleep(45 * (attempt + 1))
+            r = requests.post(url, params={"key": key}, json=body, timeout=timeout)
+            if r.status_code == 200:
+                parts = r.json()["candidates"][0]["content"]["parts"]
+                text = "".join(p.get("text", "") for p in parts).strip()
+                if text:
+                    return text
+            last = r.text[-800:]
+            if r.status_code == 429:                      # free-tier rate limit: wait it out
+                time.sleep(60 * (attempt + 1))
+                continue
+        except Exception as exc:
+            last = str(exc)
+        time.sleep(10 * (attempt + 1))
+    raise RuntimeError(f"Gemini failed: {last}")
+
+
+def ask_claude(prompt, timeout=1500, retries=3):
+    global _claude_out
+    last = ""
+    if not _claude_out:
+        for attempt in range(retries):
+            try:
+                r = subprocess.run(["claude", "-p", INSTRUCTION], input=prompt, capture_output=True,
+                                   text=True, timeout=timeout)
+                if r.returncode == 0 and r.stdout.strip():
+                    return r.stdout.strip()
+                last = (r.stderr or r.stdout)[-1500:]
+            except (subprocess.TimeoutExpired, FileNotFoundError) as exc:
+                last = str(exc) or "timeout"
+            if any(h in last.lower() for h in LIMIT_HINTS) and os.environ.get("GEMINI_API_KEY"):
+                break                                     # plan limit: no point retrying Claude
+            time.sleep(45 * (attempt + 1))
+        if os.environ.get("GEMINI_API_KEY"):
+            _claude_out = True
+            print(f"    Claude unavailable ({last.strip()[:160]}); using Gemini for the rest of this run")
+    if os.environ.get("GEMINI_API_KEY"):
+        return ask_gemini(prompt)
     raise RuntimeError(f"claude -p failed: {last}")
 
 

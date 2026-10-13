@@ -60,6 +60,7 @@ Tema (cola que se rellena sola y aprende de los videos que mejor funcionan)
    | `YT_CLIENT_ID` | del paso 4 |
    | `YT_CLIENT_SECRET` | del paso 4 |
    | `YT_REFRESH_TOKEN` | del paso 4 |
+   | `GEMINI_API_KEY` | recomendado: respaldo gratuito cuando Claude Pro se queda sin cupo (aistudio.google.com) |
    | `FRED_API_KEY` | opcional. Sin él, FRED funciona igual |
 
 7. **Primera corrida:** *Actions → produce-episode → Run workflow*. Tarda unas 3 a 4 horas.
@@ -100,5 +101,5 @@ El sistema elige los clips que encajan con cada capítulo. Sin carpeta, funciona
 ## Límites conocidos
 
 - **Render:** las máquinas gratuitas de GitHub renderizan en 1080p y aguantan unos 80–90 minutos por episodio. Para 4K o episodios de 2 horas hace falta un equipo propio como runner: creen la variable de repositorio `RUNNER` con valor `self-hosted`.
-- **Claude:** comparte el uso del plan Pro con Quiet Cosmos. Si se alcanza el límite, la corrida falla sin subir nada y el tema se reintenta en el siguiente día de episodio.
+- **Claude:** comparte el uso del plan Pro con Quiet Cosmos. Si se alcanza el límite y existe el secreto `GEMINI_API_KEY`, el guion se escribe con Gemini (gratis) y la producción sigue. Sin ese secreto, la corrida falla sin subir nada y el tema se reintenta en el siguiente día de episodio.
 - **Cuota de YouTube:** un episodio, 3 Shorts y la miniatura caben en la cuota diaria gratuita.
