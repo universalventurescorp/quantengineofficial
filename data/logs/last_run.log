@@ -1,0 +1,32 @@
+== The entire history of money, from shells and barley to digital dollars
+   -> /home/runner/work/quantengineofficial/quantengineofficial/outputs/the-entire-history-of-money-from-shells-and-barley-to-digita
+[1/10] writing script with Claude
+  outline
+    Claude unavailable (You've hit your weekly limit · resets Oct 16, 4am (UTC)); using Gemini for the rest of this run
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/run.py", line 259, in <module>
+    main()
+  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/run.py", line 105, in main
+    script = write_script(topic, cfg)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 164, in write_script
+    outline = ask_json(
+              ^^^^^^^^^
+  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 81, in ask_json
+    data = extract_json(ask_claude(prompt))
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 74, in ask_claude
+    return ask_gemini(prompt)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 51, in ask_gemini
+    raise RuntimeError(f"Gemini failed: {last}")
+RuntimeError: Gemini failed: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).",
+    "status": "NOT_FOUND"
+  }
+}
+
