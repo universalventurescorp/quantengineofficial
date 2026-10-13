@@ -44,7 +44,7 @@ Tema (cola que se rellena sola y aprende de los videos que mejor funcionan)
    - Foto: `branding/out/profile_800.png`.
    - Marca de agua (Personalización → Marca): `branding/out/watermark_150.png`.
    - El banner, la descripción y las palabras clave los pone el sistema solo en la primera corrida.
-3. **Google Cloud** (el mismo proyecto que ya usa QuantEngine): en *APIs y servicios → Biblioteca*, habilita **YouTube Analytics API**. La YouTube Data API ya está habilitada.
+3. **Google Cloud** (opcional): en el proyecto de QuantEngine, *APIs y servicios → Biblioteca*, habilita **YouTube Analytics API** para que el informe incluya los minutos vistos. Sin ella, todo funciona igual con visitas por día.
 4. **Token de YouTube**, en tu computadora, con el `client_secret.json` de ese proyecto:
    ```
    pip install google-auth-oauthlib
