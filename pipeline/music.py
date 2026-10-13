@@ -1,4 +1,4 @@
-"""Original ambient score generated from math: royalty-free by construction, different every episode.
+"""Original ambient score (pads + soft felt piano) generated from math: royalty-free by construction, different every episode.
 
 A slow progression of soft pad chords with an airy shimmer, passed through a long stereo reverb.
 Everything is built with periodic signals and circular (FFT) convolution, so the loop is seamless.
@@ -61,8 +61,25 @@ def make_ambient(path, seed, seconds=360, sr=22050):
     f = np.fft.rfftfreq(n, 1 / sr)
     air = np.fft.irfft(spec / np.maximum(f, 30) ** 0.9 * np.exp(-np.maximum(f - 700, 0) / 350), n)
 
+    # felt piano: sparse, soft notes from the current chord, slow decay (the Quiet Ledger's signature)
+    piano = np.zeros(n)
+    note_len = int(sr * 6)
+    tt = np.arange(note_len) / sr
+    t_note = 0.0
+    while t_note < seconds - 0.5:
+        ci = int(t_note / seconds * k) % k
+        semi = prog[ci][rng.integers(1, len(prog[ci]))] + 12
+        f0 = root * 4 * 2 ** (semi / 12)
+        env = np.exp(-tt * 0.9) * (1 - np.exp(-tt * 60))
+        tone = (np.sin(2 * np.pi * f0 * tt) + 0.35 * np.sin(4 * np.pi * f0 * tt) * np.exp(-tt * 2)
+                + 0.12 * np.sin(6 * np.pi * f0 * tt) * np.exp(-tt * 3)) * env * rng.uniform(0.5, 1.0)
+        start = int(t_note * sr)
+        idx = (start + np.arange(note_len)) % n               # wraps around: loop stays seamless
+        piano[idx] += tone
+        t_note += rng.uniform(2.8, 7.5)
+
     norm = lambda x: x / max(1e-9, np.abs(x).max())
-    dry = 0.72 * norm(dry) + 0.12 * norm(shimmer) + 0.16 * norm(air)
+    dry = 0.62 * norm(dry) + 0.10 * norm(shimmer) + 0.12 * norm(air) + 0.16 * norm(piano)
 
     # stereo reverb via circular convolution (keeps the loop seamless)
     D = np.fft.rfft(dry)

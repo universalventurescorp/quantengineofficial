@@ -1,0 +1,56 @@
+# The Quiet Ledger: pipeline configuration
+channel:
+  name: "The Quiet Ledger"
+  language: en
+
+schedule:
+  # days the long episode is produced (the workflow runs daily; on other days it does nothing
+  # except the weekly analytics on Sundays). Use all seven days for a daily episode.
+  episode_days: [Mon, Wed, Fri]
+
+voice:
+  id: af_bella            # Kokoro. Best quality: af_heart (used by Quiet Cosmos), af_bella, bf_emma
+  speed: 0.8              # slower = calmer
+  wpm: 125                # real words per minute (with pauses) at this speed; sets script length
+  pause_sentence: 0.75
+  pause_paragraph: 1.7
+  pause_chapter: 3.5
+
+video:
+  target_minutes: 80      # narration length. Raise once a self-hosted runner is connected.
+  width: 1920
+  height: 1080
+  fps: 24
+  seconds_per_image: 11   # each still on screen ~11 s with a slow camera move
+  clip_every: 4           # every Nth shot is a moving clip (data chart, archive film, studio footage)
+  clips_per_chapter: 2
+  charts_per_chapter: 1
+  crf: 19
+  preset: veryfast
+
+mix:
+  music_volume: 0.15
+  lufs: -16
+
+shorts:
+  count: 3                # Shorts per episode, scheduled one per day after the episode
+  voice_speed: 1.0
+  seconds_per_shot: 4.0
+  publish_hour_utc: 16    # 11:00 in Lima, noon in New York
+
+upload:
+  privacy: public         # the Google Cloud project already passed the YouTube API audit
+  publish_hour_utc: 23    # long episodes go public at 23:00 UTC (6 pm New York) if ready before then
+  category_id: "27"       # Education
+  made_for_kids: false
+  synthetic_media: false
+
+studio_footage:
+  # Optional. A Google Drive folder ID with the studio's own clips (file names = tags, e.g.
+  # "gold-coins-macro-slowmo.mp4"). Leave empty to run on archive imagery and charts only.
+  drive_folder_id: ""
+
+legacy:
+  # Videos on the channel published before this date (the old QuantEngine Shorts) are set to
+  # private automatically on the first run. Private is reversible in YouTube Studio.
+  make_private_before: "2026-10-14"

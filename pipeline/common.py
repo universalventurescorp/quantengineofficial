@@ -1,4 +1,3 @@
-import datetime as dt
 import json
 import pathlib
 import re
@@ -8,7 +7,7 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-OUTPUTS = ROOT / "outputs"
+LANG_NAMES = {"en": "English", "es": "Spanish (neutral Latin American)"}
 
 
 def load_config():
@@ -23,7 +22,7 @@ def read_json(path, default):
 def write_json(path, obj):
     p = pathlib.Path(path)
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(json.dumps(obj, indent=2, ensure_ascii=False, default=str), encoding="utf-8")
+    p.write_text(json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 def slugify(text):
@@ -58,7 +57,3 @@ def timestamp(seconds):
     s = int(seconds)
     h, m, s = s // 3600, (s % 3600) // 60, s % 60
     return f"{h}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}"
-
-
-def today():
-    return dt.date.today()
