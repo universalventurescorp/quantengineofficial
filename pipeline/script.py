@@ -21,19 +21,44 @@ INSTRUCTION = ("Follow the instructions in the input exactly. Reply with only th
 
 LIMIT_HINTS = ("limit", "quota", "usage", "rate", "credit", "exceeded", "unauthorized", "401", "403")
 _claude_out = False            # once Claude hits its limit in a run, skip straight to the fallback
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_API = "https://generativelanguage.googleapis.com/v1beta"
+_gemini_model = os.environ.get("GEMINI_MODEL")
+
+
+def _pick_gemini_model(key, hint=None):
+    """Newest available 'flash' model that supports generateContent (Google retires names often)."""
+    if hint:
+        return hint
+    try:
+        r = requests.get(f"{GEMINI_API}/models", params={"key": key, "pageSize": 200}, timeout=30)
+        names = [m["name"].split("/", 1)[1] for m in r.json().get("models", [])
+                 if "generateContent" in m.get("supportedGenerationMethods", [])]
+    except Exception:
+        names = []
+    flash = [n for n in names if "flash" in n and not any(x in n for x in
+             ("lite", "image", "tts", "audio", "live", "exp", "preview", "thinking", "embedding"))]
+    pool = flash or [n for n in names if "flash" in n] or names
+
+    def version(n):
+        nums = re.findall(r"\d+(?:\.\d+)?", n)
+        return float(nums[0]) if nums else 0.0
+    return max(pool, key=version) if pool else "gemini-flash-latest"
 
 
 def ask_gemini(prompt, timeout=600, retries=4):
+    global _gemini_model
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise RuntimeError("no GEMINI_API_KEY for fallback")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+    if not _gemini_model:
+        _gemini_model = _pick_gemini_model(key)
+        print(f"    Gemini model: {_gemini_model}")
     body = {"systemInstruction": {"parts": [{"text": INSTRUCTION}]},
             "contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.8, "maxOutputTokens": 16384}}
     last = ""
     for attempt in range(retries):
+        url = f"{GEMINI_API}/models/{_gemini_model}:generateContent"
         try:
             r = requests.post(url, params={"key": key}, json=body, timeout=timeout)
             if r.status_code == 200:
@@ -42,6 +67,11 @@ def ask_gemini(prompt, timeout=600, retries=4):
                 if text:
                     return text
             last = r.text[-800:]
+            if r.status_code == 404:                      # model retired: follow Google's suggestion
+                m = re.search(r"models/([\w.\-]+) for the latest", r.text)
+                _gemini_model = _pick_gemini_model(key, m.group(1) if m else None)
+                print(f"    Gemini model switched to {_gemini_model}")
+                continue
             if r.status_code == 429:                      # free-tier rate limit: wait it out
                 time.sleep(60 * (attempt + 1))
                 continue
