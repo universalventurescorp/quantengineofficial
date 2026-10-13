@@ -71,7 +71,9 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-        run: python -m pipeline.channel
+        run: |
+          mkdir -p data/logs
+          python -u -m pipeline.channel 2>&1 | tee data/logs/housekeeping.log
 
       - name: Produce episode
         env:
@@ -85,11 +87,12 @@ jobs:
           TOPIC: ${{ inputs.topic }}
           UPLOAD: ${{ inputs.upload }}
         run: |
-          if [ "${{ inputs.shorts }}" = "false" ]; then
-            python -m pipeline.run --no-shorts
-          else
-            python -m pipeline.run
-          fi
+          set -o pipefail
+          mkdir -p data/logs
+          ARGS=""
+          if [ "${{ inputs.shorts }}" = "false" ]; then ARGS="--no-shorts"; fi
+          # the log is committed with the queue state so it can be reviewed without opening Actions
+          python -u -m pipeline.run $ARGS 2>&1 | tee data/logs/last_run.log
 
       - name: Performance report (feeds the topic planner)
         if: always()
