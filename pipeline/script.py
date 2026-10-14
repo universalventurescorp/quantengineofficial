@@ -19,8 +19,20 @@ INSTRUCTION = ("Follow the instructions in the input exactly. Reply with only th
                "without any preamble or commentary.")
 
 
-LIMIT_HINTS = ("limit", "quota", "usage", "rate", "credit", "exceeded", "unauthorized", "401", "403")
+LIMIT_RE = re.compile(r"hit your .{0,20}limit|usage limit|weekly limit|session limit|limit reached|"
+                      r"out of (?:usage|credits)|resets \w+ \d", re.I)
 _claude_out = False            # once Claude hits its limit in a run, skip straight to the fallback
+
+
+class ClaudeLimitReached(RuntimeError):
+    """The Claude plan's usage limit is spent. Retrying only wastes time."""
+
+
+def _claude_cfg():
+    from .common import load_config
+    c = (load_config().get("claude") or {})
+    return (os.environ.get("CLAUDE_MODEL") or c.get("model") or "sonnet",
+            (c.get("on_limit") or "gemini").lower())
 GEMINI_API = "https://generativelanguage.googleapis.com/v1beta"
 _gemini_model = os.environ.get("GEMINI_MODEL")
 
@@ -107,25 +119,35 @@ def ask_gemini(prompt, timeout=600, retries=8):
 
 
 def ask_claude(prompt, timeout=1500, retries=3):
+    """One call to Claude Code headless (`claude -p --model <config claude.model>`).
+    On the plan's usage limit: never retry. Fall back to Gemini if claude.on_limit is 'gemini' and
+    GEMINI_API_KEY is set; otherwise stop the run with a clear message."""
     global _claude_out
-    last = ""
+    model, on_limit = _claude_cfg()
+    use_gemini = on_limit == "gemini" and bool(os.environ.get("GEMINI_API_KEY"))
+    last, limited = "", False
     if not _claude_out:
         for attempt in range(retries):
             try:
-                r = subprocess.run(["claude", "-p", INSTRUCTION], input=prompt, capture_output=True,
-                                   text=True, timeout=timeout)
-                if r.returncode == 0 and r.stdout.strip():
+                r = subprocess.run(["claude", "-p", "--model", model, INSTRUCTION], input=prompt,
+                                   capture_output=True, text=True, timeout=timeout)
+                if r.returncode == 0 and r.stdout.strip() and not LIMIT_RE.search(r.stdout[:300]):
                     return r.stdout.strip()
-                last = (r.stderr or r.stdout)[-1500:]
+                last = (r.stderr + "\n" + r.stdout).strip()[-1500:]
             except (subprocess.TimeoutExpired, FileNotFoundError) as exc:
                 last = str(exc) or "timeout"
-            if any(h in last.lower() for h in LIMIT_HINTS) and os.environ.get("GEMINI_API_KEY"):
-                break                                     # plan limit: no point retrying Claude
+            if LIMIT_RE.search(last):
+                limited = True
+                break                                     # plan limit: retrying cannot help
             time.sleep(45 * (attempt + 1))
-        if os.environ.get("GEMINI_API_KEY"):
+        if limited and not use_gemini:
+            raise ClaudeLimitReached(
+                f"Claude plan usage limit reached ({last.strip()[:200]}). Stopping without retrying; "
+                f"the episode will be produced on the next scheduled day.")
+        if use_gemini:
             _claude_out = True
             print(f"    Claude unavailable ({last.strip()[:160]}); using Gemini for the rest of this run")
-    if os.environ.get("GEMINI_API_KEY"):
+    if use_gemini:
         return ask_gemini(prompt)
     raise RuntimeError(f"claude -p failed: {last}")
 

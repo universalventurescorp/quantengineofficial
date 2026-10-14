@@ -263,4 +263,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    from .script import ClaudeLimitReached
+    try:
+        main()
+    except ClaudeLimitReached as exc:
+        print(f"\nSTOPPED: {exc}")
+        raise SystemExit(1)

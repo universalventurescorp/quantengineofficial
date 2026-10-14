@@ -8,6 +8,10 @@ schedule:
   # except the weekly analytics on Sundays). Use all seven days for a daily episode.
   episode_days: [Mon, Wed, Fri]
 
+claude:
+  model: sonnet           # sonnet | opus | haiku. Sonnet uses far less of the Pro plan's weekly limit
+  on_limit: gemini        # when the plan's limit is hit: gemini (free fallback, needs GEMINI_API_KEY) | stop
+
 script:
   chapters_per_call: 3    # chapters written per AI call (fewer calls = less quota used)
 
