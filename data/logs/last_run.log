@@ -3,30 +3,180 @@
 [1/10] writing script with Claude
   outline
     Claude unavailable (You've hit your weekly limit · resets Oct 16, 4am (UTC)); using Gemini for the rest of this run
+    Gemini model: gemini-3.8-flash
+    chart 'treasury_10y' dropped: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=40)
+    chart 'fed_funds' dropped: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=40)
+    chart 'm2' dropped: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=40)
+  data charts: 0
+  chapter 1/12: 839 words
+  chapter 2/12: 815 words
+  chapter 3/12: 714 words
+  chapter 4/12: 870 words
+  chapter 5/12: 799 words
+  chapter 6/12: 837 words
+  chapter 7/12: 855 words
+  chapter 8/12: 816 words
+  chapter 9/12: 846 words
+  chapter 10/12: 807 words
+  chapter 11/12: 720 words
+  chapter 12/12: 762 words
+  cold open
+  science & TTS review
+    applied 5 fixes
+[2/10] narrating
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Collecting en-core-web-sm==3.8.0
+  Downloading en_core_web_sm-3.8.0-py3-none-any.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 41.2 MB/s  0:00:00
+Installing collected packages: en-core-web-sm
+Successfully installed en-core-web-sm-3.8.0
+[38;5;2m✔ Download and installation successful[0m
+You can now load the package via spacy.load('en_core_web_sm')
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+  voiced cold open (57 s)
+  voiced chapter 1/12 -> 8.2 min
+  voiced chapter 2/12 -> 15.3 min
+  voiced chapter 3/12 -> 21.5 min
+  voiced chapter 4/12 -> 29.2 min
+  voiced chapter 5/12 -> 36.1 min
+  voiced chapter 6/12 -> 43.9 min
+  voiced chapter 7/12 -> 51.5 min
+  voiced chapter 8/12 -> 58.8 min
+  voiced chapter 9/12 -> 66.4 min
+  voiced chapter 10/12 -> 74.4 min
+  voiced chapter 11/12 -> 81.4 min
+  voiced chapter 12/12 -> 88.6 min
+   narration: 88.8 min
+[3/10] fetching archive imagery, studio footage and drawing data charts
+    met search failed 'Sumerian cuneiform clay tablet administrative ledger': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Sumerian+cuneiform+clay+tablet+administrative+ledger&hasImages=true
+    met search failed 'Uruk cuneiform grain distribution tablet British Museum': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Uruk+cuneiform+grain+distribution+tablet+British+Museum&hasImages=true
+    met search failed 'Ur third dynasty cuneiform administrative record': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ur+third+dynasty+cuneiform+administrative+record&hasImages=true
+    met search failed 'Stele of Hammurabi law code basalt Louvre': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Stele+of+Hammurabi+law+code+basalt+Louvre&hasImages=true
+    met search failed 'Ancient Mesopotamian cylinder seal impression': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Mesopotamian+cylinder+seal+impression&hasImages=true
+    met search failed 'Sumerian copper foundation peg and tablet': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Sumerian+copper+foundation+peg+and+tablet&hasImages=true
+    met search failed 'Model of Mesopotamian temple storehouse ziggurat': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Model+of+Mesopotamian+temple+storehouse+ziggurat&hasImages=true
+    met search failed 'Ancient Babylonian silver coil ingot fragment': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Babylonian+silver+coil+ingot+fragment&hasImages=true
+    met search failed 'Mesopotamian clay accounting token collection': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Mesopotamian+clay+accounting+token+collection&hasImages=true
+    met search failed 'Persepolis treasury administrative tablet cuneiform': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Persepolis+treasury+administrative+tablet+cuneiform&hasImages=true
+    met search failed 'gold coin': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=gold+coin&hasImages=true
+    commons search failed 'gold coin': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=gold+coin+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'silver coin ancient': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=silver+coin+ancient&hasImages=true
+    commons search failed 'silver coin ancient': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=silver+coin+ancient+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'merchant painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=merchant+painting&hasImages=true
+    commons search failed 'merchant painting': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=merchant+painting+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'still life candle': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=still+life+candle&hasImages=true
+    commons search failed 'still life candle': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=still+life+candle+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'harbor ships painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=harbor+ships+painting&hasImages=true
+    commons search failed 'harbor ships painting': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=harbor+ships+painting+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'old city at night painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=old+city+at+night+painting&hasImages=true
+    commons search failed 'old city at night painting': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=old+city+at+night+painting+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'gold': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=gold&hasImages=true
+    commons search failed 'gold': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=gold+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'money changer': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=money+changer&hasImages=true
+    commons search failed 'money changer': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=money+changer+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Sumerian cuneiform clay tablet administrative ledger': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Sumerian+cuneiform+clay+tablet+administrative+ledger&hasImages=true
+    commons search failed 'Sumerian cuneiform clay tablet administrative ledger': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Sumerian+cuneiform+clay+tablet+administrative+ledger+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Uruk cuneiform grain distribution tablet British Museum': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Uruk+cuneiform+grain+distribution+tablet+British+Museum&hasImages=true
+    commons search failed 'Uruk cuneiform grain distribution tablet British Museum': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Uruk+cuneiform+grain+distribution+tablet+British+Museum+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Ur third dynasty cuneiform administrative record': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ur+third+dynasty+cuneiform+administrative+record&hasImages=true
+    commons search failed 'Ur third dynasty cuneiform administrative record': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Ur+third+dynasty+cuneiform+administrative+record+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Stele of Hammurabi law code basalt Louvre': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Stele+of+Hammurabi+law+code+basalt+Louvre&hasImages=true
+    commons search failed 'Stele of Hammurabi law code basalt Louvre': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Stele+of+Hammurabi+law+code+basalt+Louvre+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Ancient Mesopotamian cylinder seal impression': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Mesopotamian+cylinder+seal+impression&hasImages=true
+    commons search failed 'Ancient Mesopotamian cylinder seal impression': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Ancient+Mesopotamian+cylinder+seal+impression+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Sumerian copper foundation peg and tablet': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Sumerian+copper+foundation+peg+and+tablet&hasImages=true
+    commons search failed 'Sumerian copper foundation peg and tablet': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Sumerian+copper+foundation+peg+and+tablet+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Model of Mesopotamian temple storehouse ziggurat': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Model+of+Mesopotamian+temple+storehouse+ziggurat&hasImages=true
+    commons search failed 'Model of Mesopotamian temple storehouse ziggurat': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Model+of+Mesopotamian+temple+storehouse+ziggurat+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Ancient Babylonian silver coil ingot fragment': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Babylonian+silver+coil+ingot+fragment&hasImages=true
+    commons search failed 'Ancient Babylonian silver coil ingot fragment': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Ancient+Babylonian+silver+coil+ingot+fragment+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Mesopotamian clay accounting token collection': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Mesopotamian+clay+accounting+token+collection&hasImages=true
+    commons search failed 'Mesopotamian clay accounting token collection': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Mesopotamian+clay+accounting+token+collection+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Persepolis treasury administrative tablet cuneiform': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Persepolis+treasury+administrative+tablet+cuneiform&hasImages=true
+    commons search failed 'Persepolis treasury administrative tablet cuneiform': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Persepolis+treasury+administrative+tablet+cuneiform+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'gold coin': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=gold+coin&hasImages=true
+    commons search failed 'gold coin': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=gold+coin+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'silver coin ancient': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=silver+coin+ancient&hasImages=true
+    met search failed 'merchant painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=merchant+painting&hasImages=true
+    met search failed 'still life candle': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=still+life+candle&hasImages=true
+    met search failed 'harbor ships painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=harbor+ships+painting&hasImages=true
+    met search failed 'old city at night painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=old+city+at+night+painting&hasImages=true
+    met search failed 'gold': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=gold&hasImages=true
+    met search failed 'money changer': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=money+changer&hasImages=true
+   chapter 1: 19 images, 0 clips
+    met search failed 'Ancient Chinese cowrie shell money bronze replica': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Chinese+cowrie+shell+money+bronze+replica&hasImages=true
+    met search failed 'West African cowrie shell ceremonial currency': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=West+African+cowrie+shell+ceremonial+currency&hasImages=true
+    met search failed 'Viking hack silver hoard arm ring fragments': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Viking+hack+silver+hoard+arm+ring+fragments&hasImages=true
+    met search failed 'Ancient Egyptian tomb painting weighing goods on scale': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Egyptian+tomb+painting+weighing+goods+on+scale&hasImages=true
+    met search failed 'Pre-Columbian Mayan jade bead necklace trade goods': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Pre-Columbian+Mayan+jade+bead+necklace+trade+goods&hasImages=true
+    met search failed 'Mesoamerican cacao pod ceramic vessel glyphs': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Mesoamerican+cacao+pod+ceramic+vessel+glyphs&hasImages=true
+    met search failed 'Roman bronze aes rude unworked ingot fragment': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Roman+bronze+aes+rude+unworked+ingot+fragment&hasImages=true
+    met search failed 'Ancient Chinese bronze spade money Eastern Zhou': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Chinese+bronze+spade+money+Eastern+Zhou&hasImages=true
+    met search failed 'Ancient Chinese bronze knife coin Zhou dynasty': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Chinese+bronze+knife+coin+Zhou+dynasty&hasImages=true
+    met search failed 'Iron spit obelos currency ancient Greece': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Iron+spit+obelos+currency+ancient+Greece&hasImages=true
+    met search failed 'gold coin': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=gold+coin&hasImages=true
+    commons search failed 'gold coin': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=gold+coin+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'silver coin ancient': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=silver+coin+ancient&hasImages=true
+    commons search failed 'silver coin ancient': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=silver+coin+ancient+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'merchant painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=merchant+painting&hasImages=true
+    commons search failed 'merchant painting': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=merchant+painting+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'still life candle': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=still+life+candle&hasImages=true
+    commons search failed 'still life candle': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=still+life+candle+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'harbor ships painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=harbor+ships+painting&hasImages=true
+    commons search failed 'harbor ships painting': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=harbor+ships+painting+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'old city at night painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=old+city+at+night+painting&hasImages=true
+    commons search failed 'old city at night painting': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=old+city+at+night+painting+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'gold': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=gold&hasImages=true
+    commons search failed 'gold': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=gold+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'money changer': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=money+changer&hasImages=true
+    commons search failed 'money changer': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=money+changer+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Ancient Chinese cowrie shell money bronze replica': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Chinese+cowrie+shell+money+bronze+replica&hasImages=true
+    commons search failed 'Ancient Chinese cowrie shell money bronze replica': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Ancient+Chinese+cowrie+shell+money+bronze+replica+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'West African cowrie shell ceremonial currency': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=West+African+cowrie+shell+ceremonial+currency&hasImages=true
+    commons search failed 'West African cowrie shell ceremonial currency': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=West+African+cowrie+shell+ceremonial+currency+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Viking hack silver hoard arm ring fragments': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Viking+hack+silver+hoard+arm+ring+fragments&hasImages=true
+    commons search failed 'Viking hack silver hoard arm ring fragments': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Viking+hack+silver+hoard+arm+ring+fragments+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Ancient Egyptian tomb painting weighing goods on scale': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Egyptian+tomb+painting+weighing+goods+on+scale&hasImages=true
+    commons search failed 'Ancient Egyptian tomb painting weighing goods on scale': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Ancient+Egyptian+tomb+painting+weighing+goods+on+scale+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Pre-Columbian Mayan jade bead necklace trade goods': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Pre-Columbian+Mayan+jade+bead+necklace+trade+goods&hasImages=true
+    commons search failed 'Pre-Columbian Mayan jade bead necklace trade goods': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Pre-Columbian+Mayan+jade+bead+necklace+trade+goods+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Mesoamerican cacao pod ceramic vessel glyphs': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Mesoamerican+cacao+pod+ceramic+vessel+glyphs&hasImages=true
+    commons search failed 'Mesoamerican cacao pod ceramic vessel glyphs': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Mesoamerican+cacao+pod+ceramic+vessel+glyphs+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Roman bronze aes rude unworked ingot fragment': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Roman+bronze+aes+rude+unworked+ingot+fragment&hasImages=true
+    commons search failed 'Roman bronze aes rude unworked ingot fragment': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Roman+bronze+aes+rude+unworked+ingot+fragment+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Ancient Chinese bronze spade money Eastern Zhou': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Chinese+bronze+spade+money+Eastern+Zhou&hasImages=true
+    commons search failed 'Ancient Chinese bronze spade money Eastern Zhou': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Ancient+Chinese+bronze+spade+money+Eastern+Zhou+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Ancient Chinese bronze knife coin Zhou dynasty': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Ancient+Chinese+bronze+knife+coin+Zhou+dynasty&hasImages=true
+    commons search failed 'Ancient Chinese bronze knife coin Zhou dynasty': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Ancient+Chinese+bronze+knife+coin+Zhou+dynasty+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'Iron spit obelos currency ancient Greece': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=Iron+spit+obelos+currency+ancient+Greece&hasImages=true
+    commons search failed 'Iron spit obelos currency ancient Greece': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Iron+spit+obelos+currency+ancient+Greece+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'gold coin': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=gold+coin&hasImages=true
+    commons search failed 'gold coin': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=gold+coin+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'silver coin ancient': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=silver+coin+ancient&hasImages=true
+    commons search failed 'silver coin ancient': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=silver+coin+ancient+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'merchant painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=merchant+painting&hasImages=true
+    commons search failed 'merchant painting': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=merchant+painting+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'still life candle': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=still+life+candle&hasImages=true
+    commons search failed 'still life candle': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=still+life+candle+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'harbor ships painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=harbor+ships+painting&hasImages=true
+    commons search failed 'harbor ships painting': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=harbor+ships+painting+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'old city at night painting': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=old+city+at+night+painting&hasImages=true
+    commons search failed 'old city at night painting': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=old+city+at+night+painting+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'gold': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=gold&hasImages=true
+    commons search failed 'gold': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=gold+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
+    met search failed 'money changer': 410 Client Error: Gone for url: https://collectionapi.metmuseum.org/public/collection/v1/search?q=money+changer&hasImages=true
+    commons search failed 'money changer': 429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=money+changer+filetype%3Abitmap&gsrlimit=30&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata%7Cmime&iiurlwidth=3840
 Traceback (most recent call last):
   File "<frozen runpy>", line 198, in _run_module_as_main
   File "<frozen runpy>", line 88, in _run_code
   File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/run.py", line 259, in <module>
     main()
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/run.py", line 105, in main
-    script = write_script(topic, cfg)
-             ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 164, in write_script
-    outline = ask_json(
-              ^^^^^^^^^
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 81, in ask_json
-    data = extract_json(ask_claude(prompt))
-                        ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 74, in ask_claude
-    return ask_gemini(prompt)
-           ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 51, in ask_gemini
-    raise RuntimeError(f"Gemini failed: {last}")
-RuntimeError: Gemini failed: {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).",
-    "status": "NOT_FOUND"
-  }
-}
-
+  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/run.py", line 150, in main
+    raise RuntimeError(f"no media for chapter {i + 1}")
+RuntimeError: no media for chapter 2
