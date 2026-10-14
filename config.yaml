@@ -14,7 +14,7 @@ script:
 voice:
   id: af_bella            # Kokoro. Best quality: af_heart (used by Quiet Cosmos), af_bella, bf_emma
   speed: 0.8              # slower = calmer
-  wpm: 125                # real words per minute (with pauses) at this speed; sets script length
+  wpm: 110                # measured: real words per minute (with pauses) at speed 0.8; sets script length
   pause_sentence: 0.75
   pause_paragraph: 1.7
   pause_chapter: 3.5
