@@ -85,6 +85,10 @@ def main():
     if days and today.strftime("%a") not in days and not forced:
         print(f"{today:%A}: not an episode day ({', '.join(days)}). Nothing to do.")
         return
+    if not forced and any(d.get("date") == today.date().isoformat() and d.get("video_id")
+                          for d in read_json(DATA / "done.json", [])):
+        print("An episode was already published today. Nothing to do.")
+        return
     v = cfg["video"]
     lang = cfg["channel"]["language"]
     assert lang in LANG_NAMES, f"unsupported language {lang}"

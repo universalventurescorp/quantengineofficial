@@ -314,8 +314,9 @@ def _after_chapters(outline, chapters, ch, lang, facts):
     sections.update({f"chapter_{i}": c["text"] for i, c in enumerate(chapters, 1)})
     full = "\n\n".join(f"[{k}]\n{v}" for k, v in sections.items())
     try:
-        fixes = extract_json(ask_claude(fill("review.md", CHANNEL=ch["name"], SCRIPT=full,
-                                             DATA="\n\n".join(facts.values()) or "(none)")))
+        fixes = ask_json(fill("review.md", CHANNEL=ch["name"], SCRIPT=full,
+                              DATA="\n\n".join(facts.values()) or "(none)"),
+                         lambda d: isinstance(d, list))
         n = apply_fixes(sections, fixes)
         outline["review"] = {"suggested": len(fixes) if isinstance(fixes, list) else 0, "applied": n,
                              "fixes": fixes if isinstance(fixes, list) else []}
