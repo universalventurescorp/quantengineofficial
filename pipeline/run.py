@@ -146,8 +146,11 @@ def main():
             if len(clips) < v.get("clips_per_chapter", 2) + bool(chart):
                 clips += fetch_clips(ch.get("video_queries", []), 1, out / "clips", used, seconds=12,
                                      W=v["width"], H=v["height"], fps=v["fps"])
-            if not imgs and not clips:
-                raise RuntimeError(f"no media for chapter {i + 1}")
+            if len(imgs) < 3:                       # archives slow or out of matches: reuse earlier ones
+                pool = [im for m in media for im in m["images"] if im not in imgs]
+                imgs += pool[-max(6, want // 2):]
+                if imgs:
+                    print(f"   chapter {i + 1}: reusing {len(imgs)} images from earlier chapters")
             media.append({"images": imgs, "clips": clips})
             print(f"   chapter {i + 1}: {len(imgs)} images, {len(clips)} clips")
         write_json(out / "media.json", media)

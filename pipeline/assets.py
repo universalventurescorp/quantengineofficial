@@ -23,7 +23,8 @@ from .common import slugify
 Image.MAX_IMAGE_PIXELS = None
 MAX_IMG_BYTES = 60 * 1024 * 1024
 MAX_VID_BYTES = 400 * 1024 * 1024
-UA = {"User-Agent": "TheQuietLedger/1.0 (YouTube documentary pipeline; contact via channel)"}
+from . import http
+UA = http.UA
 CANVAS = (2880, 1620)
 
 BLOCK = (
@@ -36,9 +37,7 @@ FALLBACK_QUERIES = ["gold coin", "silver coin ancient", "merchant painting", "st
 
 
 def _get(url, **kw):
-    r = requests.get(url, headers=UA, timeout=kw.pop("timeout", 30), **kw)
-    r.raise_for_status()
-    return r
+    return http.get(url, **kw)
 
 
 _BLOCK_RE = re.compile(r"\b(?:" + "|".join(re.escape(b) for b in BLOCK) + r")\b")
@@ -49,7 +48,7 @@ def _blocked(text):
 
 
 # ------------------------------------------------------------------ candidate search per archive
-def _met(query, n=25):
+def _met(query, n=12):
     ids = (_get("https://collectionapi.metmuseum.org/public/collection/v1/search",
                 params={"q": query, "hasImages": "true"}).json().get("objectIDs") or [])[:n]
     for oid in ids:
@@ -102,7 +101,7 @@ def _commons(query, kind="bitmap", n=30):
                "width": info.get("width", 0), "duration": info.get("duration", 0)}
 
 
-SOURCES = (_met, _aic, _commons)
+SOURCES = (_aic, _commons, _met)
 
 
 # ------------------------------------------------------------------ stills
@@ -135,8 +134,7 @@ def compose_16x9(im, size=CANVAS):
 
 
 def _download_image(url, path):
-    with requests.get(url, stream=True, headers=UA, timeout=60) as r:
-        r.raise_for_status()
+    with http.get(url, stream=True, timeout=60, retries=2) as r:
         buf = io.BytesIO()
         for chunk in r.iter_content(1 << 20):
             buf.write(chunk)
@@ -199,8 +197,7 @@ def _probe(path):
 
 
 def _download_file(url, path, limit):
-    with requests.get(url, stream=True, headers=UA, timeout=120) as r:
-        r.raise_for_status()
+    with http.get(url, stream=True, timeout=120, retries=2) as r:
         n = 0
         with open(path, "wb") as f:
             for chunk in r.iter_content(1 << 20):

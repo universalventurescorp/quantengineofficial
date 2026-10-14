@@ -75,6 +75,13 @@ jobs:
           mkdir -p data/logs
           python -u -m pipeline.channel 2>&1 | tee data/logs/housekeeping.log
 
+      - name: Resume a failed episode (script, narration, images already made)
+        uses: actions/cache/restore@v4
+        with:
+          path: outputs
+          key: outputs-${{ github.run_id }}
+          restore-keys: outputs-
+
       - name: Produce episode
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
@@ -93,6 +100,15 @@ jobs:
           if [ "${{ inputs.shorts }}" = "false" ]; then ARGS="--no-shorts"; fi
           # the log is committed with the queue state so it can be reviewed without opening Actions
           python -u -m pipeline.run $ARGS 2>&1 | tee data/logs/last_run.log
+
+      - name: Keep work for the retry if production failed
+        if: failure()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            outputs
+            !outputs/**/*.partial.mp4
+          key: outputs-${{ github.run_id }}
 
       - name: Performance report (feeds the topic planner)
         if: always()

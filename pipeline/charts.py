@@ -18,7 +18,7 @@ import requests
 from .catalog import COUNTRIES, FRED, RECESSIONS_FRED, WB_INDICATORS
 from .common import ROOT
 
-UA = {"User-Agent": "TheQuietLedger/1.0"}
+from . import http
 _cache = {}
 
 INK = "#0b0d10"
@@ -31,14 +31,12 @@ MUTED = "#8a8273"
 def _fred_raw(series_id):
     key = os.environ.get("FRED_API_KEY")
     if key:
-        r = requests.get("https://api.stlouisfed.org/fred/series/observations", headers=UA, timeout=40,
-                         params={"series_id": series_id, "api_key": key, "file_type": "json"})
-        r.raise_for_status()
+        r = http.get("https://api.stlouisfed.org/fred/series/observations", timeout=90,
+                     params={"series_id": series_id, "api_key": key, "file_type": "json"})
         rows = [(o["date"], o["value"]) for o in r.json()["observations"]]
     else:
-        r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": series_id},
-                         headers=UA, timeout=40)
-        r.raise_for_status()
+        r = http.get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": series_id},
+                     timeout=120)
         lines = r.text.strip().splitlines()[1:]
         rows = [tuple(l.split(",")[:2]) for l in lines]
     out = []
@@ -75,9 +73,8 @@ def fetch(key):
     elif ":" in key:
         ind, iso = key.split(":", 1)
         wid, title, unit = WB_INDICATORS[ind]
-        r = requests.get(f"https://api.worldbank.org/v2/country/{iso}/indicator/{wid}",
-                         params={"format": "json", "per_page": 200}, headers=UA, timeout=40)
-        r.raise_for_status()
+        r = http.get(f"https://api.worldbank.org/v2/country/{iso}/indicator/{wid}",
+                     params={"format": "json", "per_page": 200}, timeout=90)
         js = r.json()
         rows = sorted((dt.date(int(o["date"]), 1, 1), float(o["value"]))
                       for o in (js[1] if len(js) > 1 and js[1] else []) if o.get("value") is not None)
