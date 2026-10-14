@@ -8,6 +8,9 @@ schedule:
   # except the weekly analytics on Sundays). Use all seven days for a daily episode.
   episode_days: [Mon, Wed, Fri]
 
+script:
+  chapters_per_call: 3    # chapters written per AI call (fewer calls = less quota used)
+
 voice:
   id: af_bella            # Kokoro. Best quality: af_heart (used by Quiet Cosmos), af_bella, bf_emma
   speed: 0.8              # slower = calmer

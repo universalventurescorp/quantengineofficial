@@ -25,27 +25,43 @@ GEMINI_API = "https://generativelanguage.googleapis.com/v1beta"
 _gemini_model = os.environ.get("GEMINI_MODEL")
 
 
-def _pick_gemini_model(key, hint=None):
-    """Newest available 'flash' model that supports generateContent (Google retires names often)."""
-    if hint:
-        return hint
+_gemini_spent = set()        # models whose free daily quota is used up in this run
+
+
+def _gemini_candidates(key):
+    """Available text models, best first: newest full 'flash', then 'flash-lite', then the rest.
+    Each model has its own free daily quota, so working down the list keeps the channel running."""
     try:
         r = requests.get(f"{GEMINI_API}/models", params={"key": key, "pageSize": 200}, timeout=30)
         names = [m["name"].split("/", 1)[1] for m in r.json().get("models", [])
                  if "generateContent" in m.get("supportedGenerationMethods", [])]
     except Exception:
         names = []
-    flash = [n for n in names if "flash" in n and not any(x in n for x in
-             ("lite", "image", "tts", "audio", "live", "exp", "preview", "thinking", "embedding"))]
-    pool = flash or [n for n in names if "flash" in n] or names
+    bad = ("image", "tts", "audio", "live", "embedding", "robotics", "computer-use", "nano", "gemma")
+    names = [n for n in names if not any(b in n for b in bad)]
 
     def version(n):
         nums = re.findall(r"\d+(?:\.\d+)?", n)
         return float(nums[0]) if nums else 0.0
-    return max(pool, key=version) if pool else "gemini-flash-latest"
+
+    def rank(n):
+        tier = 0 if ("flash" in n and "lite" not in n) else 1 if "lite" in n else 2 if "pro" in n else 3
+        unstable = any(x in n for x in ("exp", "preview", "thinking"))
+        return (tier, unstable, -version(n))
+    return sorted(names, key=rank)
 
 
-def ask_gemini(prompt, timeout=600, retries=4):
+def _pick_gemini_model(key, hint=None):
+    """Newest available 'flash' model that supports generateContent (Google retires names often)."""
+    if hint:
+        return hint
+    for n in _gemini_candidates(key):
+        if n not in _gemini_spent:
+            return n
+    return "gemini-flash-latest"
+
+
+def ask_gemini(prompt, timeout=600, retries=8):
     global _gemini_model
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
@@ -72,8 +88,17 @@ def ask_gemini(prompt, timeout=600, retries=4):
                 _gemini_model = _pick_gemini_model(key, m.group(1) if m else None)
                 print(f"    Gemini model switched to {_gemini_model}")
                 continue
-            if r.status_code == 429:                      # free-tier rate limit: wait it out
-                time.sleep(60 * (attempt + 1))
+            if r.status_code == 429:
+                daily = "PerDay" in r.text or re.search(r'"retryDelay": "(\d{4,})s"', r.text)
+                if daily:                                 # this model's free quota is spent for today
+                    _gemini_spent.add(_gemini_model)
+                    nxt = _pick_gemini_model(key)
+                    if nxt in _gemini_spent or nxt == _gemini_model:
+                        break
+                    print(f"    Gemini {_gemini_model} daily quota used; switching to {nxt}")
+                    _gemini_model = nxt
+                    continue
+                time.sleep(60 * (attempt + 1))            # per-minute limit: wait it out
                 continue
         except Exception as exc:
             last = str(exc)
@@ -207,25 +232,77 @@ def write_script(topic, cfg):
                       ensure_ascii=False)
 
     previous, openings = "(this is the first chapter, right after the opening title)", []
-    for i, c in enumerate(chapters, 1):
-        last = i == len(chapters)
-        ending = ("This is the final chapter: close the journey with a slow, peaceful reflection "
-                  "on what money really is, and a soft goodnight. Do not ask for likes or subscriptions."
-                  if last else
-                  "Do not wrap up or summarize the episode; flow naturally toward the next chapter.")
-        text = clean(ask_claude(fill(
-            "chapter.md", CHANNEL=ch["name"], LANGUAGE=lang, OUTLINE=plan, N=i,
-            TOTAL=len(chapters), CHAPTER_TITLE=c["title"], BEATS="; ".join(c["beats"]),
-            WORDS=words, PREVIOUS=previous, ENDING_RULE=ending,
-            OPENINGS="; ".join(openings) or "(none yet)",
-            DATA=("Exact data figures for this chapter (an animated chart of this series appears on screen; "
-                  "mention one or two of these figures naturally, spelled out):\n" + facts[i - 1])
-            if (i - 1) in facts else "")), c["title"])
-        c["text"] = text
-        previous = text.split("\n\n")[-1][-500:]
-        openings.append(f'"{_first_words(text)}..."')
-        print(f"  chapter {i}/{len(chapters)}: {len(text.split())} words")
+    group = max(1, int(cfg.get("script", {}).get("chapters_per_call", 3)))
+    for start in range(0, len(chapters), group):
+        batch = list(enumerate(chapters[start:start + group], start + 1))
+        texts = _write_batch(batch, chapters, ch, lang, plan, words, previous, openings, facts) if group > 1 else None
+        if not texts:
+            texts = {}
+            for i, c in batch:
+                texts[i] = _write_one(i, c, chapters, ch, lang, plan, words, previous, openings, facts)
+                previous = texts[i].split("\n\n")[-1][-500:]
+                openings.append(f'"{_first_words(texts[i])}..."')
+        for i, c in batch:
+            c["text"] = texts[i]
+            print(f"  chapter {i}/{len(chapters)}: {len(c['text'].split())} words")
+        previous = chapters[batch[-1][0] - 1]["text"].split("\n\n")[-1][-500:]
+        openings = [f'"{_first_words(c["text"])}..."' for c in chapters[:batch[-1][0]]]
 
+    _after_chapters(outline, chapters, ch, lang, facts)
+    outline["topic"] = topic
+    return outline
+
+
+def _ending(i, total):
+    return ("This is the final chapter: close the journey with a slow, peaceful reflection "
+            "on what money really is, and a soft goodnight. Do not ask for likes or subscriptions."
+            if i == total else
+            "Do not wrap up or summarize the episode; flow naturally toward the next chapter.")
+
+
+def _data_note(indexes, facts):
+    notes = [f"Chapter {i}:\n{facts[i - 1]}" for i in indexes if (i - 1) in facts]
+    return ("Exact data figures (an animated chart of this series appears on screen during that chapter; "
+            "mention one or two of these figures naturally, spelled out):\n" + "\n\n".join(notes)) if notes else ""
+
+
+def _write_batch(batch, chapters, ch, lang, plan, words, previous, openings, facts):
+    total = len(chapters)
+    listing = "\n".join(f"Chapter {i}: \"{c['title']}\". Beats, in order: {'; '.join(c['beats'])}" for i, c in batch)
+    last = batch[-1][0]
+    try:
+        raw = ask_claude(fill(
+            "chapters.md", CHANNEL=ch["name"], LANGUAGE=lang, OUTLINE=plan, FIRST_N=batch[0][0], LAST_N=last,
+            TOTAL=total, WORDS=words, CHAPTER_LIST=listing, PREVIOUS=previous,
+            OPENINGS="; ".join(openings[-6:]) or "(none yet)", DATA=_data_note([i for i, _ in batch], facts),
+            ENDING_RULE=(f"Chapter {last} is the final chapter of the episode: " + _ending(last, total)
+                         if last == total else _ending(0, total))))
+    except Exception as exc:
+        print(f"    batch {batch[0][0]}-{last} failed ({exc}); writing one by one")
+        return None
+    parts = re.split(r"(?m)^\s*=+\s*CHAPTER\s+(\d+)\s*=+\s*$", raw)
+    texts = {}
+    for k in range(1, len(parts) - 1, 2):
+        texts[int(parts[k])] = parts[k + 1]
+    out = {}
+    for i, c in batch:
+        t = clean(texts.get(i, ""), c["title"])
+        if len(t.split()) < words * 0.45:
+            print(f"    chapter {i} came back short or missing in the batch; writing it alone")
+            return None
+        out[i] = t
+    return out
+
+
+def _write_one(i, c, chapters, ch, lang, plan, words, previous, openings, facts):
+    return clean(ask_claude(fill(
+        "chapter.md", CHANNEL=ch["name"], LANGUAGE=lang, OUTLINE=plan, N=i,
+        TOTAL=len(chapters), CHAPTER_TITLE=c["title"], BEATS="; ".join(c["beats"]),
+        WORDS=words, PREVIOUS=previous, ENDING_RULE=_ending(i, len(chapters)),
+        OPENINGS="; ".join(openings) or "(none yet)", DATA=_data_note([i], facts))), c["title"])
+
+
+def _after_chapters(outline, chapters, ch, lang, facts):
     print("  cold open")
     outline["cold_open"] = clean(ask_claude(fill(
         "cold_open.md", CHANNEL=ch["name"], LANGUAGE=lang, TITLE=outline["title"],
@@ -248,9 +325,6 @@ def write_script(topic, cfg):
     outline["cold_open"] = sections["cold_open"]
     for i, c in enumerate(chapters, 1):
         c["text"] = sections[f"chapter_{i}"]
-
-    outline["topic"] = topic
-    return outline
 
 
 def write_shorts(script, cfg, count=2):
