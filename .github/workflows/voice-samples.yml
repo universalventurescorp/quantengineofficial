@@ -28,8 +28,12 @@ jobs:
         with:
           path: ~/.cache/huggingface
           key: kokoro-v1
-      - run: python scripts/voice_samples.py ${{ inputs.speeds }} | tee samples/README.txt
       - run: |
+          set -o pipefail
+          mkdir -p samples
+          python -u scripts/voice_samples.py ${{ inputs.speeds }} 2>&1 | tee samples/log.txt
+      - if: always()
+        run: |
           git config user.name "quiet-ledger-bot"
           git config user.email "actions@users.noreply.github.com"
           git add samples/
