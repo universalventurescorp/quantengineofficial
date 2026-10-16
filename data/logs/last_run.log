@@ -1,1 +1,436 @@
-Thursday: not an episode day (Mon, Wed, Fri). Nothing to do.
+== How the Roman Empire debased its coins and slowly ran out of money
+   -> /home/runner/work/quantengineofficial/quantengineofficial/outputs/how-the-roman-empire-debased-its-coins-and-slowly-ran-out-of
+[1/10] writing script with Claude
+  outline
+  data charts: 1
+  chapter 1/12: 748 words
+  chapter 2/12: 840 words
+  chapter 3/12: 753 words
+  chapter 4/12: 821 words
+  chapter 5/12: 691 words
+  chapter 6/12: 660 words
+  chapter 7/12: 712 words
+  chapter 8/12: 688 words
+  chapter 9/12: 677 words
+  chapter 10/12: 721 words
+  chapter 11/12: 726 words
+  chapter 12/12: 776 words
+  cold open
+  science & TTS review
+    applied 7 fixes
+[2/10] narrating
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Collecting en-core-web-sm==3.8.0
+  Downloading en_core_web_sm-3.8.0-py3-none-any.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 53.7 MB/s  0:00:00
+Installing collected packages: en-core-web-sm
+Successfully installed en-core-web-sm-3.8.0
+[38;5;2m✔ Download and installation successful[0m
+You can now load the package via spacy.load('en_core_web_sm')
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+  voiced cold open (64 s)
+  voiced chapter 1/12 -> 6.8 min
+  voiced chapter 2/12 -> 13.4 min
+  voiced chapter 3/12 -> 19.4 min
+  voiced chapter 4/12 -> 25.7 min
+  voiced chapter 5/12 -> 31.1 min
+  voiced chapter 6/12 -> 36.2 min
+  voiced chapter 7/12 -> 41.6 min
+  voiced chapter 8/12 -> 47.2 min
+  voiced chapter 9/12 -> 52.4 min
+  voiced chapter 10/12 -> 58.1 min
+  voiced chapter 11/12 -> 64.0 min
+  voiced chapter 12/12 -> 70.2 min
+   narration: 70.4 min
+[3/10] fetching archive imagery, studio footage and drawing data charts
+    met search failed 'Augustus denarius coin': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'Roman coin obverse reverse': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman silver coins hoard': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman Republic denarius': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman marketplace painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 1: 16 images, 1 clips
+    met search failed 'Roman Republic denarius Roma helmet': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman mint coin die': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin die striking': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman Republic coin hoard': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'ancient mint workshop engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin moneyer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 2: 12 images, 0 clips
+    met search failed 'Roman silver mine Spain': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman Forum reconstruction painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman legionary armor museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman provincial map': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Rome Augustan age painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+   chapter 3: 20 images, 0 clips
+    met search failed 'Roman moneychanger relief': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman banker sculpture': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman market scene relief': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman merchant ship mosaic': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman tax collection relief': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 4: 17 images, 0 clips
+    met search failed 'Ostia Antica harbor': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman grain ship mosaic': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Indian Ocean trade ship ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman amphora oil wine': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 5: 20 images, 0 clips
+    met search failed 'Nero denarius': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin silver alloy': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin weight comparison': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 6: 19 images, 1 clips
+    met search failed 'Trajan portrait bust': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Marcus Aurelius denarius': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coins hoard silver': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman denarius Trajan': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 7: 19 images, 0 clips
+    met search failed 'Septimius Severus denarius': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman legionary museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin Severus': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman army camp painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Leptis Magna ruins painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 8: 18 images, 1 clips
+    met search failed 'Roman antoninianus radiate crown': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Caracalla coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman debased silver coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin hoard antoninianus': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin silver wash': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman denarius worn': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin comparison': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman antoninianus radiate crown': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Caracalla coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman debased silver coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin hoard antoninianus': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin silver wash': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman denarius worn': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 9: 19 images, 1 clips
+    met search failed 'Gallienus portrait bust': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Gallienus coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman antoninianus billon': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Postumus coin Gallic Empire': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin copper core silver wash': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin hoard third century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman soldier emperor bust': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 10: 12 images, 1 clips
+    met search failed 'Diocletian portrait bust': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Diocletian coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Edict on Maximum Prices inscription': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Diocletian palace Split': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Tetrarchs sculpture Venice': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman follis bronze coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman tax grain': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman market goods relief': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman late antique mosaic': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Diocletian portrait bust': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Diocletian coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Edict on Maximum Prices inscription': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Diocletian palace Split': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Tetrarchs sculpture Venice': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman follis bronze coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman tax grain': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman market goods relief': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman late antique mosaic': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 11: 21 images, 1 clips
+    met search failed 'Hagia Sophia engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman late empire coin hoard': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Byzantine gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 12: 23 images, 2 clips
+[4/10] composing ambient score
+[5/10] mixing voice and score
+[6/10] rendering video
+  393 shots, 8 clips, 14 cards
+      0.0 / 70.4 min
+      1.0 / 70.4 min
+      2.0 / 70.4 min
+      3.0 / 70.4 min
+      4.0 / 70.4 min
+      5.0 / 70.4 min
+      6.0 / 70.4 min
+      7.0 / 70.4 min
+      8.0 / 70.4 min
+      9.0 / 70.4 min
+     10.0 / 70.4 min
+     11.0 / 70.4 min
+     12.0 / 70.4 min
+     13.0 / 70.4 min
+     14.0 / 70.4 min
+     15.0 / 70.4 min
+     16.0 / 70.4 min
+     17.0 / 70.4 min
+     18.0 / 70.4 min
+     19.0 / 70.4 min
+     20.0 / 70.4 min
+     21.0 / 70.4 min
+     22.0 / 70.4 min
+     23.0 / 70.4 min
+     24.0 / 70.4 min
+     25.0 / 70.4 min
+     26.0 / 70.4 min
+     27.0 / 70.4 min
+     28.0 / 70.4 min
+     29.0 / 70.4 min
+     30.0 / 70.4 min
+     31.0 / 70.4 min
+     32.0 / 70.4 min
+     33.0 / 70.4 min
+     34.0 / 70.4 min
+     35.0 / 70.4 min
+     36.0 / 70.4 min
+     37.0 / 70.4 min
+     38.0 / 70.4 min
+     39.0 / 70.4 min
+     40.0 / 70.4 min
+     41.0 / 70.4 min
+     42.0 / 70.4 min
+     43.0 / 70.4 min
+     44.0 / 70.4 min
+     45.0 / 70.4 min
+     46.0 / 70.4 min
+     47.0 / 70.4 min
+     48.0 / 70.4 min
+     49.0 / 70.4 min
+     50.0 / 70.4 min
+     51.0 / 70.4 min
+     52.0 / 70.4 min
+     53.0 / 70.4 min
+     54.0 / 70.4 min
+     55.0 / 70.4 min
+     56.0 / 70.4 min
+     57.0 / 70.4 min
+     58.0 / 70.4 min
+     59.0 / 70.4 min
+     60.0 / 70.4 min
+     61.0 / 70.4 min
+     62.0 / 70.4 min
+     63.0 / 70.4 min
+     64.0 / 70.4 min
+     65.0 / 70.4 min
+     66.0 / 70.4 min
+     67.0 / 70.4 min
+     68.0 / 70.4 min
+     69.0 / 70.4 min
+     70.0 / 70.4 min
+[7/10] thumbnails + metadata
+[8/10] producing 3 Shorts
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    met search failed 'Roman denarius silver coin Severus': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'Roman mint coin dies and hammer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman denarius debased silver hoard': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman denarius silver coin Severus': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman legionaries relief Trajan Column': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman mint coin dies and hammer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman denarius debased silver hoard': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    met search failed 'Caracalla antoninianus radiate crown coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman antoninianus worn copper showing': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin hoard found in jar': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman denarius and antoninianus comparison': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Caracalla antoninianus radiate crown coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman antoninianus worn copper showing': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman coin hoard found in jar': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman denarius and antoninianus comparison': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    met search failed 'Edict on Maximum Prices inscription fragment': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'Roman tetrarchs porphyry sculpture Venice': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman market scene relief': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman follis bronze coin Diocletian': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Diocletian bust museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Edict on Maximum Prices inscription fragment': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman market scene relief': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Roman follis bronze coin Diocletian': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+[9/10] quality check
+   QA PASSED: 70.4 min, -16.1 LUFS, 8 clips
+[10/10] uploading to YouTube
+    upload 1%
+    upload 3%
+    upload 4%
+    upload 5%
+    upload 7%
+    upload 8%
+    upload 9%
+    upload 10%
+    upload 12%
+    upload 13%
+    upload 14%
+    upload 16%
+    upload 17%
+    upload 18%
+    upload 20%
+    upload 21%
+    upload 22%
+    upload 23%
+    upload 25%
+    upload 26%
+    upload 27%
+    upload 29%
+    upload 30%
+    upload 31%
+    upload 33%
+    upload 34%
+    upload 35%
+    upload 37%
+    upload 38%
+    upload 39%
+    upload 40%
+    upload 42%
+    upload 43%
+    upload 44%
+    upload 46%
+    upload 47%
+    upload 48%
+    upload 50%
+    upload 51%
+    upload 52%
+    upload 53%
+    upload 55%
+    upload 56%
+    upload 57%
+    upload 59%
+    upload 60%
+    upload 61%
+    upload 63%
+    upload 64%
+    upload 65%
+    upload 67%
+    upload 68%
+    upload 69%
+    upload 70%
+    upload 72%
+    upload 73%
+    upload 74%
+    upload 76%
+    upload 77%
+    upload 78%
+    upload 80%
+    upload 81%
+    upload 82%
+    upload 83%
+    upload 85%
+    upload 86%
+    upload 87%
+    upload 89%
+    upload 90%
+    upload 91%
+    upload 93%
+    upload 94%
+    upload 95%
+    upload 97%
+    upload 98%
+    upload 99%
+   https://youtu.be/dn7HiVfz0Jc
+   short: https://youtu.be/bLecCkHKYpk (public 2026-10-18T16:00:00Z)
+   short: https://youtu.be/XRP65qS-k4Y (public 2026-10-19T16:00:00Z)
+   short: https://youtu.be/3Pgt7Cbu3Yo (public 2026-10-20T16:00:00Z)
+done.

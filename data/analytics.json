@@ -1,39 +1,71 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "episodes": [
     {
       "id": "-Isr5p333cw",
       "title": "The Entire History of Money | Calm Documentary for Sleep",
-      "views": 16,
-      "views_per_day": 16.0,
+      "views": 44,
+      "views_per_day": 23.1,
+      "likes": 1,
+      "days": 1.9
+    },
+    {
+      "id": "dn7HiVfz0Jc",
+      "title": "How the Roman Empire Ran Out of Money | Relaxing History to Fall Asleep To",
+      "views": 0,
+      "views_per_day": 0.0,
       "likes": 0,
       "days": 1.0
     }
   ],
   "shorts": [
     {
-      "id": "BzzrJA_kCrk",
-      "title": "Why Iron Coins Forced China to Invent Paper",
-      "views": 1,
-      "views_per_day": 1.0,
-      "likes": 0,
+      "id": "2ka_UHWYKzI",
+      "title": "How Isaac Newton Accidentally Created the Gold Standard",
+      "views": 56,
+      "views_per_day": 56.0,
+      "likes": 3,
       "days": 1.0
     },
     {
-      "id": "2ka_UHWYKzI",
-      "title": "How Isaac Newton Accidentally Created the Gold Standard",
-      "views": 0,
-      "views_per_day": 0.0,
-      "likes": 0,
-      "days": 1.6
+      "id": "BzzrJA_kCrk",
+      "title": "Why Iron Coins Forced China to Invent Paper",
+      "views": 69,
+      "views_per_day": 57.6,
+      "likes": 6,
+      "days": 1.2
     },
     {
       "id": "uBe87IimwpE",
       "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
-      "views": 1,
-      "views_per_day": 0.6,
+      "views": 244,
+      "views_per_day": 244.0,
+      "likes": 10,
+      "days": 1.0
+    },
+    {
+      "id": "bLecCkHKYpk",
+      "title": "The Roman Coin That Was Secretly Half Copper",
+      "views": 0,
+      "views_per_day": 0.0,
       "likes": 0,
-      "days": 1.6
+      "days": 1.0
+    },
+    {
+      "id": "3Pgt7Cbu3Yo",
+      "title": "The Emperor Who Tried to Price-Fix an Entire Empire",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 1.0
+    },
+    {
+      "id": "XRP65qS-k4Y",
+      "title": "Why Roman Emperors Wore Sunbeams on Their Coins",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 1.0
     }
   ]
 }
