@@ -1,56 +1,24 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "episodes": [
     {
       "id": "-Isr5p333cw",
       "title": "The Entire History of Money | Calm Documentary for Sleep",
-      "views": 44,
-      "views_per_day": 23.1,
-      "likes": 1,
-      "days": 1.9
+      "views": 67,
+      "views_per_day": 24.3,
+      "likes": 2,
+      "days": 2.8
     },
     {
       "id": "dn7HiVfz0Jc",
       "title": "How the Roman Empire Ran Out of Money | Relaxing History to Fall Asleep To",
-      "views": 0,
-      "views_per_day": 0.0,
-      "likes": 0,
+      "views": 3,
+      "views_per_day": 3.0,
+      "likes": 1,
       "days": 1.0
     }
   ],
   "shorts": [
-    {
-      "id": "2ka_UHWYKzI",
-      "title": "How Isaac Newton Accidentally Created the Gold Standard",
-      "views": 56,
-      "views_per_day": 56.0,
-      "likes": 3,
-      "days": 1.0
-    },
-    {
-      "id": "BzzrJA_kCrk",
-      "title": "Why Iron Coins Forced China to Invent Paper",
-      "views": 69,
-      "views_per_day": 57.6,
-      "likes": 6,
-      "days": 1.2
-    },
-    {
-      "id": "uBe87IimwpE",
-      "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
-      "views": 244,
-      "views_per_day": 244.0,
-      "likes": 10,
-      "days": 1.0
-    },
-    {
-      "id": "bLecCkHKYpk",
-      "title": "The Roman Coin That Was Secretly Half Copper",
-      "views": 0,
-      "views_per_day": 0.0,
-      "likes": 0,
-      "days": 1.0
-    },
     {
       "id": "3Pgt7Cbu3Yo",
       "title": "The Emperor Who Tried to Price-Fix an Entire Empire",
@@ -66,6 +34,38 @@
       "views_per_day": 0.0,
       "likes": 0,
       "days": 1.0
+    },
+    {
+      "id": "2ka_UHWYKzI",
+      "title": "How Isaac Newton Accidentally Created the Gold Standard",
+      "views": 84,
+      "views_per_day": 53.0,
+      "likes": 6,
+      "days": 1.6
+    },
+    {
+      "id": "bLecCkHKYpk",
+      "title": "The Roman Coin That Was Secretly Half Copper",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 1.0
+    },
+    {
+      "id": "uBe87IimwpE",
+      "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
+      "views": 269,
+      "views_per_day": 169.9,
+      "likes": 12,
+      "days": 1.6
+    },
+    {
+      "id": "BzzrJA_kCrk",
+      "title": "Why Iron Coins Forced China to Invent Paper",
+      "views": 117,
+      "views_per_day": 57.2,
+      "likes": 8,
+      "days": 2.0
     }
   ]
 }
