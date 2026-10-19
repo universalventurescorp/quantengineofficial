@@ -1,1 +1,459 @@
-Sunday: not an episode day (Mon, Wed, Fri). Nothing to do.
+== Tulip mania: the Dutch flower bubble of sixteen thirty seven and what really happened
+   -> /home/runner/work/quantengineofficial/quantengineofficial/outputs/tulip-mania-the-dutch-flower-bubble-of-sixteen-thirty-seven-
+[1/10] writing script with Claude
+  outline
+  data charts: 1
+  chapter 1/12: 847 words
+  chapter 2/12: 837 words
+  chapter 3/12: 845 words
+  chapter 4/12: 818 words
+  chapter 5/12: 715 words
+  chapter 6/12: 731 words
+  chapter 7/12: 820 words
+  chapter 8/12: 737 words
+  chapter 9/12: 757 words
+  chapter 10/12: 850 words
+  chapter 11/12: 877 words
+  chapter 12/12: 746 words
+  cold open
+  science & TTS review
+    applied 4 fixes
+[2/10] narrating
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Collecting en-core-web-sm==3.8.0
+  Downloading en_core_web_sm-3.8.0-py3-none-any.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 46.4 MB/s  0:00:00
+Installing collected packages: en-core-web-sm
+Successfully installed en-core-web-sm-3.8.0
+[38;5;2m✔ Download and installation successful[0m
+You can now load the package via spacy.load('en_core_web_sm')
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+  voiced cold open (61 s)
+  voiced chapter 1/12 -> 8.1 min
+  voiced chapter 2/12 -> 15.0 min
+  voiced chapter 3/12 -> 21.4 min
+  voiced chapter 4/12 -> 27.7 min
+  voiced chapter 5/12 -> 33.2 min
+  voiced chapter 6/12 -> 38.6 min
+  voiced chapter 7/12 -> 44.7 min
+  voiced chapter 8/12 -> 50.3 min
+  voiced chapter 9/12 -> 56.2 min
+  voiced chapter 10/12 -> 62.7 min
+  voiced chapter 11/12 -> 69.8 min
+  voiced chapter 12/12 -> 75.6 min
+   narration: 75.8 min
+[3/10] fetching archive imagery, studio footage and drawing data charts
+    met search failed 'tulip Ottoman miniature': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'Ottoman tulip tile Iznik': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Leiden botanical garden engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'tulip botanical illustration seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'herbal woodcut tulip': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch botanical book tulip plates': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Central Asia steppe wild tulip': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'tulip Ottoman miniature': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Ottoman tulip tile Iznik': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Leiden botanical garden engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'tulip botanical illustration seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Persian miniature garden flowers': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'herbal woodcut tulip': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch botanical book tulip plates': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Central Asia steppe wild tulip': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 1: 25 images, 0 clips
+    met search failed 'Amsterdam harbor seventeenth century painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch East India Company warehouse': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'map of Amsterdam seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 2: 25 images, 0 clips
+    met search failed 'Amsterdam stock exchange painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Joseph de la Vega Confusion of Confusions': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch East India Company share certificate': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchants counting coins Dutch painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch ledger account book': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch guilder silver coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch merchant at desk painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'seventeenth century bill of exchange': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Amsterdam stock exchange painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Joseph de la Vega Confusion of Confusions': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch East India Company share certificate': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchants counting coins Dutch painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch ledger account book': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch guilder silver coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch merchant at desk painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'seventeenth century bill of exchange': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 3: 23 images, 0 clips
+    met search failed 'Dutch tulip book watercolor': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'broken tulip Rembrandt streaked': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'tulip bulbs engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch florilegium tulip': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 4: 20 images, 0 clips
+    met search failed 'Dutch interior painting woman flowers': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'tulip catalogue watercolor Dutch': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Hortus floridus engraving': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'Dutch townhouse interior painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Judith Leyster tulip painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch weights scales apothecary': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 5: 16 images, 0 clips
+    met search failed 'seventeenth century plague Netherlands engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch notary document seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 6: 20 images, 0 clips
+    met search failed 'Dutch guilders coins seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch silver ducat': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch artisan workshop painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'price list tulips seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch money lender painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 7: 19 images, 0 clips
+    met search failed 'Dutch empty tavern painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch town in snow painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 8: 20 images, 0 clips
+    met search failed 'Binnenhof seventeenth century painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch legal document seventeenth century': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'The Hague seventeenth century engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch gavel justice painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 9: 19 images, 1 clips
+    met search failed 'Dutch satirical print tulip': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Flora's Wagon of Fools print': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Jan Brueghel the Younger tulip mania satire': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Charles Mackay Extraordinary Popular Delusions': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'seventeenth century pamphlet Dutch': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch allegory print folly': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'monkeys tulip painting satire': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Calvinist Dutch church painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch satirical print tulip': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Flora's Wagon of Fools print': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Jan Brueghel the Younger tulip mania satire': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Charles Mackay Extraordinary Popular Delusions': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'seventeenth century pamphlet Dutch': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch allegory print folly': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'monkeys tulip painting satire': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch caricature seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Calvinist Dutch church painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+[matroska,webm @ 0x5585ae851000] File ended prematurely
+   chapter 10: 24 images, 1 clips
+    met search failed 'Rue Quincampoix painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Exchange Alley London engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed '1929 Wall Street crowd photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'trading floor photograph vintage': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 11: 21 images, 1 clips
+    met search failed 'tulip field Netherlands photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Keukenhof tulip photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch flower auction Aalsmeer photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Amsterdam canal at dusk painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch tulip bulbs sorting photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'single tulip botanical illustration': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 12: 15 images, 0 clips
+[4/10] composing ambient score
+[5/10] mixing voice and score
+[6/10] rendering video
+  421 shots, 3 clips, 14 cards
+      0.0 / 75.8 min
+      1.0 / 75.8 min
+      2.0 / 75.8 min
+      3.0 / 75.8 min
+      4.0 / 75.8 min
+      5.0 / 75.8 min
+      6.0 / 75.8 min
+      7.0 / 75.8 min
+      8.0 / 75.8 min
+      9.0 / 75.8 min
+     10.0 / 75.8 min
+     11.0 / 75.8 min
+     12.0 / 75.8 min
+     13.0 / 75.8 min
+     14.0 / 75.8 min
+     15.0 / 75.8 min
+     16.0 / 75.8 min
+     17.0 / 75.8 min
+     18.0 / 75.8 min
+     19.0 / 75.8 min
+     20.0 / 75.8 min
+     21.0 / 75.8 min
+     22.0 / 75.8 min
+     23.0 / 75.8 min
+     24.0 / 75.8 min
+     25.0 / 75.8 min
+     26.0 / 75.8 min
+     27.0 / 75.8 min
+     28.0 / 75.8 min
+     29.0 / 75.8 min
+     30.0 / 75.8 min
+     31.0 / 75.8 min
+     32.0 / 75.8 min
+     33.0 / 75.8 min
+     34.0 / 75.8 min
+     35.0 / 75.8 min
+     36.0 / 75.8 min
+     37.0 / 75.8 min
+     38.0 / 75.8 min
+     39.0 / 75.8 min
+     40.0 / 75.8 min
+     41.0 / 75.8 min
+     42.0 / 75.8 min
+     43.0 / 75.8 min
+     44.0 / 75.8 min
+     45.0 / 75.8 min
+     46.0 / 75.8 min
+     47.0 / 75.8 min
+     48.0 / 75.8 min
+     49.0 / 75.8 min
+     50.0 / 75.8 min
+     51.0 / 75.8 min
+     52.0 / 75.8 min
+     53.0 / 75.8 min
+     54.0 / 75.8 min
+     55.0 / 75.8 min
+     56.0 / 75.8 min
+     57.0 / 75.8 min
+     58.0 / 75.8 min
+     59.0 / 75.8 min
+     60.0 / 75.8 min
+     61.0 / 75.8 min
+     62.0 / 75.8 min
+     63.0 / 75.8 min
+     64.0 / 75.8 min
+     65.0 / 75.8 min
+     66.0 / 75.8 min
+     67.0 / 75.8 min
+     68.0 / 75.8 min
+     69.0 / 75.8 min
+     70.0 / 75.8 min
+     71.0 / 75.8 min
+     72.0 / 75.8 min
+     73.0 / 75.8 min
+     74.0 / 75.8 min
+     75.0 / 75.8 min
+[7/10] thumbnails + metadata
+[8/10] producing 3 Shorts
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    met search failed 'Dutch Golden Age notarial document seventeenth century': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'Haarlem town archive seventeenth century painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch tulip book watercolor seventeenth century museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Amsterdam merchant house seventeenth century painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch pamphlet tulip satire 1637': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch Golden Age notarial document seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Haarlem town archive seventeenth century painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch tulip book watercolor seventeenth century museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Amsterdam merchant house seventeenth century painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch pamphlet tulip satire 1637': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    met search failed 'Amsterdam exchange Hendrick de Keyser seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'tulip bulbs seventeenth century illustration': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch inn fireplace table men talking painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    met search failed 'Semper Augustus tulip watercolor': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'broken tulip Rembrandt streaked seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch tulip book seventeenth century museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch still life flowers tulips seventeenth century painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Hortus Botanicus Leiden seventeenth century engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Semper Augustus tulip watercolor': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'broken tulip Rembrandt streaked seventeenth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch tulip book seventeenth century museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Dutch still life flowers tulips seventeenth century painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    met search failed 'Hortus Botanicus Leiden seventeenth century engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+[9/10] quality check
+   QA PASSED: 75.8 min, -16.1 LUFS, 3 clips
+[10/10] uploading to YouTube
+    upload 1%
+    upload 2%
+    upload 3%
+    upload 5%
+    upload 6%
+    upload 7%
+    upload 8%
+    upload 9%
+    upload 10%
+    upload 11%
+    upload 13%
+    upload 14%
+    upload 15%
+    upload 16%
+    upload 17%
+    upload 18%
+    upload 19%
+    upload 20%
+    upload 22%
+    upload 23%
+    upload 24%
+    upload 25%
+    upload 26%
+    upload 27%
+    upload 28%
+    upload 30%
+    upload 31%
+    upload 32%
+    upload 33%
+    upload 34%
+    upload 35%
+    upload 36%
+    upload 38%
+    upload 39%
+    upload 40%
+    upload 41%
+    upload 42%
+    upload 43%
+    upload 44%
+    upload 46%
+    upload 47%
+    upload 48%
+    upload 49%
+    upload 50%
+    upload 51%
+    upload 52%
+    upload 53%
+    upload 55%
+    upload 56%
+    upload 57%
+    upload 58%
+    upload 59%
+    upload 60%
+    upload 61%
+    upload 63%
+    upload 64%
+    upload 65%
+    upload 66%
+    upload 67%
+    upload 68%
+    upload 69%
+    upload 71%
+    upload 72%
+    upload 73%
+    upload 74%
+    upload 75%
+    upload 76%
+    upload 77%
+    upload 79%
+    upload 80%
+    upload 81%
+    upload 82%
+    upload 83%
+    upload 84%
+    upload 85%
+    upload 86%
+    upload 88%
+    upload 89%
+    upload 90%
+    upload 91%
+    upload 92%
+    upload 93%
+    upload 94%
+    upload 96%
+    upload 97%
+    upload 98%
+    upload 99%
+   https://youtu.be/5kLrUl2USSI
+   short: https://youtu.be/VsrQVPCEJfY (public 2026-10-21T16:00:00Z)
+   short: https://youtu.be/da6Yf94E3Zc (public 2026-10-22T16:00:00Z)
+   short: https://youtu.be/boiV0m2HotE (public 2026-10-23T16:00:00Z)
+done.

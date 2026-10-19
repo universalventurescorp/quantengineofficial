@@ -1,55 +1,71 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "episodes": [
     {
       "id": "-Isr5p333cw",
       "title": "The Entire History of Money | Calm Documentary for Sleep",
-      "views": 94,
-      "views_per_day": 25.0,
+      "views": 106,
+      "views_per_day": 21.2,
       "likes": 2,
-      "days": 3.8
+      "days": 5.0
     },
     {
       "id": "dn7HiVfz0Jc",
       "title": "How the Roman Empire Ran Out of Money | Relaxing History to Fall Asleep To",
-      "views": 6,
-      "views_per_day": 3.4,
+      "views": 7,
+      "views_per_day": 2.3,
       "likes": 1,
-      "days": 1.8
+      "days": 3.0
+    },
+    {
+      "id": "5kLrUl2USSI",
+      "title": "Tulip Mania: What Really Happened in 1637 | Calm History for Sleep",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 1.0
     }
   ],
   "shorts": [
     {
-      "id": "bLecCkHKYpk",
-      "title": "The Roman Coin That Was Secretly Half Copper",
-      "views": 24,
-      "views_per_day": 24.0,
+      "id": "BzzrJA_kCrk",
+      "title": "Why Iron Coins Forced China to Invent Paper",
+      "views": 126,
+      "views_per_day": 29.4,
+      "likes": 8,
+      "days": 4.3
+    },
+    {
+      "id": "XRP65qS-k4Y",
+      "title": "Why Roman Emperors Wore Sunbeams on Their Coins",
+      "views": 4,
+      "views_per_day": 4.0,
       "likes": 1,
+      "days": 1.0
+    },
+    {
+      "id": "VsrQVPCEJfY",
+      "title": "The Tulip Crash Almost Nobody Can Prove",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
       "days": 1.0
     },
     {
       "id": "uBe87IimwpE",
       "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
       "views": 318,
-      "views_per_day": 122.7,
+      "views_per_day": 83.1,
       "likes": 13,
-      "days": 2.6
+      "days": 3.8
     },
     {
-      "id": "BzzrJA_kCrk",
-      "title": "Why Iron Coins Forced China to Invent Paper",
-      "views": 126,
-      "views_per_day": 41.2,
-      "likes": 8,
-      "days": 3.1
-    },
-    {
-      "id": "2ka_UHWYKzI",
-      "title": "How Isaac Newton Accidentally Created the Gold Standard",
-      "views": 101,
-      "views_per_day": 38.9,
-      "likes": 6,
-      "days": 2.6
+      "id": "da6Yf94E3Zc",
+      "title": "They Sold Tulips That Were Still Underground",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 1.0
     },
     {
       "id": "3Pgt7Cbu3Yo",
@@ -57,15 +73,31 @@
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
-      "days": 1.9
+      "days": 3.1
     },
     {
-      "id": "XRP65qS-k4Y",
-      "title": "Why Roman Emperors Wore Sunbeams on Their Coins",
+      "id": "bLecCkHKYpk",
+      "title": "The Roman Coin That Was Secretly Half Copper",
+      "views": 280,
+      "views_per_day": 217.5,
+      "likes": 6,
+      "days": 1.3
+    },
+    {
+      "id": "2ka_UHWYKzI",
+      "title": "How Isaac Newton Accidentally Created the Gold Standard",
+      "views": 101,
+      "views_per_day": 26.4,
+      "likes": 6,
+      "days": 3.8
+    },
+    {
+      "id": "boiV0m2HotE",
+      "title": "The Tulip Color Secret Was a Disease",
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
-      "days": 1.9
+      "days": 1.0
     }
   ]
 }
