@@ -1,95 +1,87 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "episodes": [
     {
       "id": "-Isr5p333cw",
       "title": "The Entire History of Money | Calm Documentary for Sleep",
-      "views": 107,
-      "views_per_day": 15.4,
+      "views": 108,
+      "views_per_day": 13.8,
       "likes": 2,
-      "days": 6.9
+      "days": 7.8
     },
     {
       "id": "dn7HiVfz0Jc",
       "title": "How the Roman Empire Ran Out of Money | Relaxing History to Fall Asleep To",
-      "views": 7,
+      "views": 8,
       "views_per_day": 1.4,
       "likes": 1,
-      "days": 4.9
+      "days": 5.8
     },
     {
       "id": "5kLrUl2USSI",
       "title": "Tulip Mania: What Really Happened in 1637 | Calm History for Sleep",
-      "views": 5,
-      "views_per_day": 2.6,
+      "views": 7,
+      "views_per_day": 2.5,
       "likes": 1,
-      "days": 1.9
+      "days": 2.8
     },
     {
       "id": "RwxZWBRCjQg",
       "title": "The Medici: How Bankers Ruled Florence | Calm History for Sleep",
-      "views": 0,
-      "views_per_day": 0.0,
+      "views": 4,
+      "views_per_day": 4.0,
       "likes": 0,
       "days": 1.0
     }
   ],
   "shorts": [
     {
-      "id": "XRP65qS-k4Y",
-      "title": "Why Roman Emperors Wore Sunbeams on Their Coins",
-      "views": 8,
-      "views_per_day": 3.6,
-      "likes": 1,
-      "days": 2.2
-    },
-    {
       "id": "bLecCkHKYpk",
       "title": "The Roman Coin That Was Secretly Half Copper",
       "views": 284,
-      "views_per_day": 87.8,
+      "views_per_day": 69.2,
       "likes": 6,
-      "days": 3.2
-    },
-    {
-      "id": "TZvip6GunbI",
-      "title": "A Pope, a Cathedral Bell, and a Banking Feud",
-      "views": 0,
-      "views_per_day": 0.0,
-      "likes": 0,
-      "days": 1.0
+      "days": 4.1
     },
     {
       "id": "2ka_UHWYKzI",
       "title": "How Isaac Newton Accidentally Created the Gold Standard",
       "views": 102,
-      "views_per_day": 17.7,
+      "views_per_day": 15.4,
       "likes": 6,
-      "days": 5.8
+      "days": 6.6
     },
     {
-      "id": "3Pgt7Cbu3Yo",
-      "title": "The Emperor Who Tried to Price-Fix an Entire Empire",
-      "views": 8,
-      "views_per_day": 6.5,
-      "likes": 1,
-      "days": 1.2
+      "id": "boiV0m2HotE",
+      "title": "The Tulip Color Secret Was a Disease",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 2.8
     },
     {
       "id": "VsrQVPCEJfY",
       "title": "The Tulip Crash Almost Nobody Can Prove",
-      "views": 12,
-      "views_per_day": 12.0,
+      "views": 16,
+      "views_per_day": 14.5,
       "likes": 2,
-      "days": 1.0
+      "days": 1.1
     },
     {
-      "id": "uBe87IimwpE",
-      "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
-      "views": 319,
-      "views_per_day": 55.3,
-      "likes": 13,
-      "days": 5.8
+      "id": "3Pgt7Cbu3Yo",
+      "title": "The Emperor Who Tried to Price-Fix an Entire Empire",
+      "views": 970,
+      "views_per_day": 460.9,
+      "likes": 2,
+      "days": 2.1
+    },
+    {
+      "id": "da6Yf94E3Zc",
+      "title": "They Sold Tulips That Were Still Underground",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 1.0
     },
     {
       "id": "BZWv-km722w",
@@ -100,12 +92,20 @@
       "days": 1.0
     },
     {
-      "id": "boiV0m2HotE",
-      "title": "The Tulip Color Secret Was a Disease",
+      "id": "uBe87IimwpE",
+      "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
+      "views": 319,
+      "views_per_day": 48.0,
+      "likes": 13,
+      "days": 6.6
+    },
+    {
+      "id": "TZvip6GunbI",
+      "title": "A Pope, a Cathedral Bell, and a Banking Feud",
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
-      "days": 1.9
+      "days": 1.0
     },
     {
       "id": "rDVeCjrgNoE",
@@ -119,17 +119,17 @@
       "id": "BzzrJA_kCrk",
       "title": "Why Iron Coins Forced China to Invent Paper",
       "views": 126,
-      "views_per_day": 20.2,
+      "views_per_day": 17.7,
       "likes": 8,
-      "days": 6.2
+      "days": 7.1
     },
     {
-      "id": "da6Yf94E3Zc",
-      "title": "They Sold Tulips That Were Still Underground",
-      "views": 0,
-      "views_per_day": 0.0,
-      "likes": 0,
-      "days": 1.9
+      "id": "XRP65qS-k4Y",
+      "title": "Why Roman Emperors Wore Sunbeams on Their Coins",
+      "views": 8,
+      "views_per_day": 2.6,
+      "likes": 1,
+      "days": 3.1
     }
   ]
 }
