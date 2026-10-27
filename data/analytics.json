@@ -5,111 +5,63 @@
       "id": "-Isr5p333cw",
       "title": "The Entire History of Money | Calm Documentary for Sleep",
       "views": 108,
-      "views_per_day": 9.0,
+      "views_per_day": 8.4,
       "likes": 2,
-      "days": 12.0
+      "days": 12.9
     },
     {
       "id": "dn7HiVfz0Jc",
       "title": "How the Roman Empire Ran Out of Money | Relaxing History to Fall Asleep To",
       "views": 16,
-      "views_per_day": 1.6,
+      "views_per_day": 1.5,
       "likes": 1,
-      "days": 10.0
+      "days": 10.9
     },
     {
       "id": "5kLrUl2USSI",
       "title": "Tulip Mania: What Really Happened in 1637 | Calm History for Sleep",
       "views": 13,
-      "views_per_day": 1.8,
+      "views_per_day": 1.7,
       "likes": 1,
-      "days": 7.0
+      "days": 7.9
     },
     {
       "id": "RwxZWBRCjQg",
       "title": "The Medici: How Bankers Ruled Florence | Calm History for Sleep",
-      "views": 15,
-      "views_per_day": 3.0,
+      "views": 21,
+      "views_per_day": 3.6,
       "likes": 0,
-      "days": 5.0
+      "days": 5.9
     },
     {
       "id": "kjlYgpoBZPk",
       "title": "The Gold Standard Explained: Why Money Was Tied to Gold | Calm History for Sleep",
-      "views": 21,
-      "views_per_day": 6.9,
+      "views": 23,
+      "views_per_day": 6.0,
       "likes": 1,
-      "days": 3.0
+      "days": 3.9
     },
     {
       "id": "Tan32wvDZds",
       "title": "The Great Depression Explained | Calm History to Fall Asleep To",
-      "views": 0,
-      "views_per_day": 0.0,
+      "views": 11,
+      "views_per_day": 11.0,
       "likes": 0,
       "days": 1.0
     }
   ],
   "shorts": [
     {
-      "id": "uBe87IimwpE",
-      "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
-      "views": 319,
-      "views_per_day": 29.3,
-      "likes": 13,
-      "days": 10.9
+      "id": "BZWv-km722w",
+      "title": "The Banker Who Ruled Florence Without a Crown",
+      "views": 8,
+      "views_per_day": 7.0,
+      "likes": 0,
+      "days": 1.1
     },
     {
       "id": "DJ03oxw0b2E",
       "title": "The Bank Run That Wiped Out 400,000 Savers",
-      "views": 0,
-      "views_per_day": 0.0,
-      "likes": 0,
-      "days": 1.0
-    },
-    {
-      "id": "BzzrJA_kCrk",
-      "title": "Why Iron Coins Forced China to Invent Paper",
-      "views": 126,
-      "views_per_day": 11.1,
-      "likes": 8,
-      "days": 11.3
-    },
-    {
-      "id": "VsrQVPCEJfY",
-      "title": "The Tulip Crash Almost Nobody Can Prove",
-      "views": 17,
-      "views_per_day": 3.2,
-      "likes": 3,
-      "days": 5.3
-    },
-    {
-      "id": "rDVeCjrgNoE",
-      "title": "The Bank That Moved Money Without Moving Coins",
-      "views": 347,
-      "views_per_day": 148.5,
-      "likes": 1,
-      "days": 2.3
-    },
-    {
-      "id": "BZWv-km722w",
-      "title": "The Banker Who Ruled Florence Without a Crown",
-      "views": 6,
-      "views_per_day": 6.0,
-      "likes": 0,
-      "days": 1.0
-    },
-    {
-      "id": "Mbq87KUc92o",
-      "title": "The Coin Rome Trusted for Centuries",
-      "views": 0,
-      "views_per_day": 0.0,
-      "likes": 0,
-      "days": 3.1
-    },
-    {
-      "id": "bi0GsxK6jgU",
-      "title": "The Day Americans Had to Hand In Their Gold",
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
@@ -124,12 +76,52 @@
       "days": 1.0
     },
     {
+      "id": "boiV0m2HotE",
+      "title": "The Tulip Color Secret Was a Disease",
+      "views": 257,
+      "views_per_day": 62.0,
+      "likes": 0,
+      "days": 4.1
+    },
+    {
       "id": "XRP65qS-k4Y",
       "title": "Why Roman Emperors Wore Sunbeams on Their Coins",
       "views": 9,
-      "views_per_day": 1.2,
+      "views_per_day": 1.1,
       "likes": 1,
-      "days": 7.3
+      "days": 8.1
+    },
+    {
+      "id": "uBe87IimwpE",
+      "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
+      "views": 319,
+      "views_per_day": 27.3,
+      "likes": 13,
+      "days": 11.7
+    },
+    {
+      "id": "bi0GsxK6jgU",
+      "title": "The Day Americans Had to Hand In Their Gold",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 1.0
+    },
+    {
+      "id": "VsrQVPCEJfY",
+      "title": "The Tulip Crash Almost Nobody Can Prove",
+      "views": 17,
+      "views_per_day": 2.8,
+      "likes": 3,
+      "days": 6.1
+    },
+    {
+      "id": "Mbq87KUc92o",
+      "title": "The Coin Rome Trusted for Centuries",
+      "views": 2,
+      "views_per_day": 2.0,
+      "likes": 0,
+      "days": 1.0
     },
     {
       "id": "KGRhAcFeHNQ",
@@ -137,7 +129,23 @@
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
-      "days": 3.1
+      "days": 3.9
+    },
+    {
+      "id": "bLecCkHKYpk",
+      "title": "The Roman Coin That Was Secretly Half Copper",
+      "views": 283,
+      "views_per_day": 31.0,
+      "likes": 6,
+      "days": 9.1
+    },
+    {
+      "id": "3Pgt7Cbu3Yo",
+      "title": "The Emperor Who Tried to Price-Fix an Entire Empire",
+      "views": 975,
+      "views_per_day": 136.5,
+      "likes": 3,
+      "days": 7.1
     },
     {
       "id": "xZocTCbDN7Q",
@@ -145,55 +153,47 @@
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
-      "days": 3.1
-    },
-    {
-      "id": "3Pgt7Cbu3Yo",
-      "title": "The Emperor Who Tried to Price-Fix an Entire Empire",
-      "views": 975,
-      "views_per_day": 153.9,
-      "likes": 3,
-      "days": 6.3
-    },
-    {
-      "id": "boiV0m2HotE",
-      "title": "The Tulip Color Secret Was a Disease",
-      "views": 257,
-      "views_per_day": 77.0,
-      "likes": 0,
-      "days": 3.3
-    },
-    {
-      "id": "bLecCkHKYpk",
-      "title": "The Roman Coin That Was Secretly Half Copper",
-      "views": 283,
-      "views_per_day": 33.9,
-      "likes": 6,
-      "days": 8.3
-    },
-    {
-      "id": "da6Yf94E3Zc",
-      "title": "They Sold Tulips That Were Still Underground",
-      "views": 13,
-      "views_per_day": 3.0,
-      "likes": 0,
-      "days": 4.3
+      "days": 3.9
     },
     {
       "id": "2ka_UHWYKzI",
       "title": "How Isaac Newton Accidentally Created the Gold Standard",
       "views": 102,
-      "views_per_day": 9.4,
+      "views_per_day": 8.7,
       "likes": 6,
-      "days": 10.9
+      "days": 11.7
+    },
+    {
+      "id": "rDVeCjrgNoE",
+      "title": "The Bank That Moved Money Without Moving Coins",
+      "views": 347,
+      "views_per_day": 110.4,
+      "likes": 1,
+      "days": 3.1
     },
     {
       "id": "TZvip6GunbI",
       "title": "A Pope, a Cathedral Bell, and a Banking Feud",
-      "views": 85,
-      "views_per_day": 63.6,
+      "views": 89,
+      "views_per_day": 41.5,
       "likes": 6,
-      "days": 1.3
+      "days": 2.1
+    },
+    {
+      "id": "da6Yf94E3Zc",
+      "title": "They Sold Tulips That Were Still Underground",
+      "views": 13,
+      "views_per_day": 2.5,
+      "likes": 0,
+      "days": 5.1
+    },
+    {
+      "id": "BzzrJA_kCrk",
+      "title": "Why Iron Coins Forced China to Invent Paper",
+      "views": 126,
+      "views_per_day": 10.4,
+      "likes": 8,
+      "days": 12.1
     }
   ]
 }
