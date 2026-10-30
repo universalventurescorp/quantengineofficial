@@ -1,135 +1,79 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "episodes": [
     {
       "id": "-Isr5p333cw",
       "title": "The Entire History of Money | Calm Documentary for Sleep",
       "views": 108,
-      "views_per_day": 7.3,
+      "views_per_day": 6.7,
       "likes": 2,
-      "days": 14.9
+      "days": 16.0
     },
     {
       "id": "dn7HiVfz0Jc",
       "title": "How the Roman Empire Ran Out of Money | Relaxing History to Fall Asleep To",
       "views": 19,
-      "views_per_day": 1.5,
+      "views_per_day": 1.4,
       "likes": 1,
-      "days": 12.9
+      "days": 14.0
     },
     {
       "id": "5kLrUl2USSI",
       "title": "Tulip Mania: What Really Happened in 1637 | Calm History for Sleep",
-      "views": 19,
-      "views_per_day": 1.9,
+      "views": 20,
+      "views_per_day": 1.8,
       "likes": 1,
-      "days": 9.9
+      "days": 11.0
     },
     {
       "id": "RwxZWBRCjQg",
       "title": "The Medici: How Bankers Ruled Florence | Calm History for Sleep",
-      "views": 27,
-      "views_per_day": 3.4,
+      "views": 35,
+      "views_per_day": 3.9,
       "likes": 0,
-      "days": 7.9
+      "days": 9.0
     },
     {
       "id": "kjlYgpoBZPk",
       "title": "The Gold Standard Explained: Why Money Was Tied to Gold | Calm History for Sleep",
       "views": 23,
-      "views_per_day": 3.9,
+      "views_per_day": 3.3,
       "likes": 1,
-      "days": 5.9
+      "days": 7.0
     },
     {
       "id": "Tan32wvDZds",
       "title": "The Great Depression Explained | Calm History to Fall Asleep To",
-      "views": 55,
-      "views_per_day": 19.6,
+      "views": 62,
+      "views_per_day": 15.6,
       "likes": 1,
-      "days": 2.8
+      "days": 4.0
     },
     {
       "id": "TgCpAyjtJq8",
       "title": "The South Sea Bubble and Mississippi Bubble | Calm History for Sleep",
-      "views": 2,
+      "views": 4,
       "views_per_day": 2.0,
+      "likes": 0,
+      "days": 2.0
+    },
+    {
+      "id": "dY8jJmKYjYI",
+      "title": "The Silk Road: Trade, Silver and Empires | Calm Sleep Documentary",
+      "views": 0,
+      "views_per_day": 0.0,
       "likes": 0,
       "days": 1.0
     }
   ],
   "shorts": [
     {
-      "id": "TZvip6GunbI",
-      "title": "A Pope, a Cathedral Bell, and a Banking Feud",
-      "views": 88,
-      "views_per_day": 21.2,
-      "likes": 6,
-      "days": 4.1
-    },
-    {
-      "id": "boiV0m2HotE",
-      "title": "The Tulip Color Secret Was a Disease",
-      "views": 257,
-      "views_per_day": 41.8,
-      "likes": 0,
-      "days": 6.1
-    },
-    {
-      "id": "ZgFQ0vdYaD4",
-      "title": "The Street Where Cobblers Got Rich Renting Stalls",
+      "id": "DJ03oxw0b2E",
+      "title": "The Bank Run That Wiped Out 400,000 Savers",
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
-      "days": 1.0
-    },
-    {
-      "id": "2ka_UHWYKzI",
-      "title": "How Isaac Newton Accidentally Created the Gold Standard",
-      "views": 103,
-      "views_per_day": 7.5,
-      "likes": 6,
-      "days": 13.7
-    },
-    {
-      "id": "xZocTCbDN7Q",
-      "title": "Isaac Newton Hunted Counterfeiters, Then Changed Money",
-      "views": 5,
-      "views_per_day": 4.4,
-      "likes": 0,
-      "days": 1.1
-    },
-    {
-      "id": "xCgY76QFTxo",
-      "title": "The Ticker That Ran Hours Behind the Crash",
-      "views": 0,
-      "views_per_day": 0.0,
-      "likes": 0,
-      "days": 2.8
-    },
-    {
-      "id": "VsrQVPCEJfY",
-      "title": "The Tulip Crash Almost Nobody Can Prove",
-      "views": 17,
-      "views_per_day": 2.1,
-      "likes": 3,
-      "days": 8.1
-    },
-    {
-      "id": "XRP65qS-k4Y",
-      "title": "Why Roman Emperors Wore Sunbeams on Their Coins",
-      "views": 9,
-      "views_per_day": 0.9,
-      "likes": 1,
-      "days": 10.1
-    },
-    {
-      "id": "Jzk0VNcC9A0",
-      "title": "John Law Was Sentenced to Hang. Then He Ran France",
-      "views": 0,
-      "views_per_day": 0.0,
-      "likes": 0,
-      "days": 1.0
+      "days": 4.0
     },
     {
       "id": "hX1MdcRgB-0",
@@ -137,63 +81,159 @@
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
-      "days": 1.0
+      "days": 2.0
     },
     {
-      "id": "DJ03oxw0b2E",
-      "title": "The Bank Run That Wiped Out 400,000 Savers",
+      "id": "BZWv-km722w",
+      "title": "The Banker Who Ruled Florence Without a Crown",
+      "views": 9,
+      "views_per_day": 2.1,
+      "likes": 0,
+      "days": 4.3
+    },
+    {
+      "id": "xCgY76QFTxo",
+      "title": "The Ticker That Ran Hours Behind the Crash",
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
-      "days": 2.8
-    },
-    {
-      "id": "KGRhAcFeHNQ",
-      "title": "The Day America Told Citizens to Hand In Their Gold",
-      "views": 71,
-      "views_per_day": 71.0,
-      "likes": 0,
       "days": 1.0
-    },
-    {
-      "id": "Mbq87KUc92o",
-      "title": "The Coin Rome Trusted for Centuries",
-      "views": 15,
-      "views_per_day": 7.0,
-      "likes": 0,
-      "days": 2.1
-    },
-    {
-      "id": "da6Yf94E3Zc",
-      "title": "They Sold Tulips That Were Still Underground",
-      "views": 13,
-      "views_per_day": 1.8,
-      "likes": 0,
-      "days": 7.1
-    },
-    {
-      "id": "uBe87IimwpE",
-      "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
-      "views": 319,
-      "views_per_day": 23.3,
-      "likes": 13,
-      "days": 13.7
     },
     {
       "id": "BzzrJA_kCrk",
       "title": "Why Iron Coins Forced China to Invent Paper",
       "views": 126,
-      "views_per_day": 8.9,
+      "views_per_day": 8.2,
       "likes": 8,
-      "days": 14.1
+      "days": 15.3
     },
     {
-      "id": "3Pgt7Cbu3Yo",
-      "title": "The Emperor Who Tried to Price-Fix an Entire Empire",
-      "views": 975,
-      "views_per_day": 106.6,
+      "id": "boiV0m2HotE",
+      "title": "The Tulip Color Secret Was a Disease",
+      "views": 257,
+      "views_per_day": 35.2,
+      "likes": 0,
+      "days": 7.3
+    },
+    {
+      "id": "Jzk0VNcC9A0",
+      "title": "John Law Was Sentenced to Hang. Then He Ran France",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 2.0
+    },
+    {
+      "id": "bLecCkHKYpk",
+      "title": "The Roman Coin That Was Secretly Half Copper",
+      "views": 283,
+      "views_per_day": 23.0,
+      "likes": 6,
+      "days": 12.3
+    },
+    {
+      "id": "xZocTCbDN7Q",
+      "title": "Isaac Newton Hunted Counterfeiters, Then Changed Money",
+      "views": 17,
+      "views_per_day": 7.4,
+      "likes": 0,
+      "days": 2.3
+    },
+    {
+      "id": "UYwTaqQZ8mU",
+      "title": "Why China Used Silk as Legal Tender",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 1.0
+    },
+    {
+      "id": "XRP65qS-k4Y",
+      "title": "Why Roman Emperors Wore Sunbeams on Their Coins",
+      "views": 9,
+      "views_per_day": 0.8,
+      "likes": 1,
+      "days": 11.3
+    },
+    {
+      "id": "uBe87IimwpE",
+      "title": "How a Mountain of Silver Bankrupted the Spanish Empire",
+      "views": 319,
+      "views_per_day": 21.5,
+      "likes": 13,
+      "days": 14.8
+    },
+    {
+      "id": "VsrQVPCEJfY",
+      "title": "The Tulip Crash Almost Nobody Can Prove",
+      "views": 17,
+      "views_per_day": 1.8,
       "likes": 3,
-      "days": 9.1
+      "days": 9.3
+    },
+    {
+      "id": "KGRhAcFeHNQ",
+      "title": "The Day America Told Citizens to Hand In Their Gold",
+      "views": 200,
+      "views_per_day": 153.0,
+      "likes": 0,
+      "days": 1.3
+    },
+    {
+      "id": "duEPQ3WzGOY",
+      "title": "The Walking Canes That Stole Silk",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 1.0
+    },
+    {
+      "id": "da6Yf94E3Zc",
+      "title": "They Sold Tulips That Were Still Underground",
+      "views": 13,
+      "views_per_day": 1.6,
+      "likes": 0,
+      "days": 8.3
+    },
+    {
+      "id": "2ka_UHWYKzI",
+      "title": "How Isaac Newton Accidentally Created the Gold Standard",
+      "views": 103,
+      "views_per_day": 6.9,
+      "likes": 6,
+      "days": 14.8
+    },
+    {
+      "id": "TZvip6GunbI",
+      "title": "A Pope, a Cathedral Bell, and a Banking Feud",
+      "views": 88,
+      "views_per_day": 16.6,
+      "likes": 6,
+      "days": 5.3
+    },
+    {
+      "id": "ZgFQ0vdYaD4",
+      "title": "The Street Where Cobblers Got Rich Renting Stalls",
+      "views": 0,
+      "views_per_day": 0.0,
+      "likes": 0,
+      "days": 2.0
+    },
+    {
+      "id": "rDVeCjrgNoE",
+      "title": "The Bank That Moved Money Without Moving Coins",
+      "views": 348,
+      "views_per_day": 55.2,
+      "likes": 1,
+      "days": 6.3
+    },
+    {
+      "id": "Mbq87KUc92o",
+      "title": "The Coin Rome Trusted for Centuries",
+      "views": 15,
+      "views_per_day": 4.5,
+      "likes": 0,
+      "days": 3.3
     },
     {
       "id": "bi0GsxK6jgU",
@@ -201,31 +241,23 @@
       "views": 0,
       "views_per_day": 0.0,
       "likes": 0,
-      "days": 2.8
+      "days": 4.0
     },
     {
-      "id": "rDVeCjrgNoE",
-      "title": "The Bank That Moved Money Without Moving Coins",
-      "views": 347,
-      "views_per_day": 67.4,
-      "likes": 1,
-      "days": 5.1
-    },
-    {
-      "id": "bLecCkHKYpk",
-      "title": "The Roman Coin That Was Secretly Half Copper",
-      "views": 283,
-      "views_per_day": 25.4,
-      "likes": 6,
-      "days": 11.1
-    },
-    {
-      "id": "BZWv-km722w",
-      "title": "The Banker Who Ruled Florence Without a Crown",
-      "views": 9,
-      "views_per_day": 2.9,
+      "id": "-hey47V9zCs",
+      "title": "Why Roman Gold Failed in China",
+      "views": 0,
+      "views_per_day": 0.0,
       "likes": 0,
-      "days": 3.1
+      "days": 1.0
+    },
+    {
+      "id": "3Pgt7Cbu3Yo",
+      "title": "The Emperor Who Tried to Price-Fix an Entire Empire",
+      "views": 975,
+      "views_per_day": 94.6,
+      "likes": 3,
+      "days": 10.3
     }
   ]
 }

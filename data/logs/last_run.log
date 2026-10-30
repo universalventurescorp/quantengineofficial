@@ -1,1 +1,1053 @@
-Thursday: not an episode day (Mon, Wed, Fri). Nothing to do.
+== The Silk Road: how trade moved silk, silver and ideas across a continent
+   -> /home/runner/work/quantengineofficial/quantengineofficial/outputs/the-silk-road-how-trade-moved-silk-silver-and-ideas-across-a
+[1/10] writing script with Claude
+  outline
+    Claude unavailable (Failed to authenticate: OAuth token revoked. Please log in again or contact your administrator.); using Gemini for the rest of this run
+    Gemini model: gemini-3.8-flash
+  data charts: 1
+  chapter 1/12: 631 words
+  chapter 2/12: 521 words
+  chapter 3/12: 470 words
+  chapter 4/12: 639 words
+  chapter 5/12: 562 words
+  chapter 6/12: 596 words
+  chapter 7/12: 778 words
+  chapter 8/12: 723 words
+  chapter 9/12: 765 words
+  chapter 10/12: 561 words
+  chapter 11/12: 551 words
+  chapter 12/12: 528 words
+  cold open
+  science & TTS review
+    applied 6 fixes
+[2/10] narrating
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Collecting en-core-web-sm==3.8.0
+  Downloading en_core_web_sm-3.8.0-py3-none-any.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 49.5 MB/s  0:00:00
+Installing collected packages: en-core-web-sm
+Successfully installed en-core-web-sm-3.8.0
+[38;5;2m✔ Download and installation successful[0m
+You can now load the package via spacy.load('en_core_web_sm')
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+  voiced cold open (59 s)
+  voiced chapter 1/12 -> 6.7 min
+  voiced chapter 2/12 -> 11.4 min
+  voiced chapter 3/12 -> 16.1 min
+  voiced chapter 4/12 -> 22.1 min
+  voiced chapter 5/12 -> 27.5 min
+  voiced chapter 6/12 -> 33.3 min
+  voiced chapter 7/12 -> 40.8 min
+  voiced chapter 8/12 -> 47.7 min
+  voiced chapter 9/12 -> 55.0 min
+  voiced chapter 10/12 -> 60.3 min
+  voiced chapter 11/12 -> 65.6 min
+  voiced chapter 12/12 -> 70.5 min
+   narration: 70.7 min
+[3/10] fetching archive imagery, studio footage and drawing data charts
+    aic search failed 'Han dynasty bronze horse sculpture': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'Taklamakan desert dune landscape painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Taklamakan desert dune landscape painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Dunhuang Mogao caves fresco caravan': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dunhuang Mogao caves fresco caravan': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Zhang Qian expedition mural Dunhuang': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Zhang Qian expedition mural Dunhuang': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese silk textile fragment Han': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese silk textile fragment Han': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Central Asia mountain pass 19th century photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Central Asia mountain pass 19th century photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Western Han bronze mirror': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese jade carving': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'ancient wooden slip document Han dynasty': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient wooden slip document Han dynasty': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'oasis city ruins Xinjiang photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 1: 13 images, 0 clips
+    aic search failed 'Tang dynasty painted silk fragment': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty painted silk fragment': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Song dynasty silk weaving painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Song dynasty silk weaving painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese loom woodcut print': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese loom woodcut print': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'mulberry tree woodblock print ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'mulberry tree woodblock print ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Han dynasty bronze coins ban liang': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Han dynasty bronze coins ban liang': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dunhuang silk banner painting Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dunhuang silk banner painting Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty terracotta court lady holding silk': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Tang dynasty terracotta court lady holding silk': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient silk embroidery fragment textile museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient silk embroidery fragment textile museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chinese calligraphic tax record paper slip': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese calligraphic tax record paper slip': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient spinning wheel engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient spinning wheel engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty painted silk fragment': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty painted silk fragment': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Song dynasty silk weaving painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Song dynasty silk weaving painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese loom woodcut print': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese loom woodcut print': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'mulberry tree woodblock print ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'mulberry tree woodblock print ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Han dynasty bronze coins ban liang': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Han dynasty bronze coins ban liang': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dunhuang silk banner painting Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dunhuang silk banner painting Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty terracotta court lady holding silk': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty terracotta court lady holding silk': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient silk embroidery fragment textile museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient silk embroidery fragment textile museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chinese calligraphic tax record paper slip': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese calligraphic tax record paper slip': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient spinning wheel engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient spinning wheel engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+   chapter 2: 17 images, 0 clips
+    aic search failed 'Sogdian Ancient Letters British Library paper': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sogdian Ancient Letters British Library paper': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Afrasiab palace wall painting ambassadors Samarkand': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Afrasiab palace wall painting ambassadors Samarkand': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sogdian stone funerary couch relief Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sogdian stone funerary couch relief Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Samarkand ruins photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Zoroastrian fire altar silver coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Zoroastrian fire altar silver coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sogdian merchant terracotta figurine Tang': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sogdian merchant terracotta figurine Tang': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Central Asian silver ewer engraved': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Central Asian silver ewer engraved': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sogdian silver bowl Hermitage museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sogdian silver bowl Hermitage museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Sogdian script inscription stone': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Sogdian script inscription stone': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Zarafshan valley landscape photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Zarafshan valley landscape photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sogdian Ancient Letters British Library paper': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sogdian Ancient Letters British Library paper': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Afrasiab palace wall painting ambassadors Samarkand': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Afrasiab palace wall painting ambassadors Samarkand': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sogdian stone funerary couch relief Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sogdian stone funerary couch relief Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Samarkand ruins photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Zoroastrian fire altar silver coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Zoroastrian fire altar silver coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sogdian merchant terracotta figurine Tang': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sogdian merchant terracotta figurine Tang': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Central Asian silver ewer engraved': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Central Asian silver ewer engraved': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sogdian silver bowl Hermitage museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sogdian silver bowl Hermitage museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Sogdian script inscription stone': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Sogdian script inscription stone': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Zarafshan valley landscape photograph': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Zarafshan valley landscape photograph': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+   chapter 3: 17 images, 0 clips
+    aic search failed 'Roman cobalt glass vessel Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Roman cobalt glass vessel Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sasanian silver drachm coin Khosrow II': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sasanian silver drachm coin Khosrow II': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Roman denarius silver coin Augustus': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Roman denarius silver coin Augustus': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Roman glass unguentarium iridescent': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Roman glass unguentarium iridescent': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sasanian silver plate with hunting king': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'ancient Roman mosaic merchant ship': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Roman mosaic merchant ship': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ctesiphon Arch of Chosroes historic photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ctesiphon Arch of Chosroes historic photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Roman cameo glass gem carving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Roman cameo glass gem carving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Byzantine gold solidus coin Justinian': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese tomb glass vessel import': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese tomb glass vessel import': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Roman cobalt glass vessel Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Roman cobalt glass vessel Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sasanian silver drachm coin Khosrow II': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sasanian silver drachm coin Khosrow II': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Roman denarius silver coin Augustus': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Roman denarius silver coin Augustus': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Roman glass unguentarium iridescent': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Roman glass unguentarium iridescent': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sasanian silver plate with hunting king': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'ancient Roman mosaic merchant ship': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Roman mosaic merchant ship': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ctesiphon Arch of Chosroes historic photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ctesiphon Arch of Chosroes historic photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Roman cameo glass gem carving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Roman cameo glass gem carving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Byzantine gold solidus coin Justinian': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese tomb glass vessel import': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese tomb glass vessel import': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+   chapter 4: 22 images, 0 clips
+    aic search failed 'ancient caravanserai stone courtyard Iran photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient caravanserai stone courtyard Iran photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Karez underground aqueduct channel photo': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Gaochang ancient city mudbrick ruins Turfan': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Gaochang ancient city mudbrick ruins Turfan': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Khotan oasis landscape ancient willow trees': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Khotan oasis landscape ancient willow trees': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'subashi Buddhist temple ruins Kucha': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'subashi Buddhist temple ruins Kucha': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient marketplace miniature Persian painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient marketplace miniature Persian painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Bactrian camel terracotta figurine Tang dynasty': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Bactrian camel terracotta figurine Tang dynasty': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient wooden water gate archaeological site': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient wooden water gate archaeological site': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Turfan oasis vineyard historic photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Turfan oasis vineyard historic photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient legal document paper contract Turfan': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient legal document paper contract Turfan': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'still life candle': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient caravanserai stone courtyard Iran photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient caravanserai stone courtyard Iran photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Karez underground aqueduct channel photo': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Gaochang ancient city mudbrick ruins Turfan': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Gaochang ancient city mudbrick ruins Turfan': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Khotan oasis landscape ancient willow trees': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Khotan oasis landscape ancient willow trees': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'subashi Buddhist temple ruins Kucha': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'subashi Buddhist temple ruins Kucha': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient marketplace miniature Persian painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient marketplace miniature Persian painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Bactrian camel terracotta figurine Tang dynasty': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Bactrian camel terracotta figurine Tang dynasty': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient wooden water gate archaeological site': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient wooden water gate archaeological site': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Turfan oasis vineyard historic photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Turfan oasis vineyard historic photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient legal document paper contract Turfan': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient legal document paper contract Turfan': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+   chapter 5: 19 images, 0 clips
+    aic search failed 'bronze galloping horse of Gansu Eastern Han': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty sancai glazed ceramic horse': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Fergana valley mountain landscape photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Fergana valley mountain landscape photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese bronze bit and bridle horse harness': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese bronze bit and bridle horse harness': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chinese painting tribute horse Song dynasty': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese painting tribute horse Song dynasty': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Xiongnu bronze belt plaque animal style': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Xiongnu bronze belt plaque animal style': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Han dynasty tomb relief cavalry battle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Han dynasty tomb relief cavalry battle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'stone horse sculpture Tang Emperor Taizong tomb': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'stone horse sculpture Tang Emperor Taizong tomb': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient stirrup iron archaeological artifact': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient stirrup iron archaeological artifact': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'nomadic equestrian archery historic miniature': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'nomadic equestrian archery historic miniature': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'bronze galloping horse of Gansu Eastern Han': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty sancai glazed ceramic horse': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty sancai glazed ceramic horse': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Fergana valley mountain landscape photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Fergana valley mountain landscape photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese bronze bit and bridle horse harness': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese bronze bit and bridle horse harness': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chinese painting tribute horse Song dynasty': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese painting tribute horse Song dynasty': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Xiongnu bronze belt plaque animal style': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Xiongnu bronze belt plaque animal style': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Han dynasty tomb relief cavalry battle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Han dynasty tomb relief cavalry battle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'stone horse sculpture Tang Emperor Taizong tomb': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'stone horse sculpture Tang Emperor Taizong tomb': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient stirrup iron archaeological artifact': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient stirrup iron archaeological artifact': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'nomadic equestrian archery historic miniature': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'nomadic equestrian archery historic miniature': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+   chapter 6: 21 images, 0 clips
+    aic search failed 'Gandhara stone standing Buddha relief Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Gandhara stone standing Buddha relief Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Gandhara stucco head of Buddha Hellenistic style': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Gandhara stucco head of Buddha Hellenistic style': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Nestorian Stele Xi'an rubbing stone inscription': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Nestorian Stele Xi'an rubbing stone inscription': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Mogao Caves Dunhuang painted ceiling Buddhist': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Mogao Caves Dunhuang painted ceiling Buddhist': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Xuanzang traveling monk ancient silk painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Xuanzang traveling monk ancient silk painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'ancient Sanskrit manuscript on birch bark': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Sanskrit manuscript on birch bark': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Manichaean miniature painting Uighur Turfan': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Manichaean miniature painting Uighur Turfan': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Bamiyan cliff niche historic photograph 19th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Bamiyan cliff niche historic photograph 19th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Buddhist stupa ruins Central Asia': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Greco-Bactrian silver coin Athena': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Greco-Bactrian silver coin Athena': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Gandhara stone standing Buddha relief Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Gandhara stone standing Buddha relief Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Gandhara stucco head of Buddha Hellenistic style': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Gandhara stucco head of Buddha Hellenistic style': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Nestorian Stele Xi'an rubbing stone inscription': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Nestorian Stele Xi'an rubbing stone inscription': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Mogao Caves Dunhuang painted ceiling Buddhist': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Mogao Caves Dunhuang painted ceiling Buddhist': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Xuanzang traveling monk ancient silk painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Xuanzang traveling monk ancient silk painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Sanskrit manuscript on birch bark': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Sanskrit manuscript on birch bark': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Manichaean miniature painting Uighur Turfan': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Manichaean miniature painting Uighur Turfan': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Bamiyan cliff niche historic photograph 19th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Bamiyan cliff niche historic photograph 19th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Buddhist stupa ruins Central Asia': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Greco-Bactrian silver coin Athena': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Greco-Bactrian silver coin Athena': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+   chapter 7: 27 images, 0 clips
+    aic search failed 'Tang dynasty sancai camel with foreign musicians': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty sancai camel with foreign musicians': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient city plan map of Chang'an Tang dynasty': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient city plan map of Chang'an Tang dynasty': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty court ladies playing polo painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty court ladies playing polo painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang sancai glazed pottery wine jar foreign style': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang sancai glazed pottery wine jar foreign style': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chinese bronze mirror with grape and sea lion motif': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese bronze mirror with grape and sea lion motif': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang terracotta foreigner merchant figurine': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang terracotta foreigner merchant figurine': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese market gate reconstruction photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese market gate reconstruction photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty gold and silver inlaid cup Met': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty gold and silver inlaid cup Met': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chang'an pagoda ancient architecture Xi'an': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chang'an pagoda ancient architecture Xi'an': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese bronze standard weight measure': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese bronze standard weight measure': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty sancai camel with foreign musicians': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty sancai camel with foreign musicians': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient city plan map of Chang'an Tang dynasty': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient city plan map of Chang'an Tang dynasty': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty court ladies playing polo painting': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Tang dynasty court ladies playing polo painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Tang sancai glazed pottery wine jar foreign style': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang sancai glazed pottery wine jar foreign style': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chinese bronze mirror with grape and sea lion motif': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese bronze mirror with grape and sea lion motif': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang terracotta foreigner merchant figurine': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang terracotta foreigner merchant figurine': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese market gate reconstruction photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese market gate reconstruction photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty gold and silver inlaid cup Met': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty gold and silver inlaid cup Met': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chang'an pagoda ancient architecture Xi'an': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chang'an pagoda ancient architecture Xi'an': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient Chinese bronze standard weight measure': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient Chinese bronze standard weight measure': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+   chapter 8: 24 images, 0 clips
+    aic search failed 'Byzantine silk textile fragment with lions Met': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Byzantine silk textile fragment with lions Met': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Emperor Justinian mosaic Ravenna San Vitale': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Constantinople historic city walls photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Constantinople historic city walls photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Islamic tiraz textile embroidered silk fragment': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'medieval silkworm rearing woodcut print': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'medieval silkworm rearing woodcut print': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Byzantine cloaked emperor miniature illumination': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Byzantine cloaked emperor miniature illumination': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient loom Mediterranean pattern illustration': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient loom Mediterranean pattern illustration': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sasanian patterned silk textile with rosettes': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sasanian patterned silk textile with rosettes': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'medieval Antioch city ruins engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'medieval Antioch city ruins engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'historic silk dye vat workshop illustration': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'historic silk dye vat workshop illustration': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Byzantine silk textile fragment with lions Met': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Byzantine silk textile fragment with lions Met': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Emperor Justinian mosaic Ravenna San Vitale': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Emperor Justinian mosaic Ravenna San Vitale': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Constantinople historic city walls photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Constantinople historic city walls photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Islamic tiraz textile embroidered silk fragment': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'medieval silkworm rearing woodcut print': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'medieval silkworm rearing woodcut print': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Byzantine cloaked emperor miniature illumination': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Byzantine cloaked emperor miniature illumination': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient loom Mediterranean pattern illustration': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient loom Mediterranean pattern illustration': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sasanian patterned silk textile with rosettes': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sasanian patterned silk textile with rosettes': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'medieval Antioch city ruins engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'medieval Antioch city ruins engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'historic silk dye vat workshop illustration': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'historic silk dye vat workshop illustration': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': 403 for https://api.artic.edu/api/v1/artworks/search
+   chapter 9: 26 images, 0 clips
+    aic search failed 'Belitung shipwreck Changsha ceramic bowl': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Belitung shipwreck Changsha ceramic bowl': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'traditional Arab dhow wooden sailing ship photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'traditional Arab dhow wooden sailing ship photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Song dynasty maritime trading ship model wood': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Song dynasty maritime trading ship model wood': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Quanzhou ancient stone pier historic photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Quanzhou ancient stone pier historic photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chinese blue and white porcelain export shard': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese blue and white porcelain export shard': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient map Indian ocean monsoon sailing': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient map Indian ocean monsoon sailing': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Guangzhou port historic engraving 18th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Guangzhou port historic engraving 18th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'celadon glazed ceramic plate Song dynasty Met': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'celadon glazed ceramic plate Song dynasty Met': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient stone anchor archaeological artifact': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient stone anchor archaeological artifact': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'spice cargo cinnamon cloves still life painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'spice cargo cinnamon cloves still life painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Belitung shipwreck Changsha ceramic bowl': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Belitung shipwreck Changsha ceramic bowl': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'traditional Arab dhow wooden sailing ship photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'traditional Arab dhow wooden sailing ship photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Song dynasty maritime trading ship model wood': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Song dynasty maritime trading ship model wood': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Quanzhou ancient stone pier historic photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Quanzhou ancient stone pier historic photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chinese blue and white porcelain export shard': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese blue and white porcelain export shard': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient map Indian ocean monsoon sailing': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient map Indian ocean monsoon sailing': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Guangzhou port historic engraving 18th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Guangzhou port historic engraving 18th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'celadon glazed ceramic plate Song dynasty Met': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'celadon glazed ceramic plate Song dynasty Met': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient stone anchor archaeological artifact': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient stone anchor archaeological artifact': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'spice cargo cinnamon cloves still life painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'spice cargo cinnamon cloves still life painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+   chapter 10: 19 images, 0 clips
+    aic search failed 'Mongol paiza silver passport tablet Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Mongol paiza silver passport tablet Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Marco Polo caravan miniature illumination BNF': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Marco Polo caravan miniature illumination BNF': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'portrait of Kublai Khan National Palace Museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'portrait of Kublai Khan National Palace Museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Mongol horse archer illustrated Persian manuscript': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Mongol horse archer illustrated Persian manuscript': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Yuan dynasty banknote paper money chao': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Yuan dynasty banknote paper money chao': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient compass Chinese bronze ladle plate': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient compass Chinese bronze ladle plate': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Black Death medieval manuscript miniature plague': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Black Death medieval manuscript miniature plague': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Mongol courier post station historical drawing': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Mongol courier post station historical drawing': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Karakorum archaeological site stone tortoise Mongolia': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Karakorum archaeological site stone tortoise Mongolia': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Yuan dynasty celadon ceramic jar Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Yuan dynasty celadon ceramic jar Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'money changer': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Mongol paiza silver passport tablet Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Mongol paiza silver passport tablet Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Marco Polo caravan miniature illumination BNF': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Marco Polo caravan miniature illumination BNF': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'portrait of Kublai Khan National Palace Museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'portrait of Kublai Khan National Palace Museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Mongol horse archer illustrated Persian manuscript': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Mongol horse archer illustrated Persian manuscript': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Yuan dynasty banknote paper money chao': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Yuan dynasty banknote paper money chao': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient compass Chinese bronze ladle plate': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient compass Chinese bronze ladle plate': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Black Death medieval manuscript miniature plague': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Black Death medieval manuscript miniature plague': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Mongol courier post station historical drawing': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Mongol courier post station historical drawing': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Karakorum archaeological site stone tortoise Mongolia': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Karakorum archaeological site stone tortoise Mongolia': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Yuan dynasty celadon ceramic jar Met museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Yuan dynasty celadon ceramic jar Met museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+   chapter 11: 19 images, 0 clips
+    aic search failed 'Aurel Stein expedition Dunhuang manuscript photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Aurel Stein expedition Dunhuang manuscript photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sven Hedin desert expedition caravan photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sven Hedin desert expedition caravan photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Niye ruins ancient wooden tablet desert photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Niye ruins ancient wooden tablet desert photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Taklamakan desert sand dunes sunset painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Taklamakan desert sand dunes sunset painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient ruined stupa Miran desert photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient ruined stupa Miran desert photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'early 20th century camel caravan Silk Road photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'early 20th century camel caravan Silk Road photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient trade route map of Eurasia 19th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient trade route map of Eurasia 19th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dunhuang library cave 17 discovery photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dunhuang library cave 17 discovery photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'weathered mudbrick watchtower Great Wall desert': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'weathered mudbrick watchtower Great Wall desert': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'starry night sky over desert dunes landscape': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'starry night sky over desert dunes landscape': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Aurel Stein expedition Dunhuang manuscript photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Aurel Stein expedition Dunhuang manuscript photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sven Hedin desert expedition caravan photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sven Hedin desert expedition caravan photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Niye ruins ancient wooden tablet desert photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Niye ruins ancient wooden tablet desert photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Taklamakan desert sand dunes sunset painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Taklamakan desert sand dunes sunset painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient ruined stupa Miran desert photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient ruined stupa Miran desert photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'early 20th century camel caravan Silk Road photo': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'early 20th century camel caravan Silk Road photo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ancient trade route map of Eurasia 19th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ancient trade route map of Eurasia 19th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dunhuang library cave 17 discovery photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dunhuang library cave 17 discovery photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'weathered mudbrick watchtower Great Wall desert': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'weathered mudbrick watchtower Great Wall desert': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'starry night sky over desert dunes landscape': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'starry night sky over desert dunes landscape': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+   chapter 12: 18 images, 1 clips
+[4/10] composing ambient score
+[5/10] mixing voice and score
+[6/10] rendering video
+  391 shots, 1 clips, 14 cards
+      0.0 / 70.7 min
+      1.0 / 70.7 min
+      2.0 / 70.7 min
+      3.0 / 70.7 min
+      4.0 / 70.7 min
+      5.0 / 70.7 min
+      6.0 / 70.7 min
+      7.0 / 70.7 min
+      8.0 / 70.7 min
+      9.0 / 70.7 min
+     10.0 / 70.7 min
+     11.0 / 70.7 min
+     12.0 / 70.7 min
+     13.0 / 70.7 min
+     14.0 / 70.7 min
+     15.0 / 70.7 min
+     16.0 / 70.7 min
+     17.0 / 70.7 min
+     18.0 / 70.7 min
+     19.0 / 70.7 min
+     20.0 / 70.7 min
+     21.0 / 70.7 min
+     22.0 / 70.7 min
+     23.0 / 70.7 min
+     24.0 / 70.7 min
+     25.0 / 70.7 min
+     26.0 / 70.7 min
+     27.0 / 70.7 min
+     28.0 / 70.7 min
+     29.0 / 70.7 min
+     30.0 / 70.7 min
+     31.0 / 70.7 min
+     32.0 / 70.7 min
+     33.0 / 70.7 min
+     34.0 / 70.7 min
+     35.0 / 70.7 min
+     36.0 / 70.7 min
+     37.0 / 70.7 min
+     38.0 / 70.7 min
+     39.0 / 70.7 min
+     40.0 / 70.7 min
+     41.0 / 70.7 min
+     42.0 / 70.7 min
+     43.0 / 70.7 min
+     44.0 / 70.7 min
+     45.0 / 70.7 min
+     46.0 / 70.7 min
+     47.0 / 70.7 min
+     48.0 / 70.7 min
+     49.0 / 70.7 min
+     50.0 / 70.7 min
+     51.0 / 70.7 min
+     52.0 / 70.7 min
+     53.0 / 70.7 min
+     54.0 / 70.7 min
+     55.0 / 70.7 min
+     56.0 / 70.7 min
+     57.0 / 70.7 min
+     58.0 / 70.7 min
+     59.0 / 70.7 min
+     60.0 / 70.7 min
+     61.0 / 70.7 min
+     62.0 / 70.7 min
+     63.0 / 70.7 min
+     64.0 / 70.7 min
+     65.0 / 70.7 min
+     66.0 / 70.7 min
+     67.0 / 70.7 min
+     68.0 / 70.7 min
+     69.0 / 70.7 min
+     70.0 / 70.7 min
+[7/10] thumbnails + metadata
+[8/10] producing 3 Shorts
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    aic search failed 'Tang dynasty silk bolt with ink stamp': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Tang dynasty silk bolt with ink stamp': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Han dynasty plain weave silk textile': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Han dynasty plain weave silk textile': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ancient Chinese silk currency measurement': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ancient Chinese silk currency measurement': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty market official inspection painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty market official inspection painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dunhuang Mogao caves merchant silk textile': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dunhuang Mogao caves merchant silk textile': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty silk bolt with ink stamp': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty silk bolt with ink stamp': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Han dynasty plain weave silk textile': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Han dynasty plain weave silk textile': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ancient Chinese silk currency measurement': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ancient Chinese silk currency measurement': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Tang dynasty market official inspection painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Tang dynasty market official inspection painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dunhuang Mogao caves merchant silk textile': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dunhuang Mogao caves merchant silk textile': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    aic search failed 'Byzantine gold solidus found in Chinese tomb': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Byzantine gold solidus found in Chinese tomb': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Pierced Roman coin amulet Silk Road': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Pierced Roman coin amulet Silk Road': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Northern Wei dynasty tomb gold foreign coins': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Northern Wei dynasty tomb gold foreign coins': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Late Roman gold coin looped pendant': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Late Roman gold coin looped pendant': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sasanian silver drachm Turfan depression excavation': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sasanian silver drachm Turfan depression excavation': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Byzantine gold solidus found in Chinese tomb': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Byzantine gold solidus found in Chinese tomb': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Pierced Roman coin amulet Silk Road': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Pierced Roman coin amulet Silk Road': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Northern Wei dynasty tomb gold foreign coins': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Northern Wei dynasty tomb gold foreign coins': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Late Roman gold coin looped pendant': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Late Roman gold coin looped pendant': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Sasanian silver drachm Turfan depression excavation': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Sasanian silver drachm Turfan depression excavation': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    aic search failed 'Justinian mosaic Ravenna Great Palace silk': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Justinian mosaic Ravenna Great Palace silk': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Ancient sericulture silkworm cultivation scroll': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ancient sericulture silkworm cultivation scroll': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Byzantine carved ivory imperial workshop textile': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Byzantine carved ivory imperial workshop textile': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Nestorian Christian monk Silk Road artifact': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Nestorian Christian monk Silk Road artifact': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ancient hollow walking staff traveler artifact': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ancient hollow walking staff traveler artifact': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Justinian mosaic Ravenna Great Palace silk': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Justinian mosaic Ravenna Great Palace silk': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ancient sericulture silkworm cultivation scroll': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ancient sericulture silkworm cultivation scroll': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Byzantine carved ivory imperial workshop textile': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Byzantine carved ivory imperial workshop textile': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Nestorian Christian monk Silk Road artifact': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Nestorian Christian monk Silk Road artifact': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ancient hollow walking staff traveler artifact': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ancient hollow walking staff traveler artifact': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+[9/10] quality check
+   QA PASSED: 70.7 min, -16.0 LUFS, 1 clips
+[10/10] uploading to YouTube
+    upload 1%
+    upload 3%
+    upload 4%
+    upload 5%
+    upload 7%
+    upload 8%
+    upload 9%
+    upload 11%
+    upload 12%
+    upload 13%
+    upload 15%
+    upload 16%
+    upload 17%
+    upload 19%
+    upload 20%
+    upload 21%
+    upload 23%
+    upload 24%
+    upload 26%
+    upload 27%
+    upload 28%
+    upload 30%
+    upload 31%
+    upload 32%
+    upload 34%
+    upload 35%
+    upload 36%
+    upload 38%
+    upload 39%
+    upload 40%
+    upload 42%
+    upload 43%
+    upload 44%
+    upload 46%
+    upload 47%
+    upload 48%
+    upload 50%
+    upload 51%
+    upload 52%
+    upload 54%
+    upload 55%
+    upload 56%
+    upload 58%
+    upload 59%
+    upload 60%
+    upload 62%
+    upload 63%
+    upload 64%
+    upload 66%
+    upload 67%
+    upload 69%
+    upload 70%
+    upload 71%
+    upload 73%
+    upload 74%
+    upload 75%
+    upload 77%
+    upload 78%
+    upload 79%
+    upload 81%
+    upload 82%
+    upload 83%
+    upload 85%
+    upload 86%
+    upload 87%
+    upload 89%
+    upload 90%
+    upload 91%
+    upload 93%
+    upload 94%
+    upload 95%
+    upload 97%
+    upload 98%
+    upload 99%
+   https://youtu.be/dY8jJmKYjYI
+   short: https://youtu.be/UYwTaqQZ8mU (public 2026-11-04T22:00:00Z)
+   short: https://youtu.be/-hey47V9zCs (public 2026-11-05T16:00:00Z)
+   short: https://youtu.be/duEPQ3WzGOY (public 2026-11-06T16:00:00Z)
+done.
