@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-31",
+  "title": "The First Paper Money: Song Dynasty China | Calm History for Sleep",
+  "video_id": "3E5m3GVokS8",
+  "minutes": 13.8,
+  "voice": {
+    "engine": "qwen",
+    "sentences": 125,
+    "voiced": 125,
+    "gpu_minutes": 7.5
+  },
+  "qa": {
+    "ok": true,
+    "fails": [],
+    "warnings": [],
+    "minutes": 13.8,
+    "lufs": -16.2,
+    "shots": 80,
+    "clips": 2
+  },
+  "companion": {
+    "count": 1,
+    "minutes": [
+      6.6
+    ]
+  },
+  "events": [
+    {
+      "kind": "subscribe",
+      "start": 50.909,
+      "end": 61.294
+    },
+    {
+      "kind": "companion",
+      "start": 430.043,
+      "end": 443.465
+    }
+  ]
+}

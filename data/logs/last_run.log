@@ -2,32 +2,105 @@
    -> /home/runner/work/quantengineofficial/quantengineofficial/outputs/the-first-paper-money-how-song-dynasty-china-learned-to-trus
 [1/10] writing script with Claude
   outline
-    Claude unavailable (Failed to authenticate: OAuth token revoked. Please log in again or contact your administrator.); using Gemini for the rest of this run
-    Gemini model: gemini-3.8-flash
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/run.py", line 340, in <module>
-    main()
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/run.py", line 164, in main
-    script = write_script(topic, cfg)
-             ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 279, in write_script
-    outline = ask_json(
-              ^^^^^^^^^
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 196, in ask_json
-    data = extract_json(ask_claude(prompt))
-                        ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 189, in ask_claude
-    return ask_gemini(prompt)
-           ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/quantengineofficial/quantengineofficial/pipeline/script.py", line 118, in ask_gemini
-    raise RuntimeError(f"Gemini failed: {last}")
-RuntimeError: Gemini failed: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
+  data charts: 0
+  chapter 1/5: 354 words
+  chapter 2/5: 345 words
+  chapter 3/5: 334 words
+  chapter 4/5: 327 words
+  chapter 5/5: 339 words
+  cold open
+  science & TTS review
+    applied 20 fixes
+  companion: 1 moments at ~[6.6] min
+[2/10] narrating 125 sentences on Kaggle (British narrator)
+   kaggle push ok: Kernel version 1 successfully pushed.  Please check progress at https://www.kaggle.com/code/universalventures/quiet-ledger-voice
+   kaggle: running (2 min)
+   kaggle: complete (9 min)
+   --- kaggle log (last lines) ---
+   [   3.5 min] 2 GPU(s), 125 sentences
+   [   4.0 min] voiced 0/125
+   [   4.5 min] voiced 0/125
+   [   5.0 min] voiced 40/125
+   [   5.5 min] voiced 72/125
+   [   6.0 min] voiced 88/125
+   [   6.5 min] voiced 112/125
+   [   7.0 min] voiced 118/125
+   [   7.5 min] voiced 125/125
+   [   7.5 min] narration: 125/125 sentences in 7.5 min
+   voice: {'engine': 'qwen', 'sentences': 125, 'voiced': 125, 'gpu_minutes': 7.5}
+[2/10] narrating
+  voiced cold open (66 s)
+  voiced chapter 1/5 -> 3.8 min
+  voiced chapter 2/5 -> 6.3 min
+  voiced chapter 3/5 -> 9.0 min
+  voiced chapter 4/5 -> 11.2 min
+  voiced chapter 5/5 -> 13.6 min
+   narration: 13.8 min (qwen)
+[3/10] fetching archive imagery, studio footage and drawing data charts
+    aic search failed 'Song dynasty landscape painting': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'Chinese cash coins string': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Chinese iron coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese iron coin': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Along the River During the Qingming Festival': api.artic.edu is rate-limiting us; skipping for now
+   chapter 1: 10 images, 0 clips
+    aic search failed 'Chinese woodblock printing': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Song dynasty printed book': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Jiaozi paper money Song': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Jiaozi paper money Song': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Chinese paper making illustration': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Song dynasty banknote': api.artic.edu is rate-limiting us; skipping for now
+   chapter 2: 10 images, 0 clips
+    aic search failed 'Song dynasty emperor portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Song dynasty official portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Chinese imperial court painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Chinese palace architecture painting': api.artic.edu is rate-limiting us; skipping for now
+   chapter 3: 10 images, 1 clips
+    aic search failed 'Hangzhou West Lake painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Southern Song dynasty painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Chinese silver ingot': api.artic.edu is rate-limiting us; skipping for now
+   chapter 4: 8 images, 0 clips
+    aic search failed 'Kublai Khan portrait': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Kublai Khan portrait': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Marco Polo portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Yuan dynasty banknote': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Mongol court painting': 403 for https://api.artic.edu/api/v1/artworks/search
+   chapter 5: 9 images, 1 clips
+[4/10] composing ambient score
+[5/10] mixing voice and score
+[6/10] rendering video
+  80 shots, 2 clips, 7 cards
+      0.0 / 13.8 min
+      1.0 / 13.8 min
+      2.0 / 13.8 min
+      3.0 / 13.8 min
+      4.0 / 13.8 min
+      5.0 / 13.8 min
+      6.0 / 13.8 min
+      7.0 / 13.8 min
+      8.0 / 13.8 min
+      9.0 / 13.8 min
+     10.0 / 13.8 min
+     11.0 / 13.8 min
+     12.0 / 13.8 min
+     13.0 / 13.8 min
+[7/10] thumbnails + metadata
+[9/10] quality check
+   QA PASSED: 13.8 min, -16.2 LUFS, 2 clips
+[10/10] uploading to YouTube
+    upload 6%
+    upload 13%
+    upload 19%
+    upload 26%
+    upload 32%
+    upload 38%
+    upload 45%
+    upload 51%
+    upload 58%
+    upload 64%
+    upload 70%
+    upload 77%
+    upload 83%
+    upload 90%
+    upload 96%
+   https://youtu.be/3E5m3GVokS8
+sample done.
