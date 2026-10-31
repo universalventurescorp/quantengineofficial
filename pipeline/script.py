@@ -309,6 +309,7 @@ def write_script(topic, cfg):
         openings = [f'"{_first_words(c["text"])}..."' for c in chapters[:batch[-1][0]]]
 
     _after_chapters(outline, chapters, ch, lang, facts)
+    add_companion(outline, cfg)
     outline["topic"] = topic
     return outline
 
@@ -383,14 +384,98 @@ def _after_chapters(outline, chapters, ch, lang, facts):
         print(f"    applied {n} fixes")
     except Exception as exc:
         print(f"    review skipped: {exc}")
-    outline["cold_open"] = sections["cold_open"]
+    outline["cold_open"] = with_subscribe_line(sections["cold_open"], ch.get("subscribe_line"))
     for i, c in enumerate(chapters, 1):
         c["text"] = sections[f"chapter_{i}"]
 
 
+def with_subscribe_line(cold_open, line):
+    """Fixed, calm subscribe request placed just before the cold open's last line (the lead-in to the title card):
+    asked once, in the first minute, while the listener is still awake (same as Estrato Nocturno)."""
+    if not line:
+        return cold_open
+    paras = [p for p in cold_open.split("\n\n") if p.strip()]
+    return "\n\n".join(paras[:-1] + [line.strip()] + paras[-1:]) if paras else line.strip()
+
+
+def _paras(text):
+    return [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
+
+
+def _norm(p):
+    return " ".join(p.split())
+
+
+def companion_slots(chapters, every_min, wpm, first_min=None):
+    """About every `every_min` minutes of narration, at a paragraph break inside a chapter (never right after the
+    chapter card or at its very end). Returns [(chapter_index, paragraph_index_to_insert_before)]."""
+    first_min = every_min if first_min is None else first_min
+    marks, words = [], 0
+    for ci, c in enumerate(chapters):
+        ps = _paras(c["text"])
+        for pi, p in enumerate(ps):
+            if 2 <= pi <= len(ps) - 2:
+                marks.append((words / wpm, ci, pi))
+            words += len(p.split())
+    slots, target, total = [], first_min, words / wpm
+    while target < total - 1.5:
+        cands = [m for m in marks if abs(m[0] - target) <= every_min * 0.5 and (m[1], m[2]) not in slots]
+        if cands:
+            best = min(cands, key=lambda m: abs(m[0] - target))
+            slots.append((best[1], best[2]))
+        target += every_min
+    return slots
+
+
+def add_companion(outline, cfg):
+    """31-oct-2026, from Estrato Nocturno: short moments where the narrator speaks to the one listener awake at
+    night, about every companion.every_minutes. Listed in chapter["companion"] so the voice says them softer
+    and the Shorts leave them out."""
+    comp, ch = cfg.get("companion") or {}, cfg["channel"]
+    if not comp.get("enabled"):
+        return
+    chapters, wpm = outline["chapters"], cfg["voice"]["wpm"]
+    starts, words = {}, 0
+    for ci, c in enumerate(chapters):
+        for pi, p in enumerate(_paras(c["text"])):
+            starts[(ci, pi)] = words / wpm
+            words += len(p.split())
+    slots = companion_slots(chapters, comp.get("every_minutes", 11), wpm, comp.get("first_minute"))
+    if not slots:
+        return
+    blocks = []
+    for k, (ci, pi) in enumerate(slots, 1):
+        ps = _paras(chapters[ci]["text"])
+        blocks.append(f"Place {k}:\nBEFORE: {ps[pi - 1]}\nAFTER: {ps[pi]}")
+    try:
+        lines = ask_json(fill("companion.md", CHANNEL=ch["name"], LANGUAGE=LANG_NAMES[ch["language"]],
+                              TITLE=outline["title"], COUNT=len(slots), SLOTS="\n\n".join(blocks)),
+                         lambda d: isinstance(d, list) and len(d) == len(slots) and all(isinstance(x, str) for x in d))
+    except Exception as exc:
+        print(f"  companion skipped: {exc}")
+        return
+    for k in sorted(range(len(slots)), key=lambda k: slots[k], reverse=True):   # insert back to front
+        ci, pi = slots[k]
+        line = clean(lines[k]).replace("\n", " ").strip()
+        if not line:
+            continue
+        ps = _paras(chapters[ci]["text"])
+        chapters[ci]["text"] = "\n\n".join(ps[:pi] + [line] + ps[pi:])
+        chapters[ci].setdefault("companion", []).append(line)
+    times = sorted(round(starts[s], 1) for s in slots)
+    outline["companion"] = {"count": len(slots), "minutes": times}
+    print(f"  companion: {len(slots)} moments at ~{times} min")
+
+
+def story_text(chapter):
+    """A chapter's narration without the companion moments (for the Shorts)."""
+    soft = {_norm(p) for p in chapter.get("companion", [])}
+    return "\n\n".join(p for p in _paras(chapter["text"]) if _norm(p) not in soft)
+
+
 def write_shorts(script, cfg, count=2):
     ch = cfg["channel"]
-    text = "\n\n".join(c["text"] for c in script["chapters"])
+    text = "\n\n".join(story_text(c) for c in script["chapters"])
     try:
         shorts = ask_json(
             fill("shorts.md", CHANNEL=ch["name"], LANGUAGE=LANG_NAMES[ch["language"]],

@@ -20,6 +20,14 @@ on:
         description: "Producir Shorts"
         type: boolean
         default: true
+      sample:
+        description: "Muestra privada corta (sin Shorts, no cuenta como episodio)"
+        type: boolean
+        default: false
+      sample_minutes:
+        description: "Minutos de la muestra"
+        required: false
+        default: "10"
 
 permissions:
   contents: write
@@ -93,6 +101,11 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           TOPIC: ${{ inputs.topic }}
           UPLOAD: ${{ inputs.upload }}
+          SAMPLE: ${{ inputs.sample }}
+          SAMPLE_MINUTES: ${{ inputs.sample_minutes }}
+          # the British narrator is voiced on Kaggle's free GPU (same Kaggle account as Estrato Nocturno)
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         run: |
           set -o pipefail
           mkdir -p data/logs

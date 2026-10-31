@@ -2,11 +2,14 @@
 channel:
   name: "The Quiet Ledger"
   language: en
+  # said once, calmly, in the first minute (before the title card); never at the end
+  subscribe_line: "If these quiet stories help you rest, you're welcome to subscribe now, before you close your eyes. That way, tomorrow night, we can keep walking together."
 
 schedule:
   # days the long episode is produced (the workflow runs daily; on other days it does nothing
   # except the weekly analytics on Sundays). Use all seven days for a daily episode.
-  episode_days: [Mon, Wed, Fri]
+  # 31-oct-2026: Mon/Tue/Thu so the narrator's Kaggle GPU never overlaps Estrato Nocturno (Sun/Wed/Fri)
+  episode_days: [Mon, Tue, Thu]
 
 claude:
   model: sonnet           # sonnet | opus | haiku. Sonnet uses far less of the Pro plan's weekly limit
@@ -16,11 +19,18 @@ script:
   chapters_per_call: 3    # chapters written per AI call (fewer calls = less quota used)
 
 voice:
-  id: af_bella            # Kokoro. Best quality: af_heart (used by Quiet Cosmos), af_bella, bf_emma
-  speed: 0.8              # slower = calmer
-  wpm: 110                # measured: real words per minute (with pauses) at speed 0.8; sets script length
-  pause_sentence: 0.75
-  pause_paragraph: 1.7
+  # 31-oct-2026: British male narrator (Qwen3-TTS voice design "l2", chosen by Luis), cloned sentence by sentence
+  # on Kaggle's free GPU (kaggle/voice.py). If Kaggle fails, the episode is narrated with Kokoro fallback_id.
+  engine: qwen
+  model: Qwen/Qwen3-TTS-12Hz-1.7B-Base
+  ref_audio: assets/voices/ledger_narrator.mp3
+  ref_text: "Tonight we will travel slowly, with no hurry at all, along the old roads where merchants carried silk and silver across the world."
+  id: bm_george           # Kokoro voice used only as the fallback (British male, closest to the narrator)
+  fallback_id: bm_george
+  speed: 0.85
+  wpm: 125                # real words per minute with pauses (Qwen narrator ~154 wpm of speech); sets script length
+  pause_sentence: 0.85
+  pause_paragraph: 1.8
   pause_chapter: 3.5
 
 video:
@@ -39,9 +49,22 @@ mix:
   music_volume: 0.15
   lufs: -16
 
+companion:
+  # 31-oct-2026, from Estrato Nocturno: the narrator speaks to the one listener every ~11 min, softer (-4 dB)
+  enabled: true
+  every_minutes: 11
+  first_minute: 6
+  pause: 0.8              # extra silence before and after each moment (s)
+  soft_db: -4
+
+kaggle:
+  kernel: quiet-ledger-voice   # this channel's own Kaggle script (never Estrato Nocturno's quiet-cosmos-gen)
+  wait_minutes: 150
+
 shorts:
   count: 3                # Shorts per episode, scheduled one per day after the episode
   voice_speed: 1.0
+  gpu_voice_tempo: 1.08   # the GPU narrator, a little quicker in the Shorts (pitch kept)
   seconds_per_shot: 4.0
   publish_hour_utc: 16    # 11:00 in Lima, noon in New York
 
