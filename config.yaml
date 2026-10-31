@@ -28,7 +28,7 @@ voice:
   id: bm_george           # Kokoro voice used only as the fallback (British male, closest to the narrator)
   fallback_id: bm_george
   speed: 0.85
-  wpm: 125                # real words per minute with pauses (Qwen narrator ~154 wpm of speech); sets script length
+  wpm: 145                # sets script length. 31-oct sample: 125 gave chapters ~15 % longer than asked (13.8 min for 10)
   pause_sentence: 0.85
   pause_paragraph: 1.8
   pause_chapter: 3.5
