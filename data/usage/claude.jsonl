@@ -1,0 +1,3 @@
+{"t": "2026-10-31T16:02:55Z", "run": "41217488910", "workflow": "produce-episode", "channel": "", "model": "sonnet", "ok": false, "in": 0, "cache_write": 0, "cache_read": 0, "out": 0, "usd_equiv": 0, "turns": 1, "secs": 2, "prompt_chars": 8335}
+{"t": "2026-10-31T16:03:44Z", "run": "41217488910", "workflow": "produce-episode", "channel": "", "model": "sonnet", "ok": false, "in": 0, "cache_write": 0, "cache_read": 0, "out": 0, "usd_equiv": 0, "turns": 1, "secs": 2, "prompt_chars": 8335}
+{"t": "2026-10-31T16:05:17Z", "run": "41217488910", "workflow": "produce-episode", "channel": "", "model": "sonnet", "ok": false, "in": 0, "cache_write": 0, "cache_read": 0, "out": 0, "usd_equiv": 0, "turns": 1, "secs": 2, "prompt_chars": 8335}
