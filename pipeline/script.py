@@ -12,7 +12,7 @@ import time
 
 import requests
 
-from .common import ROOT, LANG_NAMES, extract_json
+from .common import DATA, ROOT, LANG_NAMES, extract_json
 
 PROMPTS = ROOT / "prompts"
 INSTRUCTION = ("Follow the instructions in the input exactly. Reply with only the requested output, "
@@ -118,6 +118,45 @@ def ask_gemini(prompt, timeout=600, retries=8):
     raise RuntimeError(f"Gemini failed: {last}")
 
 
+USAGE_LOG = DATA / "usage" / "claude.jsonl"   # one line per call: lets us see how much of the plan each video uses
+
+
+def _log_usage(model, info, prompt_chars, ok):
+    """Append this call's token usage (from `--output-format json`) to data/usage/claude.jsonl."""
+    try:
+        u = info.get("usage") or {}
+        row = {"t": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+               "run": os.environ.get("GITHUB_RUN_ID", "local"),
+               "workflow": os.environ.get("GITHUB_WORKFLOW", ""),
+               "channel": os.environ.get("CHANNEL", ""), "model": model, "ok": ok,
+               "in": u.get("input_tokens", 0), "cache_write": u.get("cache_creation_input_tokens", 0),
+               "cache_read": u.get("cache_read_input_tokens", 0), "out": u.get("output_tokens", 0),
+               "usd_equiv": info.get("total_cost_usd"), "turns": info.get("num_turns"),
+               "secs": round((info.get("duration_ms") or 0) / 1000), "prompt_chars": prompt_chars}
+        USAGE_LOG.parent.mkdir(parents=True, exist_ok=True)
+        with open(USAGE_LOG, "a", encoding="utf-8") as f:
+            f.write(json.dumps(row) + "\n")
+    except Exception as exc:            # measuring must never break an episode
+        print(f"    (usage log skipped: {exc})")
+
+
+def _claude_call(model, prompt, timeout):
+    """Run `claude -p` once. Returns (returncode, text, stderr) with text = the reply only."""
+    r = subprocess.run(["claude", "-p", "--model", model, "--output-format", "json", INSTRUCTION],
+                       input=prompt, capture_output=True, text=True, timeout=timeout)
+    out = r.stdout.strip()
+    try:
+        info = json.loads(out)
+    except (ValueError, json.JSONDecodeError):
+        return r.returncode, out, r.stderr            # older CLI / plain text: behave as before
+    if not isinstance(info, dict):
+        return r.returncode, out, r.stderr
+    text = str(info.get("result") or "").strip()
+    bad = bool(info.get("is_error")) or info.get("subtype", "success") != "success"
+    _log_usage(model, info, len(prompt), not bad and r.returncode == 0)
+    return (1 if bad else r.returncode), text, r.stderr
+
+
 def ask_claude(prompt, timeout=1500, retries=3):
     """One call to Claude Code headless (`claude -p --model <config claude.model>`).
     On the plan's usage limit: never retry. Fall back to Gemini if claude.on_limit is 'gemini' and
@@ -129,11 +168,10 @@ def ask_claude(prompt, timeout=1500, retries=3):
     if not _claude_out:
         for attempt in range(retries):
             try:
-                r = subprocess.run(["claude", "-p", "--model", model, INSTRUCTION], input=prompt,
-                                   capture_output=True, text=True, timeout=timeout)
-                if r.returncode == 0 and r.stdout.strip() and not LIMIT_RE.search(r.stdout[:300]):
-                    return r.stdout.strip()
-                last = (r.stderr + "\n" + r.stdout).strip()[-1500:]
+                code, text, err = _claude_call(model, prompt, timeout)
+                if code == 0 and text and not LIMIT_RE.search(text[:300]):
+                    return text
+                last = (err + "\n" + text).strip()[-1500:]
             except (subprocess.TimeoutExpired, FileNotFoundError) as exc:
                 last = str(exc) or "timeout"
             if LIMIT_RE.search(last):
