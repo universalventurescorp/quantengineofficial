@@ -268,6 +268,16 @@ def _chart_data(chapters):
     return facts
 
 
+TITLE_LABEL = "Calm History for Sleep: "
+
+
+def branded_title(title):
+    """1-nov-2026: every title starts with what the video is for (the thumbnail says SLEEP), then the topic."""
+    t = re.sub(r"\s*[|:–-]\s*(calm|relaxing|sleep|history for|documentary)[^|]*$", "", title.strip(), flags=re.I)
+    t = re.sub(r"^(calm history for sleep|history for sleep|sleep)\s*[:|-]\s*", "", t, flags=re.I).strip()
+    return (TITLE_LABEL + t)[:100]
+
+
 def write_script(topic, cfg):
     from .catalog import catalog_for_prompt
 
@@ -280,6 +290,7 @@ def write_script(topic, cfg):
         fill("outline.md", CHANNEL=ch["name"], LANGUAGE=lang, TOPIC=topic,
              MINUTES=minutes, CHAPTERS=n_chapters, CATALOG=catalog_for_prompt()),
         lambda d: isinstance(d, dict) and d.get("title") and len(d.get("chapters", [])) >= 3)
+    outline["title"] = branded_title(outline["title"])
     chapters = outline["chapters"]
     for c in chapters:
         c.setdefault("video_queries", [])

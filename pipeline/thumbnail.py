@@ -1,5 +1,8 @@
 """Three 1280x720 thumbnail variants for YouTube Studio's "Test & compare".
 
+Since 1-nov-2026 all three use the channel brand make_sleep() ("SLEEP" + the topic in gold + coin seal);
+they differ only in painting and words. The older styles below are kept for reference.
+
   thumbnail_1.jpg  "quiet"  - brand style: real image, dark side fade, serif title. Uploaded by default.
   thumbnail_2.jpg  "centre" - brand style: image full frame, centred serif title on a low band.
   thumbnail_3.jpg  "bold"   - the original high-contrast style (heavy sans, yellow second line),
@@ -221,6 +224,70 @@ def make_bold(image_path, text, out_path):
 make_thumbnail = make_bold
 
 
+def _line2(text):
+    """The topic line under SLEEP: 1 or 2 lines, split near the middle."""
+    words = text.upper().replace("SLEEP ", "", 1).split() if text.upper().startswith("SLEEP ") else text.upper().split()
+    if len(words) <= 2 and len(" ".join(words)) <= 14:
+        return [" ".join(words)]
+    best = min(range(1, len(words)), key=lambda k: abs(len(" ".join(words[:k])) - len(" ".join(words[k:]))))
+    return [" ".join(words[:best]), " ".join(words[best:])]
+
+
+def make_sleep(image_path, text, out_path):
+    """1-nov-2026, the channel brand (Luis: "que nos reconozcan inmediatamente", like History's H): warm black on
+    the left, the museum painting on the right, SLEEP in parchment, a gold rule, the topic in old gold, and the
+    coin seal + THE QUIET LEDGER at the top left. Every variant has the same design; only painting and words change."""
+    b = _brand()
+    src = Image.open(image_path).convert("RGB")
+    pw = int(W * 0.74)                                  # the painting fills the right 74 %
+    k = H / src.height
+    im = src.resize((max(pw, int(src.width * k)), H), Image.LANCZOS)
+    if im.width > pw:                                   # keep the brightest part of the painting in view
+        g = np.asarray(im.convert("L").resize((128, 36)), np.float32)
+        cols = g.mean(axis=0) ** 2
+        cx = (cols * np.arange(128)).sum() / max(cols.sum(), 1) / 128 * im.width
+        x0 = int(min(max(0, cx - pw * 0.55), im.width - pw))
+        im = im.crop((x0, 0, x0 + pw, H))
+    im = ImageEnhance.Contrast(im).enhance(1.12)
+    im = ImageEnhance.Color(im).enhance(1.05)
+    canvas = Image.new("RGB", (W, H), b.INK)
+    shift = W - pw
+    canvas.paste(im, (shift, 0))
+    x = np.arange(W)
+    a = np.where(x < shift, 0, np.clip((x - shift) / 420.0, 0, 1) ** 1.4)
+    mask = Image.fromarray((np.tile(a, (H, 1)) * 255).astype("uint8"))
+    out = Image.composite(canvas, Image.new("RGB", (W, H), b.INK), mask)
+    yy, xx = np.mgrid[0:H, 0:W]
+    v = np.clip(1 - 0.35 * (((xx - W * 0.7) / (W * 0.7)) ** 2 + ((yy - H / 2) / (H * 0.75)) ** 2), 0.55, 1)
+    img = Image.fromarray((np.asarray(out, np.float32) * v[..., None]).astype("uint8")).convert("RGBA")
+
+    def shadowed(xy, txt, f, fill, track, blur, off):
+        sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
+        b.tracked(ImageDraw.Draw(sh), (xy[0] + off[0], xy[1] + off[1]), txt, f, (0, 0, 0, 210), track)
+        img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(blur)))
+        b.tracked(ImageDraw.Draw(img), xy, txt, f, fill + (255,), track)
+
+    b.draw_mark(img, 66, 64, 96)                        # seal: coin + wordmark
+    b.tracked(ImageDraw.Draw(img), (116, 52), "THE QUIET LEDGER", b.font("Jost.ttf", 22, 500), b.SOFT + (255,), 4.5)
+    x0 = 54
+    shadowed((x0, 160), "SLEEP", b.font("CormorantGaramond.ttf", 230, 700), b.STAR, 6, 10, (4, 6))
+    ImageDraw.Draw(img).line([(x0 + 6, 432), (x0 + 120, 432)], fill=b.ACCENT + (255,), width=4)
+    lines = _line2(text)
+    size = 84 if len(lines) == 2 else 96
+    while size > 52:
+        f2 = b.font("CormorantGaramond.ttf", size, 700)
+        if max(b.tracked_width(l, f2, 3) for l in lines) <= W * 0.47:
+            break
+        size -= 4
+    f2 = b.font("CormorantGaramond.ttf", size, 700)
+    y = 452
+    for ln in lines:
+        shadowed((x0, y), ln, f2, b.ACCENT, 3, 6, (3, 4))
+        y += int(size * 1.08)
+    img.convert("RGB").save(out_path, "JPEG", quality=92)
+    return out_path
+
+
 def make_thumbnails(images, texts, out_dir):
     import hashlib
     seen, unique = set(), []
@@ -232,7 +299,8 @@ def make_thumbnails(images, texts, out_dir):
     ranked = sorted(unique, key=thumb_score, reverse=True)
     if not ranked or not texts:
         return []
-    styles = [make_quiet, make_centre, make_bold] if _brand() else [make_bold] * 3
+    # 1-nov-2026: all three in the SLEEP brand (Test & compare: painting and words change, never the design)
+    styles = [make_sleep] * 3 if _brand() else [make_bold] * 3
     paths = []
     for i, style in enumerate(styles):
         p = out_dir / f"thumbnail_{i + 1}.jpg"

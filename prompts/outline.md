@@ -21,10 +21,10 @@ Plan the episode. Return ONLY one JSON object (no prose, no code fences, no comm
 }
 
 Field rules:
-- title: max 75 characters. Lead with the phrase people actually type into YouTube search, then the calm promise. Patterns that work: "The Entire History of Money | Calm Documentary for Sleep", "How the Roman Empire Ran Out of Money | Relaxing History to Fall Asleep To". Never promise anything the episode does not deliver.
+- title: max 70 characters, WITHOUT any sleep/calm label (the code adds "Calm History for Sleep: " in front). Just the topic, with the phrase people type into YouTube search: "The Medici and the Bank That Ran Florence", "How the Roman Empire Ran Out of Money". Never promise anything the episode does not deliver.
 - description: two short paragraphs. The first sentence contains the main search phrase. No links, no hashtags, no emojis.
 - tags: 12 to 18 search phrases.
-- thumbnail_texts: three different options, each 2 to 4 words, intriguing, work in ALL CAPS, never just the title ("THE COIN THAT LIED", "WHEN GOLD STOPPED").
+- thumbnail_texts: three different options for the line printed under the big word "SLEEP" on the thumbnail, so each must read naturally after it: 2 to 4 words, ALL CAPS, starting with ON, WITH, IN, THROUGH, ALONG or AMONG, and naming something a viewer recognizes at a glance (place, person, thing) ("WITH THE MEDICI", "THROUGH TULIP MANIA", "ON THE SILK ROAD", "AMONG ROMAN COINS"). Never repeat the word SLEEP.
 - hook_promise: one sentence with the single most astonishing true idea or story the episode delivers.
 - chapters[].title: short (max 50 characters), used as on-screen chapter titles and YouTube timestamps.
 - chapters[].beats: 4 to 7 concrete points, in order.
