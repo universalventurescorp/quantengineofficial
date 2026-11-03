@@ -1,1 +1,897 @@
-Sunday: not an episode day (Mon, Tue, Thu). Nothing to do.
+== Weimar Germany: how a currency lost almost all of its value
+   -> /home/runner/work/quantengineofficial/quantengineofficial/outputs/weimar-germany-how-a-currency-lost-almost-all-of-its-value
+[1/10] writing script with Claude
+  outline
+    chart 'wb_gov_debt:DEU' dropped: not enough data for wb_gov_debt:DEU
+  data charts: 5
+  chapter 1/12: 948 words
+  chapter 2/12: 865 words
+  chapter 3/12: 943 words
+  chapter 4/12: 937 words
+  chapter 5/12: 913 words
+  chapter 6/12: 918 words
+  chapter 7/12: 925 words
+  chapter 8/12: 834 words
+  chapter 9/12: 866 words
+  chapter 10/12: 963 words
+  chapter 11/12: 920 words
+  chapter 12/12: 888 words
+  cold open
+  science & TTS review
+    applied 25 fixes
+  companion: 7 moments at ~[5.3, 16.9, 27.9, 39.1, 49.4, 60.7, 72.0] min
+[2/10] narrating 752 sentences on Kaggle (British narrator)
+   kaggle push FAILED: ackages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
+    from ..models.upload_file import UploadFile
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/kaggle/models/upload_file.py", line 22, in <module>
+    import six
+ModuleNotFoundError: No module named 'six'
+   GPU narration incomplete (0/752): whole episode with Kokoro bm_george
+   voice: {'engine': 'kokoro bm_george (fallback)', 'sentences': 752, 'voiced': 0, 'gpu_minutes': None, 'reason': 'incomplete GPU narration'}
+[2/10] narrating
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Collecting en-core-web-sm==3.8.0
+  Downloading en_core_web_sm-3.8.0-py3-none-any.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 103.0 MB/s  0:00:00
+Installing collected packages: en-core-web-sm
+Successfully installed en-core-web-sm-3.8.0
+[38;5;2m✔ Download and installation successful[0m
+You can now load the package via spacy.load('en_core_web_sm')
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+  voiced cold open (86 s)
+  voiced chapter 1/12 -> 9.4 min
+  voiced chapter 2/12 -> 16.3 min
+  voiced chapter 3/12 -> 24.5 min
+  voiced chapter 4/12 -> 32.3 min
+  voiced chapter 5/12 -> 39.9 min
+  voiced chapter 6/12 -> 47.4 min
+  voiced chapter 7/12 -> 55.4 min
+  voiced chapter 8/12 -> 62.6 min
+  voiced chapter 9/12 -> 69.5 min
+  voiced chapter 10/12 -> 77.4 min
+  voiced chapter 11/12 -> 84.8 min
+  voiced chapter 12/12 -> 92.3 min
+   narration: 92.5 min (kokoro bm_george)
+[3/10] fetching archive imagery, studio footage and drawing data charts
+    aic search failed 'Berlin street 1900s photograph': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'German gold twenty mark coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Kaiserreich banknote 1910': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Reichsbank building Berlin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin Potsdamer Platz 1910': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German empire map 1900': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German empire map 1900': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Wilhelm II portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold bullion bars': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold bullion bars': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin market painting 19th century': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German factory Ruhr 1900 engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German factory Ruhr 1900 engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 1: 22 images, 1 clips
+    aic search failed 'German war bonds poster 1917': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'Gold gab ich für Eisen poster': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Gold gab ich für Eisen poster': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'iron ring Gold gab ich zur Wehr': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'iron ring Gold gab ich zur Wehr': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Kriegsanleihe poster': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German banknote 1914': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin crowd August 1914 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin crowd August 1914 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German 5 mark note 1914': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Reichstag building 1914': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Kaiser Wilhelm II portrait painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German home front kitchen 1916 photograph': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'German home front kitchen 1916 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 2: 19 images, 0 clips
+    aic search failed 'Kriegsanleihe war bond poster': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Kriegsanleihe war bond poster': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ration card Germany 1917': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ration card Germany 1917': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'turnip winter Germany photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'turnip winter Germany photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German ersatz coffee advertisement': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German ersatz coffee advertisement': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German soup kitchen 1917': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German soup kitchen 1917': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German war loan banknotes': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin food queue 1917 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin food queue 1917 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German paper money 1916 notes': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Notgeld early 1917': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Notgeld early 1917': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German housewives queue photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German housewives queue photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Kriegsanleihe war bond poster': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Kriegsanleihe war bond poster': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ration card Germany 1917': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ration card Germany 1917': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'turnip winter Germany photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'turnip winter Germany photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German ersatz coffee advertisement': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German ersatz coffee advertisement': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German soup kitchen 1917': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German soup kitchen 1917': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German war loan banknotes': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German war loan banknotes': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin food queue 1917 photograph': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Berlin food queue 1917 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German paper money 1916 notes': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German paper money 1916 notes': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Notgeld early 1917': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Notgeld early 1917': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German housewives queue photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German housewives queue photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+   chapter 3: 30 images, 1 clips
+    aic search failed 'Weimar National Assembly 1919': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Friedrich Ebert portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Weimar constitution 1919 document': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar constitution 1919 document': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Brandenburg Gate 1919 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Brandenburg Gate 1919 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar city theater building': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar city theater building': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin Reichstag proclamation 1918': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin Reichstag proclamation 1918': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German banknote 1919': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Philipp Scheidemann portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Weimar German National Theatre': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Germany 1919 street photograph': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 4: 22 images, 1 clips
+    aic search failed 'Hall of Mirrors Versailles painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Treaty of Versailles signing painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'John Maynard Keynes portrait': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'John Maynard Keynes portrait': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Economic Consequences of the Peace book': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Economic Consequences of the Peace book': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Versailles treaty document': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Paris Peace Conference 1919 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'London conference 1921 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German delegation Versailles photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German delegation Versailles photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coins stacked': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coins stacked': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Allied reparations commission photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Allied reparations commission photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 5: 17 images, 1 clips
+    aic search failed 'printing press banknotes 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'printing press banknotes 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Reichsbank printing banknotes': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Reichsbank printing banknotes': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German paper mill banknote': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German paper mill banknote': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Reichsbank 1922 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'banknote printing machine 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'banknote printing machine 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German 1000 mark note 1922': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German 10000 mark note 1923': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin printing house photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin printing house photograph': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'paper rolls factory 1920s': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'paper rolls factory 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German treasury bill 1922': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German treasury bill 1922': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'printing press banknotes 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'printing press banknotes 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Reichsbank printing banknotes': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Reichsbank printing banknotes': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German paper mill banknote': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German paper mill banknote': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Reichsbank 1922 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Reichsbank 1922 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'banknote printing machine 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'banknote printing machine 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German 1000 mark note 1922': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German 10000 mark note 1923': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin printing house photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin printing house photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'paper rolls factory 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'paper rolls factory 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German treasury bill 1922': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German treasury bill 1922': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+   chapter 6: 27 images, 1 clips
+    aic search failed 'Walther Rathenau portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin shop window 1922 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin shop window 1922 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German 50000 mark note': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German banknotes 1922': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German bank clerk counting notes': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German bank clerk counting notes': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin street 1922 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Weimar grocery store photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar grocery store photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German pensioner photograph 1922': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German pensioner photograph 1922': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German savings book 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German savings book 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar newspaper price': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar newspaper price': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'still life candle': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Walther Rathenau portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin shop window 1922 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin shop window 1922 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German 50000 mark note': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German banknotes 1922': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German bank clerk counting notes': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German bank clerk counting notes': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin street 1922 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Weimar grocery store photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar grocery store photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German pensioner photograph 1922': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German pensioner photograph 1922': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German savings book 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German savings book 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar newspaper price': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar newspaper price': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+   chapter 7: 29 images, 0 clips
+    aic search failed 'Ruhr coal mine 1920s photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ruhr coal mine 1920s photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Essen Krupp works 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Essen Krupp works 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ruhr industrial landscape painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ruhr industrial landscape painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ruhr occupation 1923 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'coal wagons Ruhr 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'coal wagons Ruhr 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Düsseldorf 1923 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Ruhr steel mill engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ruhr steel mill engraving': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'German miners 1920s photograph': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'German miners 1920s photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Rhine river Duisburg harbor': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Rhine river Duisburg harbor': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ruhr railway station 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ruhr railway station 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ruhr coal mine 1920s photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ruhr coal mine 1920s photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Essen Krupp works 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Essen Krupp works 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ruhr industrial landscape painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ruhr industrial landscape painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ruhr occupation 1923 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'coal wagons Ruhr 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'coal wagons Ruhr 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Düsseldorf 1923 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Ruhr steel mill engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ruhr steel mill engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German miners 1920s photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German miners 1920s photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Rhine river Duisburg harbor': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Rhine river Duisburg harbor': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Ruhr railway station 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Ruhr railway station 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+   chapter 8: 26 images, 2 clips
+    aic search failed 'German hyperinflation banknotes bundles photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German hyperinflation banknotes bundles photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed '1 billion mark note 1923': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Notgeld emergency money 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Notgeld emergency money 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'children playing with banknote blocks': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'children playing with banknote blocks': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'wheelbarrow of money Germany 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'wheelbarrow of money Germany 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed '100 trillion mark note': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin bread price 1923 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin bread price 1923 photograph': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'German wage packet 1923': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'German wage packet 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Bundesarchiv 1923 inflation photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Bundesarchiv 1923 inflation photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar bakery queue photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar bakery queue photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German hyperinflation banknotes bundles photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German hyperinflation banknotes bundles photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed '1 billion mark note 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed '1 billion mark note 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Notgeld emergency money 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Notgeld emergency money 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'children playing with banknote blocks': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'children playing with banknote blocks': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'wheelbarrow of money Germany 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'wheelbarrow of money Germany 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed '100 trillion mark note': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin bread price 1923 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin bread price 1923 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German wage packet 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German wage packet 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Bundesarchiv 1923 inflation photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Bundesarchiv 1923 inflation photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar bakery queue photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar bakery queue photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+   chapter 9: 25 images, 0 clips
+    aic search failed 'Gustav Stresemann portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Berlin November 1923 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Reichstag session 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Reichstag session 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar government cabinet photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German families queue 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German families queue 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Hans Luther portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German currency crisis newspaper 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German currency crisis newspaper 1923': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Munich Odeonsplatz 1923 photograph': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Munich Odeonsplatz 1923 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin cityscape 1923': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German savings account 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German savings account 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 10: 18 images, 0 clips
+    aic search failed 'Rentenmark banknote 1923': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Hjalmar Schacht portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Rentenbank building Berlin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Rentenbank building Berlin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Reichsmark banknote 1924': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Hans Luther chancellor': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'one Rentenmark note': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'one Rentenmark note': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin bank 1924 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin bank 1924 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Rentenbank mortgage certificate': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Rentenbank mortgage certificate': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German coins 1924': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Schacht Reichsbank president photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Schacht Reichsbank president photograph': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'gold coin': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 11: 20 images, 1 clips
+    aic search failed 'Charles Dawes portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dawes Plan conference London 1924': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dawes Plan conference London 1924': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin 1927 street photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Reichsmark coin 1925': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Reichsmark coin 1925': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar Berlin nightlife painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar Berlin nightlife painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin Alexanderplatz 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin Alexanderplatz 1920s': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'German savings bank 1926': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'German savings bank 1926': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'American loans Germany 1920s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'American loans Germany 1920s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Frankfurt 1925 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'German Bundesbank building': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German Bundesbank building': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 12: 14 images, 1 clips
+[4/10] composing ambient score
+[5/10] mixing voice and score
+[6/10] rendering video
+  514 shots, 9 clips, 14 cards
+      0.0 / 92.5 min
+      1.0 / 92.5 min
+      2.0 / 92.5 min
+      3.0 / 92.5 min
+      4.0 / 92.5 min
+      5.0 / 92.5 min
+      6.0 / 92.5 min
+      7.0 / 92.5 min
+      8.0 / 92.5 min
+      9.0 / 92.5 min
+     10.0 / 92.5 min
+     11.0 / 92.5 min
+     12.0 / 92.5 min
+     13.0 / 92.5 min
+     14.0 / 92.5 min
+     15.0 / 92.5 min
+     16.0 / 92.5 min
+     17.0 / 92.5 min
+     18.0 / 92.5 min
+     19.0 / 92.5 min
+     20.0 / 92.5 min
+     21.0 / 92.5 min
+     22.0 / 92.5 min
+     23.0 / 92.5 min
+     24.0 / 92.5 min
+     25.0 / 92.5 min
+     26.0 / 92.5 min
+     27.0 / 92.5 min
+     28.0 / 92.5 min
+     29.0 / 92.5 min
+     30.0 / 92.5 min
+     31.0 / 92.5 min
+     32.0 / 92.5 min
+     33.0 / 92.5 min
+     34.0 / 92.5 min
+     35.0 / 92.5 min
+     36.0 / 92.5 min
+     37.0 / 92.5 min
+     38.0 / 92.5 min
+     39.0 / 92.5 min
+     40.0 / 92.5 min
+     41.0 / 92.5 min
+     42.0 / 92.5 min
+     43.0 / 92.5 min
+     44.0 / 92.5 min
+     45.0 / 92.5 min
+     46.0 / 92.5 min
+     47.0 / 92.5 min
+     48.0 / 92.5 min
+     49.0 / 92.5 min
+     50.0 / 92.5 min
+     51.0 / 92.5 min
+     52.0 / 92.5 min
+     53.0 / 92.5 min
+     54.0 / 92.5 min
+     55.0 / 92.5 min
+     56.0 / 92.5 min
+     57.0 / 92.5 min
+     58.0 / 92.5 min
+     59.0 / 92.5 min
+     60.0 / 92.5 min
+     61.0 / 92.5 min
+     62.0 / 92.5 min
+     63.0 / 92.5 min
+     64.0 / 92.5 min
+     65.0 / 92.5 min
+     66.0 / 92.5 min
+     67.0 / 92.5 min
+     68.0 / 92.5 min
+     69.0 / 92.5 min
+     70.0 / 92.5 min
+     71.0 / 92.5 min
+     72.0 / 92.5 min
+     73.0 / 92.5 min
+     74.0 / 92.5 min
+     75.0 / 92.5 min
+     76.0 / 92.5 min
+     77.0 / 92.5 min
+     78.0 / 92.5 min
+     79.0 / 92.5 min
+     80.0 / 92.5 min
+     81.0 / 92.5 min
+     82.0 / 92.5 min
+     83.0 / 92.5 min
+     84.0 / 92.5 min
+     85.0 / 92.5 min
+     86.0 / 92.5 min
+     87.0 / 92.5 min
+     88.0 / 92.5 min
+     89.0 / 92.5 min
+     90.0 / 92.5 min
+     91.0 / 92.5 min
+     92.0 / 92.5 min
+[7/10] thumbnails + metadata
+[8/10] producing 3 Shorts
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    aic search failed 'Weimar Germany inflation bread queue 1923 photograph': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Weimar Germany inflation bread queue 1923 photograph': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'German hyperinflation banknotes 1923 museum collection': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German hyperinflation banknotes 1923 museum collection': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin bakery 1920s archive photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin bakery 1920s archive photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Notgeld emergency money Germany 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Notgeld emergency money Germany 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar Germany woman carrying money in basket 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar Germany woman carrying money in basket 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar Germany inflation bread queue 1923 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar Germany inflation bread queue 1923 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German hyperinflation banknotes 1923 museum collection': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German hyperinflation banknotes 1923 museum collection': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin bakery 1920s archive photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin bakery 1920s archive photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Notgeld emergency money Germany 1923': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Weimar Germany woman carrying money in basket 1923': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar Germany woman carrying money in basket 1923': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    aic search failed 'Gold gab ich für Eisen iron ring 1914 museum': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Gold gab ich für Eisen iron ring 1914 museum': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'German war gold collection campaign poster 1915': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German war gold collection campaign poster 1915': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Reichsbank Berlin building early twentieth century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Reichsbank Berlin building early twentieth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German twenty mark gold coin Kaiserreich': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German twenty mark gold coin Kaiserreich': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin Unter den Linden crowd August 1914 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin Unter den Linden crowd August 1914 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Gold gab ich für Eisen iron ring 1914 museum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Gold gab ich für Eisen iron ring 1914 museum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German war gold collection campaign poster 1915': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German war gold collection campaign poster 1915': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Reichsbank Berlin building early twentieth century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Reichsbank Berlin building early twentieth century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'German twenty mark gold coin Kaiserreich': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'German twenty mark gold coin Kaiserreich': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Berlin Unter den Linden crowd August 1914 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Berlin Unter den Linden crowd August 1914 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    aic search failed 'Rentenmark 1923 banknote museum collection': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'German hyperinflation trillion mark banknote': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Hjalmar Schacht portrait 1920s archive': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Hjalmar Schacht portrait 1920s archive': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Rentenbank Berlin 1923 photograph': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Rentenbank Berlin 1923 photograph': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Weimar Germany 1923 stack of banknotes children': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Weimar Germany 1923 stack of banknotes children': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+[9/10] quality check
+   QA PASSED: 92.5 min, -16.0 LUFS, 9 clips
+   warn: chapter 3: contains digits (TTS may read them oddly)
+[10/10] uploading to YouTube
+    upload 1%
+    upload 2%
+    upload 3%
+    upload 4%
+    upload 5%
+    upload 6%
+    upload 7%
+    upload 8%
+    upload 9%
+    upload 10%
+    upload 11%
+    upload 12%
+    upload 13%
+    upload 14%
+    upload 15%
+    upload 16%
+    upload 17%
+    upload 17%
+    upload 18%
+    upload 19%
+    upload 20%
+    upload 21%
+    upload 22%
+    upload 23%
+    upload 24%
+    upload 25%
+    upload 26%
+    upload 27%
+    upload 28%
+    upload 29%
+    upload 30%
+    upload 31%
+    upload 32%
+    upload 33%
+    upload 34%
+    upload 35%
+    upload 36%
+    upload 37%
+    upload 38%
+    upload 39%
+    upload 40%
+    upload 41%
+    upload 42%
+    upload 43%
+    upload 44%
+    upload 45%
+    upload 46%
+    upload 47%
+    upload 48%
+    upload 49%
+    upload 50%
+    upload 50%
+    upload 51%
+    upload 52%
+    upload 53%
+    upload 54%
+    upload 55%
+    upload 56%
+    upload 57%
+    upload 58%
+    upload 59%
+    upload 60%
+    upload 61%
+    upload 62%
+    upload 63%
+    upload 64%
+    upload 65%
+    upload 66%
+    upload 67%
+    upload 68%
+    upload 69%
+    upload 70%
+    upload 71%
+    upload 72%
+    upload 73%
+    upload 74%
+    upload 75%
+    upload 76%
+    upload 77%
+    upload 78%
+    upload 79%
+    upload 80%
+    upload 81%
+    upload 82%
+    upload 83%
+    upload 83%
+    upload 84%
+    upload 85%
+    upload 86%
+    upload 87%
+    upload 88%
+    upload 89%
+    upload 90%
+    upload 91%
+    upload 92%
+    upload 93%
+    upload 94%
+    upload 95%
+    upload 96%
+    upload 97%
+    upload 98%
+    upload 99%
+   https://youtu.be/HCs456sq9FQ
+   short: https://youtu.be/yEwQ-lkPoGY (public 2026-11-07T16:00:00Z)
+   short: https://youtu.be/YSZ0s64mtRU (public 2026-11-08T16:00:00Z)
+   short: https://youtu.be/F8D7n-QeHLk (public 2026-11-09T16:00:00Z)
+done.
