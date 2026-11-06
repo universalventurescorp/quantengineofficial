@@ -1,1 +1,801 @@
-Wednesday: not an episode day (Mon, Tue, Thu). Nothing to do.
+== The Dutch East India Company: the first great stock company
+   -> /home/runner/work/quantengineofficial/quantengineofficial/outputs/the-dutch-east-india-company-the-first-great-stock-company
+[1/10] writing script with Claude
+  outline
+  data charts: 1
+  chapter 1/12: 983 words
+  chapter 2/12: 1121 words
+  chapter 3/12: 1128 words
+  chapter 4/12: 1000 words
+  chapter 5/12: 861 words
+  chapter 6/12: 952 words
+  chapter 7/12: 925 words
+  chapter 8/12: 901 words
+  chapter 9/12: 881 words
+  chapter 10/12: 909 words
+  chapter 11/12: 825 words
+  chapter 12/12: 827 words
+  cold open
+  science & TTS review
+    applied 26 fixes
+  companion: 7 moments at ~[5.9, 17.0, 28.2, 38.8, 50.0, 61.4, 71.7] min
+[2/10] narrating 787 sentences on Kaggle (British narrator)
+   kaggle push FAILED: ackages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
+    from ..models.upload_file import UploadFile
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/kaggle/models/upload_file.py", line 22, in <module>
+    import six
+ModuleNotFoundError: No module named 'six'
+   GPU narration incomplete (0/787): whole episode with Kokoro bm_george
+   voice: {'engine': 'kokoro bm_george (fallback)', 'sentences': 787, 'voiced': 0, 'gpu_minutes': None, 'reason': 'incomplete GPU narration'}
+[2/10] narrating
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Collecting en-core-web-sm==3.8.0
+  Downloading en_core_web_sm-3.8.0-py3-none-any.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 79.2 MB/s  0:00:00
+Installing collected packages: en-core-web-sm
+Successfully installed en-core-web-sm-3.8.0
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+[38;5;2m✔ Download and installation successful[0m
+You can now load the package via spacy.load('en_core_web_sm')
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+  voiced cold open (71 s)
+  voiced chapter 1/12 -> 9.5 min
+  voiced chapter 2/12 -> 19.1 min
+  voiced chapter 3/12 -> 28.7 min
+  voiced chapter 4/12 -> 37.3 min
+  voiced chapter 5/12 -> 44.2 min
+  voiced chapter 6/12 -> 52.0 min
+  voiced chapter 7/12 -> 59.4 min
+  voiced chapter 8/12 -> 66.9 min
+  voiced chapter 9/12 -> 74.0 min
+  voiced chapter 10/12 -> 81.6 min
+  voiced chapter 11/12 -> 88.8 min
+  voiced chapter 12/12 -> 95.8 min
+   narration: 96.0 min (kokoro bm_george)
+[3/10] fetching archive imagery, studio footage and drawing data charts
+    aic search failed 'Dutch still life with spices': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'pepper peppercorns historic': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'pepper peppercorns historic': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'nutmeg and mace botanical print': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'nutmeg and mace botanical print': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch interior merchant house painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam canal house 17th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Amsterdam canal house 17th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'spice trade map 16th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'spice trade map 16th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch Golden Age merchant portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Indian Ocean map antique': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'ship in Dutch harbor painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'spice jar porcelain Dutch': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'spice jar porcelain Dutch': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 1: 17 images, 0 clips
+    aic search failed 'Amsterdam harbor 17th century painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch windmill landscape painting': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'Dutch fluyt ship painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch shipyard engraving': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'herring fishing Dutch painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam map 1600 engraving': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch Republic coin silver': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch Republic coin silver': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Dutch city view Golden Age': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'Rembrandt Amsterdam portrait merchant': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'polder drainage windmill engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'polder drainage windmill engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 2: 26 images, 1 clips
+    aic search failed 'Cornelis de Houtman voyage engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Cornelis de Houtman voyage engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch ships to Java 1596': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Bantam Java 1596 engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Bantam Java 1596 engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'antique map of Java': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch ship sailing painting 1600': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'navigation astrolabe antique': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'navigation astrolabe antique': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'sea chart Dutch 16th century': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Linschoten Itinerario map': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'sailing ship model Rijksmuseum': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch sailors engraving 17th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch sailors engraving 17th century': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'gold coin': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 3: 20 images, 1 clips
+    aic search failed 'Heeren XVII painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Heeren XVII painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'VOC founding charter 1602': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC founding charter 1602': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'VOC logo monogram historic': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC logo monogram historic': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Johan van Oldenbarnevelt portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch States General Binnenhof painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'VOC chamber Amsterdam building': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC chamber Amsterdam building': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Oost-Indisch Huis Amsterdam': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'VOC coat of arms': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch seventeenth century document seal': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch seventeenth century document seal': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Hague 17th century painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'money changer': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 4: 17 images, 1 clips
+    aic search failed 'VOC share certificate': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC share certificate': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'VOC bond 1623': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC bond 1623': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch ledger 17th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch ledger 17th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch merchant counting house painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch merchant counting house painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'quill and ink antique ledger': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'quill and ink antique ledger': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch guilder coin silver': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch guilder coin silver': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam merchant portrait Golden Age': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'VOC document Nationaal Archief': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC document Nationaal Archief': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'seventeenth century account book': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'seventeenth century account book': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch accountant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'old city at night painting': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'VOC share certificate': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC share certificate': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'VOC bond 1623': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC bond 1623': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch ledger 17th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch ledger 17th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch merchant counting house painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch merchant counting house painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'quill and ink antique ledger': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'quill and ink antique ledger': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch guilder coin silver': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch guilder coin silver': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam merchant portrait Golden Age': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'VOC document Nationaal Archief': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC document Nationaal Archief': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'seventeenth century account book': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'seventeenth century account book': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch accountant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch accountant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+   chapter 5: 25 images, 0 clips
+    aic search failed 'Amsterdam stock exchange painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Amsterdam stock exchange painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Beurs van Hendrick de Keyser': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam Beurs 17th century engraving': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dam Square Amsterdam painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Joseph de la Vega Confusion of Confusions': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Joseph de la Vega Confusion of Confusions': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch merchants trading painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam Bourse interior': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch brokers engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch brokers engraving': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Nieuwe Brug Amsterdam painting': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'Isaac Le Maire portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 6: 21 images, 0 clips
+    aic search failed 'Batavia 17th century painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Jan Pieterszoon Coen portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Banda Islands map antique': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Banda Islands map antique': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'nutmeg tree botanical illustration': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'clove botanical print': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'clove botanical print': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch fort Banda Neira': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Moluccas map 17th century': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Batavia Castle painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'VOC ship at anchor painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC ship at anchor painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch East Indies map engraving': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'still life candle': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 7: 22 images, 0 clips
+    aic search failed 'VOC ship painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'East Indiaman model': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Cape of Good Hope painting 17th century': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Table Mountain Dutch engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Table Mountain Dutch engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'ship's compass antique': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'sailor's chest Dutch': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Batavia ship replica': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch ship at sea storm painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'VOC sea chart': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC sea chart': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Texel roadstead painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 8: 25 images, 0 clips
+    aic search failed 'Dejima Nagasaki painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Chinese export porcelain Dutch': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Delft blue tile': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Delft blue tile': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Indian chintz textile 17th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Indian chintz textile 17th century': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Japanese copper coin Edo': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Japanese copper coin Edo': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'tea cup porcelain 18th century': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'VOC trading post Asia painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Nagasaki harbor print': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Chinese export porcelain VOC ship': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Chinese export porcelain VOC ship': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch Golden Age silk': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 9: 20 images, 0 clips
+    aic search failed 'Amsterdam canal houses painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Vermeer woman with scales': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Vermeer woman with scales': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Rembrandt Night Watch': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Bank of Amsterdam building': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch guilder gold ducat': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch guilder gold ducat': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch Golden Age still life silver': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam merchants house interior': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Amsterdam merchants house interior': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Frans Hals portrait merchant': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch tulip still life': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam Town Hall painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'money changer': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 10: 23 images, 0 clips
+    aic search failed 'Dutch East India Company decline': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch East India Company decline': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Batavian Republic painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam harbor 18th century painting': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'English East India Company ship': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'VOC dividend record': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'VOC dividend record': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch 18th century portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam Oost-Indisch Huis': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch seal 1799': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch seal 1799': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed '18th century ship Dutch': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch stock market 18th century print': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch stock market 18th century print': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 11: 21 images, 1 clips
+    aic search failed 'New York Stock Exchange 1900 photograph': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'London Stock Exchange engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'London Stock Exchange engraving': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Wall Street 1920s photograph': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'stock ticker tape antique': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'stock ticker tape antique': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam Beurs modern building': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Amsterdam Beurs modern building': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Euronext Amsterdam historic': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Euronext Amsterdam historic': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin collection museum': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'ledger and quill still life': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'ledger and quill still life': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor at dusk painting Dutch': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor at dusk painting Dutch': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'globe antique 17th century': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+   chapter 12: 14 images, 2 clips
+[4/10] composing ambient score
+[5/10] mixing voice and score
+[6/10] rendering video
+  530 shots, 6 clips, 14 cards
+      0.0 / 96.0 min
+      1.0 / 96.0 min
+      2.0 / 96.0 min
+      3.0 / 96.0 min
+      4.0 / 96.0 min
+      5.0 / 96.0 min
+      6.0 / 96.0 min
+      7.0 / 96.0 min
+      8.0 / 96.0 min
+      9.0 / 96.0 min
+     10.0 / 96.0 min
+     11.0 / 96.0 min
+     12.0 / 96.0 min
+     13.0 / 96.0 min
+     14.0 / 96.0 min
+     15.0 / 96.0 min
+     16.0 / 96.0 min
+     17.0 / 96.0 min
+     18.0 / 96.0 min
+     19.0 / 96.0 min
+     20.0 / 96.0 min
+     21.0 / 96.0 min
+     22.0 / 96.0 min
+     23.0 / 96.0 min
+     24.0 / 96.0 min
+     25.0 / 96.0 min
+     26.0 / 96.0 min
+     27.0 / 96.0 min
+     28.0 / 96.0 min
+     29.0 / 96.0 min
+     30.0 / 96.0 min
+     31.0 / 96.0 min
+     32.0 / 96.0 min
+     33.0 / 96.0 min
+     34.0 / 96.0 min
+     35.0 / 96.0 min
+     36.0 / 96.0 min
+     37.0 / 96.0 min
+     38.0 / 96.0 min
+     39.0 / 96.0 min
+     40.0 / 96.0 min
+     41.0 / 96.0 min
+     42.0 / 96.0 min
+     43.0 / 96.0 min
+     44.0 / 96.0 min
+     45.0 / 96.0 min
+     46.0 / 96.0 min
+     47.0 / 96.0 min
+     48.0 / 96.0 min
+     49.0 / 96.0 min
+     50.0 / 96.0 min
+     51.0 / 96.0 min
+     52.0 / 96.0 min
+     53.0 / 96.0 min
+     54.0 / 96.0 min
+     55.0 / 96.0 min
+     56.0 / 96.0 min
+     57.0 / 96.0 min
+     58.0 / 96.0 min
+     59.0 / 96.0 min
+     60.0 / 96.0 min
+     61.0 / 96.0 min
+     62.0 / 96.0 min
+     63.0 / 96.0 min
+     64.0 / 96.0 min
+     65.0 / 96.0 min
+     66.0 / 96.0 min
+     67.0 / 96.0 min
+     68.0 / 96.0 min
+     69.0 / 96.0 min
+     70.0 / 96.0 min
+     71.0 / 96.0 min
+     72.0 / 96.0 min
+     73.0 / 96.0 min
+     74.0 / 96.0 min
+     75.0 / 96.0 min
+     76.0 / 96.0 min
+     77.0 / 96.0 min
+     78.0 / 96.0 min
+     79.0 / 96.0 min
+     80.0 / 96.0 min
+     81.0 / 96.0 min
+     82.0 / 96.0 min
+     83.0 / 96.0 min
+     84.0 / 96.0 min
+     85.0 / 96.0 min
+     86.0 / 96.0 min
+     87.0 / 96.0 min
+     88.0 / 96.0 min
+     89.0 / 96.0 min
+     90.0 / 96.0 min
+     91.0 / 96.0 min
+     92.0 / 96.0 min
+     93.0 / 96.0 min
+     94.0 / 96.0 min
+     95.0 / 96.0 min
+[7/10] thumbnails + metadata
+[8/10] producing 3 Shorts
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    aic search failed 'Cornelis de Houtman fleet departure 1595 Rijksmuseum': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'Cornelis de Houtman fleet departure 1595 Rijksmuseum': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Dutch East Indiaman ship painting 1590s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch East Indiaman ship painting 1590s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Bantam Java 1596 engraving Dutch fleet': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Bantam Java 1596 engraving Dutch fleet': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Jan Huyghen van Linschoten Itinerario map': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'sailing ship scurvy sailors 17th century engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'sailing ship scurvy sailors 17th century engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Cornelis de Houtman fleet departure 1595 Rijksmuseum': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Cornelis de Houtman fleet departure 1595 Rijksmuseum': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch East Indiaman ship painting 1590s': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch East Indiaman ship painting 1590s': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Bantam Java 1596 engraving Dutch fleet': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Jan Huyghen van Linschoten Itinerario map': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'sailing ship scurvy sailors 17th century engraving': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'sailing ship scurvy sailors 17th century engraving': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    aic search failed 'nutmeg and mace fruit botanical illustration': 403 for https://api.artic.edu/api/v1/artworks/search
+    met search failed 'nutmeg and mace fruit botanical illustration': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Banda Islands map 17th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Banda Islands map 17th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Fort Belgica Banda Neira': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch East India Company nutmeg trade painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch East India Company nutmeg trade painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'spice dish peppercorns nutmeg still life Dutch Golden Age': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'spice dish peppercorns nutmeg still life Dutch Golden Age': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'nutmeg and mace fruit botanical illustration': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'nutmeg and mace fruit botanical illustration': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Banda Islands map 17th century': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Banda Islands map 17th century': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Fort Belgica Banda Neira': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Dutch East India Company nutmeg trade painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch East India Company nutmeg trade painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'spice dish peppercorns nutmeg still life Dutch Golden Age': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'spice dish peppercorns nutmeg still life Dutch Golden Age': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1012: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+    aic search failed 'Isaac Le Maire portrait': 403 for https://api.artic.edu/api/v1/artworks/search
+    aic search failed 'Amsterdam Beurs Hendrick de Keyser 17th century': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Nieuwe Brug Amsterdam 1600s painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Nieuwe Brug Amsterdam 1600s painting': 410 for https://collectionapi.metmuseum.org/public/collection/v1/search
+    aic search failed 'Dutch East India Company share certificate': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch East India Company share certificate': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam stock exchange traders engraving Rokin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Amsterdam stock exchange traders engraving Rokin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold coin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'silver coin ancient': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'silver coin ancient': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'merchant painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'merchant painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'still life candle': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'still life candle': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'harbor ships painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'harbor ships painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'old city at night painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'old city at night painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'gold': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'money changer': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'money changer': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Isaac Le Maire portrait': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam Beurs Hendrick de Keyser 17th century': api.artic.edu is rate-limiting us; skipping for now
+    aic search failed 'Nieuwe Brug Amsterdam 1600s painting': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Nieuwe Brug Amsterdam 1600s painting': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Dutch East India Company share certificate': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Dutch East India Company share certificate': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'Amsterdam stock exchange traders engraving Rokin': api.artic.edu is rate-limiting us; skipping for now
+    met search failed 'Amsterdam stock exchange traders engraving Rokin': collectionapi.metmuseum.org is rate-limiting us; skipping for now
+    aic search failed 'gold coin': api.artic.edu is rate-limiting us; skipping for now
+[9/10] quality check
+   QA PASSED: 96.0 min, -16.0 LUFS, 6 clips
+   warn: chapter 12: contains digits (TTS may read them oddly)
+[10/10] uploading to YouTube
+    upload 1%
+    upload 2%
+    upload 3%
+    upload 4%
+    upload 5%
+    upload 5%
+    upload 6%
+    upload 7%
+    upload 8%
+    upload 9%
+    upload 10%
+    upload 11%
+    upload 12%
+    upload 13%
+    upload 14%
+    upload 15%
+    upload 16%
+    upload 16%
+    upload 17%
+    upload 18%
+    upload 19%
+    upload 20%
+    upload 21%
+    upload 22%
+    upload 23%
+    upload 24%
+    upload 25%
+    upload 26%
+    upload 27%
+    upload 27%
+    upload 28%
+    upload 29%
+    upload 30%
+    upload 31%
+    upload 32%
+    upload 33%
+    upload 34%
+    upload 35%
+    upload 36%
+    upload 37%
+    upload 38%
+    upload 38%
+    upload 39%
+    upload 40%
+    upload 41%
+    upload 42%
+    upload 43%
+    upload 44%
+    upload 45%
+    upload 46%
+    upload 47%
+    upload 48%
+    upload 49%
+    upload 49%
+    upload 50%
+    upload 51%
+    upload 52%
+    upload 53%
+    upload 54%
+    upload 55%
+    upload 56%
+    upload 57%
+    upload 58%
+    upload 59%
+    upload 60%
+    upload 60%
+    upload 61%
+    upload 62%
+    upload 63%
+    upload 64%
+    upload 65%
+    upload 66%
+    upload 67%
+    upload 68%
+    upload 69%
+    upload 70%
+    upload 71%
+    upload 71%
+    upload 72%
+    upload 73%
+    upload 74%
+    upload 75%
+    upload 76%
+    upload 77%
+    upload 78%
+    upload 79%
+    upload 80%
+    upload 81%
+    upload 81%
+    upload 82%
+    upload 83%
+    upload 84%
+    upload 85%
+    upload 86%
+    upload 87%
+    upload 88%
+    upload 89%
+    upload 90%
+    upload 91%
+    upload 92%
+    upload 92%
+    upload 93%
+    upload 94%
+    upload 95%
+    upload 96%
+    upload 97%
+    upload 98%
+    upload 99%
+    upload 100%
+   https://youtu.be/Dt741tOSED0
+   short: https://youtu.be/_sUiLMVjEis (public 2026-11-10T16:00:00Z)
+   short: https://youtu.be/fkPFLwlwkQ0 (public 2026-11-11T16:00:00Z)
+   short: https://youtu.be/Q3lY4obELR0 (public 2026-11-12T16:00:00Z)
+done.
